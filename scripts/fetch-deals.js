@@ -1,8 +1,8 @@
 /**
- * scripts/fetch-deals.js — Findly Ultimate Mega-Scraper Phase 4 (FINAL)
+ * scripts/fetch-deals.js — Findly Diversity & Scale Scraper (Phase 5)
  * 
- * 20 Categories expansion for 1000+ products.
- * Includes corrected Star Tech & Multimedia Kingdom URLs.
+ * Goal: 1000+ products across 20 categories and 10+ stores.
+ * Supports Pagination.
  */
 
 import axios from 'axios';
@@ -14,7 +14,7 @@ import pathSync from 'path';
 
 const __dirname = pathSync.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = pathSync.join(__dirname, '../public/shopnot-inspired/data/products.json');
-const MAX_PER_CATEGORY = 35; // 20 cats * 35 prods * 5-8 stores = ~3000-4000 products
+const MAX_PAGES = 2; // Scrape page 1 and 2
 const DELAY_MS = 200;
 
 const HEADERS = {
@@ -47,8 +47,8 @@ function cleanImg(src = '', base = '') {
   if (src.startsWith('http')) return src;
   if (src.startsWith('//')) return 'https:' + src;
   try {
-    const origin = new URL(base).origin;
-    return origin + (src.startsWith('/') ? src : '/' + src);
+     const u = new URL(base);
+     return u.origin + (src.startsWith('/') ? src : '/' + src);
   } catch (e) { return src; }
 }
 
@@ -59,30 +59,37 @@ async function scrapeStore(store) {
   const results = [];
   
   for (const page of store.pages) {
-    console.log(`  Fetching ${page.category}: ${page.url}`);
-    try {
-      const response = await axios.get(page.url, { headers: { ...HEADERS, Referer: store.base }, timeout: 25000 });
-      const $ = cheerio.load(response.data);
-      let count = 0;
+    for (let pNum = 1; pNum <= MAX_PAGES; pNum++) {
+      let url = page.url;
+      if (pNum > 1) {
+        url += store.pPattern === 'slash' ? `/page/${pNum}/` : `?page=${pNum}`;
+      }
       
-      const selectors = '.product-layout, .p-item, .product-thumb, .product, .product-card, .wd-product, li.product, .oe_product, .product-item';
-      $(selectors).each((_, el) => {
-        if (count >= MAX_PER_CATEGORY) return false;
-        if (processItem($(el), store, page, results, $)) count++;
-      });
-      console.log(`    → Found ${count} products`);
-    } catch (e) {
-      console.log(`    ✗ Failed: ${e.message.substring(0, 50)}`);
+      console.log(`  Fetching ${page.category} (p${pNum}): ${url}`);
+      try {
+        const response = await axios.get(url, { headers: { ...HEADERS, Referer: store.base }, timeout: 20000 });
+        const $ = cheerio.load(response.data);
+        let count = 0;
+        
+        const selectors = '.product-layout, .p-item, .product-thumb, .product, .product-card, .wd-product, li.product, .oe_product, .product-item, .col-6.col-md-4.col-xl-3';
+        $(selectors).each((_, el) => {
+          if (processItem($(el), store, page, results, $)) count++;
+        });
+        console.log(`    → Found ${count} products`);
+        if (count === 0 && pNum > 1) break; // No more pages
+      } catch (e) {
+        console.log(`    ✗ Failed: ${e.message.substring(0, 50)}`);
+        break;
+      }
+      await delay(DELAY_MS);
     }
-    await delay(DELAY_MS);
   }
   return results;
 }
 
 function processItem(card, store, page, results, $) {
-  const titleText = card.find('.name a, .product-name, .product-title a, h2 a, h3 a, .wd-entities-title a, .p-item-name a, .woocommerce-loop-product__title, .title a, a h2').first().text().trim();
-  const title = titleText || card.find('a').attr('title') || '';
-  
+  // Broad selector matching
+  const title = card.find('.name a, .product-name, .product-title a, h2 a, h3 a, .wd-entities-title a, .p-item-name a, .woocommerce-loop-product__title, .title a, a h2').first().text().trim();
   const href = card.find('a').first().attr('href');
   const link = cleanUrl(href, store.base);
   const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
@@ -111,25 +118,12 @@ const STORES = [
     base: 'https://www.startech.com.bd',
     pages: [
       { url: 'https://www.startech.com.bd/mobile-phone', category: 'Smartphone' },
-      { url: 'https://www.startech.com.bd/apple-iphone', category: 'iPhone' },
       { url: 'https://www.startech.com.bd/earphone', category: 'Audio' },
-      { url: 'https://www.startech.com.bd/power-bank', category: 'Powerbank' },
       { url: 'https://www.startech.com.bd/gadget/smart-watch', category: 'Smartwatch' },
-      { url: 'https://www.startech.com.bd/converter', category: 'Adapter' },
-      { url: 'https://www.startech.com.bd/mobile-phone-case', category: 'Covers' },
-      { url: 'https://www.startech.com.bd/accessories/bluetooth-speaker', category: 'Audio' },
-      { url: 'https://www.startech.com.bd/trimmer', category: 'Healthcare' },
-      { url: 'https://www.startech.com.bd/mini-fan', category: 'Lifestyle' },
-      { url: 'https://www.startech.com.bd/tv-box', category: 'TV Box' },
-      { url: 'https://www.startech.com.bd/accessories/keyboards', category: 'Keyboard' },
-      { url: 'https://www.startech.com.bd/accessories/mouse', category: 'Mouse' },
       { url: 'https://www.startech.com.bd/monitor', category: 'Monitor' },
       { url: 'https://www.startech.com.bd/laptop', category: 'Laptop' },
-      { url: 'https://www.startech.com.bd/desktops', category: 'Desktop' },
-      { url: 'https://www.startech.com.bd/component/power-supply', category: 'PSU' },
-      { url: 'https://www.startech.com.bd/component/ram', category: 'RAM' },
-      { url: 'https://www.startech.com.bd/networking/router', category: 'Router' },
-      { url: 'https://www.startech.com.bd/camera', category: 'Camera' }
+      { url: 'https://www.startech.com.bd/power-bank', category: 'Powerbank' },
+      { url: 'https://www.startech.com.bd/trimmer', category: 'Health' },
     ]
   },
   {
@@ -138,11 +132,36 @@ const STORES = [
     pages: [
       { url: 'https://www.techlandbd.com/monitor-and-display', category: 'Monitor' },
       { url: 'https://www.techlandbd.com/shop-laptop-computer', category: 'Laptop' },
-      { url: 'https://www.techlandbd.com/pc-components/graphics-card', category: 'GPU' },
-      { url: 'https://www.techlandbd.com/gadget-accessories/smart-watch-gadget', category: 'Smartwatch' },
-      { url: 'https://www.techlandbd.com/gadget-accessories/power-bank-original', category: 'Powerbank' },
       { url: 'https://www.techlandbd.com/accessories/earphones', category: 'Audio' },
       { url: 'https://www.techlandbd.com/accessories/computer-keyboard', category: 'Keyboard' },
+    ]
+  },
+  {
+    name: 'Computer Village',
+    base: 'https://www.computervillage.com.bd',
+    pages: [
+      { url: 'https://www.computervillage.com.bd/monitor', category: 'Monitor' },
+      { url: 'https://www.computervillage.com.bd/laptop', category: 'Laptop' },
+      { url: 'https://www.computervillage.com.bd/accessories/keyboard', category: 'Keyboard' },
+    ]
+  },
+  {
+    name: 'Sell Tech',
+    base: 'https://www.selltech.com.bd',
+    pages: [
+      { url: 'https://www.selltech.com.bd/Monitor', category: 'Monitor' },
+      { url: 'https://www.selltech.com.bd/Laptop', category: 'Laptop' },
+      { url: 'https://www.selltech.com.bd/headphone-and-earphone', category: 'Audio' },
+    ]
+  },
+  {
+    name: 'Computer Mania',
+    base: 'https://computermania.com.bd',
+    pPattern: 'slash',
+    pages: [
+      { url: 'https://computermania.com.bd/product-category/laptop/', category: 'Laptop' },
+      { url: 'https://computermania.com.bd/product-category/components/monitor/', category: 'Monitor' },
+      { url: 'https://computermania.com.bd/product-category/mobile-phone-price-in-bangladesh/', category: 'Smartphone' },
     ]
   },
   {
@@ -154,26 +173,17 @@ const STORES = [
     ]
   },
   {
-    name: 'Computer Village',
-    base: 'https://www.computervillage.com.bd',
-    pages: [
-      { url: 'https://www.computervillage.com.bd/laptop', category: 'Laptop' },
-      { url: 'https://www.computervillage.com.bd/monitor', category: 'Monitor' },
-      { url: 'https://www.computervillage.com.bd/power-bank', category: 'Powerbank' },
-    ]
-  },
-  {
-    name: 'Pickaboo',
-    base: 'https://www.pickaboo.com',
-    pages: [
-      { url: 'https://www.pickaboo.com/mobile-phone/mobiles.html', category: 'Smartphone' },
-      { url: 'https://www.pickaboo.com/smart-watch.html', category: 'Smartwatch' },
-    ]
+     name: 'UCC',
+     base: 'https://www.ucc.com.bd',
+     pages: [
+       { url: 'https://www.ucc.com.bd/monitors', category: 'Monitor' },
+       { url: 'https://www.ucc.com.bd/laptops', category: 'Laptop' },
+     ]
   }
 ];
 
 async function main() {
-  console.log('=== Findly Ultimate Mega-Scraper Phase 4 (FINAL) ===');
+  console.log('=== Findly Diversity & Scale Scraper Phase 5 ===');
   let all = [];
   
   for (const store of STORES) {
@@ -190,20 +200,26 @@ async function main() {
     return true;
   });
 
-  // Comprehensive Priority Order: iPhone > Samsung > Gadgets > Hardware > Personal
-  const order = ['iPhone', 'Samsung', 'Smartphone', 'Smartwatch', 'Audio', 'Powerbank', 'Monitor', 'GPU', 'Keyboard', 'Laptop', 'Desktop', 'Healthcare', 'Lifestyle'];
+  // Diversify display order by shuffling within categories
+  for (let i = all.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [all[i], all[j]] = [all[j], all[i]];
+  }
+
+  // General Priority: iPhone > High-End Smartphones > Gadgets > Hardware
+  const order = ['iPhone', 'Smartphone', 'Smartwatch', 'Audio', 'Monitor', 'Laptop', 'Keyboard', 'Mouse', 'Health', 'Powerbank'];
   all.sort((a, b) => {
     const idxA = order.indexOf(a.category);
     const idxB = order.indexOf(b.category);
-    return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+    if (idxA !== idxB) return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+    return 0; // Maintain shuffled order within category
   });
 
-  // Final IDs and attributes
   all.forEach((p, i) => { p.id = i + 1; });
 
   fsSync.mkdirSync(pathSync.dirname(OUTPUT_FILE), { recursive: true });
   fsSync.writeFileSync(OUTPUT_FILE, JSON.stringify(all.slice(0, 1500), null, 2));
-  console.log(`\n=== Done: Scraped ${all.length} products total. Saved Top 1500. ===`);
+  console.log(`\n=== Done: Scraped ${all.length} products total. Shuffled and Saved Top 1500. ===`);
 }
 
 main().catch(console.error);
