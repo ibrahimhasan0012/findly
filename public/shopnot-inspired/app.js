@@ -14,11 +14,10 @@ function normalizeText(value) {
 }
 
 function formatCurrency(amount) {
-  return new Intl.NumberFormat("en-BD", {
-    style: "currency",
-    currency: "BDT",
+  const formatted = new Intl.NumberFormat("en-BD", {
     maximumFractionDigits: 0
   }).format(amount);
+  return `৳ ${formatted}`;
 }
 
 function getFilteredProducts() {
