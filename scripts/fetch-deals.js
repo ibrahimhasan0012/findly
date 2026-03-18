@@ -1,8 +1,7 @@
 /**
  * scripts/fetch-deals.js — Findly Multi-Store Live Deal Scraper
  * 
- * UPDATED: Prioritizes Gadgets and Accessories at the top. 
- * Corrected Star Tech and Gadget & Gear URLs based on research.
+ * FIX: Improved price parsing to prevent concatenating original + discount prices.
  */
 
 import axios from 'axios';
@@ -14,7 +13,7 @@ import pathSync from 'path';
 
 const __dirname = pathSync.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = pathSync.join(__dirname, '../public/shopnot-inspired/data/products.json');
-const MAX_PER_CATEGORY = 24;
+const MAX_PER_CATEGORY = 25;
 const DELAY_MS = 600;
 
 const HEADERS = {
@@ -25,7 +24,12 @@ const HEADERS = {
 
 // ── Utility ───────────────────────────────────────────────────────────────────
 function parsePrice(raw = '') {
-  const n = parseFloat(String(raw).replace(/[^\d.]/g, ''));
+  if (!raw) return null;
+  // Match only the FIRST sequence of digits/commas/dots
+  const matches = raw.match(/[\d,.]+/);
+  if (!matches) return null;
+  const clean = matches[0].replace(/,/g, '');
+  const n = parseFloat(clean);
   return isNaN(n) || n <= 0 ? null : Math.round(n);
 }
 
@@ -84,6 +88,7 @@ async function scrapeOpenCart(name, baseUrl, pages) {
         const link = cleanUrl(href, baseUrl);
         const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
         const img = cleanImg(rawImg, baseUrl);
+        // Specifically look for discount price first
         const priceText = card.find('.price-new, .p-item-price, .price, .regular-price').first().text();
         const price = parsePrice(priceText);
         if (title && link && img && price) {
@@ -114,6 +119,7 @@ async function scrapeWooCommerce(name, baseUrl, pages) {
         const link = cleanUrl(href, baseUrl);
         const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
         const img = cleanImg(rawImg, baseUrl);
+        // WooCommerce often has price ranges or old/new. Matches handles it by taking first.
         const priceText = card.find('.price, .amount, .ooOxS').first().text();
         const price = parsePrice(priceText);
         if (title && link && img && price) {
@@ -143,13 +149,13 @@ const STORES = [
     ]
   },
   {
-    name: 'Gadget & Gear',
-    base: 'https://www.gadgetandgear.com',
-    type: 'woo',
+    name: 'TechLand BD',
+    base: 'https://www.techlandbd.com',
+    type: 'opencart',
     pages: [
-      { url: 'https://www.gadgetandgear.com/smart-watch', category: 'Smartwatches' },
-      { url: 'https://www.gadgetandgear.com/category/headphone', category: 'Earphones' },
-      { url: 'https://www.gadgetandgear.com/mobile-phone', category: 'Smartphones' },
+      { url: 'https://www.techlandbd.com/smart-watch', category: 'Smartwatches' },
+      { url: 'https://www.techlandbd.com/earphone-headphone', category: 'Earphones' },
+      { url: 'https://www.techlandbd.com/power-bank', category: 'Powerbanks' },
     ]
   },
   {
@@ -159,33 +165,13 @@ const STORES = [
     pages: [
       { url: 'https://www.applegadgetsbd.com/product-category/apple-watch', category: 'Smartwatches' },
       { url: 'https://www.applegadgetsbd.com/product-category/airpods', category: 'Earphones' },
-      { url: 'https://www.applegadgetsbd.com/product-category/power-bank', category: 'Powerbanks' },
-    ]
-  },
-  {
-    name: 'TechLand BD',
-    base: 'https://www.techlandbd.com',
-    type: 'opencart',
-    pages: [
-      { url: 'https://www.techlandbd.com/smart-watch', category: 'Smartwatches' },
-      { url: 'https://www.techlandbd.com/power-bank', category: 'Powerbanks' },
-      { url: 'https://www.techlandbd.com/earphone-headphone', category: 'Earphones' },
-    ]
-  },
-  {
-    name: 'Pickaboo',
-    base: 'https://www.pickaboo.com',
-    type: 'woo',
-    pages: [
-      { url: 'https://www.pickaboo.com/smart-watch.html', category: 'Smartwatches' },
-      { url: 'https://www.pickaboo.com/power-bank.html', category: 'Powerbanks' },
     ]
   }
 ];
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('=== Findly Gadget-First Scraper (Verified URLs) ===\n');
+  console.log('=== Findly Price Fix Scraper ===\n');
   let all = [];
 
   for (const store of STORES) {
@@ -205,7 +191,7 @@ async function main() {
     return true;
   });
 
-  // PRIORITY SORT: Accessories first
+  // PRIORITY SORT: High-end Gadgets first
   const order = ['Smartwatches', 'Earphones', 'Powerbanks', 'Smartphones', 'Laptops'];
   all.sort((a, b) => {
     const idxA = order.indexOf(a.category);
@@ -214,18 +200,16 @@ async function main() {
     return 0;
   });
 
-  // Demote Symphony/Cheap phones from the start
+  // Demote budget phones
+  const cheapBrands = ['Symphony', 'itel', 'Walton', 'Lava', 'Infinix'];
   all.sort((a, b) => {
-    const aSym = a.brand === 'Symphony' || a.brand === 'itel' || a.brand === 'Walton';
-    const bSym = b.brand === 'Symphony' || b.brand === 'itel' || b.brand === 'Walton';
-    if (aSym && !bSym) return 1;
-    if (!aSym && bSym) return -1;
+    const aCheap = cheapBrands.includes(a.brand);
+    const bCheap = cheapBrands.includes(b.brand);
+    if (aCheap && !bCheap) return 1;
+    if (!aCheap && bCheap) return -1;
     return 0;
   });
 
-  // Re-order by store logic (optional, for variety)
-  // Let's just group by category then store
-  
   // Final IDs
   all.forEach((p, i) => {
     p.id = i + 1;
@@ -236,7 +220,7 @@ async function main() {
 
   fsSync.mkdirSync(pathSync.dirname(OUTPUT_FILE), { recursive: true });
   fsSync.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
-  console.log(`\n=== Done: ${all.length} products saved (Gadgets prioritised) ===`);
+  console.log(`\n=== Done: ${all.length} products saved (Prices fixed) ===`);
 }
 
 main().catch(console.error);
