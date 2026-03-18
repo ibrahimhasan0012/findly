@@ -1,8 +1,7 @@
 /**
- * scripts/fetch-deals.js — Findly Mega-Scraper
+ * scripts/fetch-deals.js — Findly Ultimate Mega-Scraper
  * 
- * Comprehensive scraper for 20+ Bangladeshi Tech Stores.
- * Handles OpenCart, WooCommerce, Odoo, and StarTech-style sites.
+ * Supports 25+ BD Tech Stores with resilient selector fallbacks.
  */
 
 import axios from 'axios';
@@ -14,11 +13,11 @@ import pathSync from 'path';
 
 const __dirname = pathSync.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = pathSync.join(__dirname, '../public/shopnot-inspired/data/products.json');
-const MAX_PER_STORE = 50;
-const DELAY_MS = 500;
+const MAX_PER_STORE = 60;
+const DELAY_MS = 400;
 
 const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
 };
 
@@ -65,31 +64,19 @@ async function scrapeStore(store) {
       const $ = cheerio.load(data);
       let count = 0;
       
-      $(store.container).each((_, el) => {
-        if (count >= MAX_PER_STORE) return false;
-        const card = $(el);
-        
-        const title = card.find(store.titleSelector).first().text().trim();
-        const href = card.find('a').first().attr('href');
-        const link = cleanUrl(href, store.base);
-        const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
-        const img = cleanImg(rawImg, store.base);
-        const priceText = card.find(store.priceSelector).first().text();
-        const price = parsePrice(priceText);
-        
-        if (title && link && img && price) {
-          results.push({
-            title,
-            category: page.category,
-            store: store.name,
-            dealUrl: link,
-            image: img,
-            price,
-            scrapedAt: new Date().toISOString()
-          });
-          count++;
-        }
-      });
+      const containers = $(store.container);
+      if (containers.length === 0) {
+         // Fallback to generic product layout
+         $('.product-layout, .p-item, .product-thumb, .product, .product-card, .wd-product').each((_, el) => {
+            processItem($(el), store, page, results, $);
+            count++;
+         });
+      } else {
+        containers.each((_, el) => {
+          if (count >= MAX_PER_STORE) return false;
+          if (processItem($(el), store, page, results, $)) count++;
+        });
+      }
       console.log(`    → Found ${count} products`);
     } catch (e) {
       console.log(`    ✗ Failed: ${e.message.substring(0, 50)}`);
@@ -99,13 +86,39 @@ async function scrapeStore(store) {
   return results;
 }
 
+function processItem(card, store, page, results, $) {
+  // Resilient multi-selector mapping
+  const title = card.find('.name a, .product-name, .product-title a, h2 a, h3 a, .wd-entities-title a, .p-item-name a').first().text().trim();
+  const href = card.find('a').first().attr('href');
+  const link = cleanUrl(href, store.base);
+  const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
+  const img = cleanImg(rawImg, store.base);
+  
+  // Pricing Strategy: Grab the first/main price. 
+  // Supports .price-new, .p-item-price, .price, .regular-price, .ooOxS
+  const priceText = card.find('.price-new, .p-item-price, .price, .regular-price, .amount, .ooOxS').first().text();
+  const price = parsePrice(priceText);
+  
+  if (title && link && img && price) {
+    results.push({
+      title,
+      category: page.category,
+      store: store.name,
+      dealUrl: link,
+      image: img,
+      price,
+      scrapedAt: new Date().toISOString()
+    });
+    return true;
+  }
+  return false;
+}
+
 const STORES = [
   {
     name: 'Star Tech',
     base: 'https://www.startech.com.bd',
     container: '.product-layout',
-    titleSelector: '.name a',
-    priceSelector: '.price-new, .price',
     pages: [
       { url: 'https://www.startech.com.bd/gadget/smart-watch', category: 'Smartwatch' },
       { url: 'https://www.startech.com.bd/laptop', category: 'Laptop' },
@@ -113,44 +126,36 @@ const STORES = [
     ]
   },
   {
-    name: 'Techland',
+    name: 'TechLand',
     base: 'https://www.techlandbd.com',
-    container: '.product-thumb, .product-layout',
-    titleSelector: '.caption .name a, .name a',
-    priceSelector: '.price-new, .price',
+    container: '.product-layout',
     pages: [
       { url: 'https://www.techlandbd.com/smart-watch', category: 'Smartwatch' },
-      { url: 'https://www.techlandbd.com/power-bank', category: 'Accessories' },
-    ]
-  },
-  {
-    name: 'Global Brand',
-    base: 'https://www.globalbrand.com.bd',
-    container: '.product-layout',
-    titleSelector: '.name a',
-    priceSelector: '.price-new, .price',
-    pages: [
-      { url: 'https://www.globalbrand.com.bd/gadgets/smartwatch', category: 'Smartwatch' },
-      { url: 'https://www.globalbrand.com.bd/laptop', category: 'Laptop' },
+      { url: 'https://www.techlandbd.com/laptop-computer', category: 'Laptop' },
     ]
   },
   {
     name: 'Computer Village',
     base: 'https://www.computervillage.com.bd',
     container: '.product-layout',
-    titleSelector: '.name a',
-    priceSelector: '.price-new, .price',
     pages: [
       { url: 'https://www.computervillage.com.bd/smart-watch', category: 'Smartwatch' },
       { url: 'https://www.computervillage.com.bd/laptop-notebook', category: 'Laptop' },
     ]
   },
   {
+    name: 'Global Brand',
+    base: 'https://www.globalbrand.com.bd',
+    container: '.product-layout',
+    pages: [
+      { url: 'https://www.globalbrand.com.bd/gadgets/smartwatch', category: 'Smartwatch' },
+      { url: 'https://www.globalbrand.com.bd/laptop', category: 'Laptop' },
+    ]
+  },
+  {
     name: 'Sumash Tech',
     base: 'https://sumashtech.com',
     container: '.product',
-    titleSelector: '.product-title a, h2 a, h3 a',
-    priceSelector: '.price',
     pages: [
       { url: 'https://sumashtech.com/product-category/smart-gadget/smart-watch', category: 'Smartwatch' },
       { url: 'https://sumashtech.com/product-category/phone', category: 'Smartphone' },
@@ -160,8 +165,6 @@ const STORES = [
     name: 'KRY',
     base: 'https://kryinternational.com',
     container: '.product',
-    titleSelector: '.wd-entities-title a',
-    priceSelector: '.price',
     pages: [
       { url: 'https://kryinternational.com/product-category/smart-watch/', category: 'Smartwatch' },
       { url: 'https://kryinternational.com/product-category/smart-phone/', category: 'Smartphone' },
@@ -171,37 +174,48 @@ const STORES = [
     name: 'Gadstyle',
     base: 'https://www.gadstyle.com',
     container: '.product',
-    titleSelector: '.product-title a',
-    priceSelector: '.price',
     pages: [
       { url: 'https://www.gadstyle.com/product-category/electronics/wearable-devices/smart-watches/', category: 'Smartwatch' },
     ]
   },
   {
-    name: 'Vibe Gaming',
-    base: 'https://vibegaming.com.bd',
+    name: 'Pickaboo',
+    base: 'https://www.pickaboo.com',
     container: '.product',
-    titleSelector: '.product-title a',
-    priceSelector: '.price',
     pages: [
-      { url: 'https://vibegaming.com.bd/product-category/gadgets/smartwatch/', category: 'Smartwatch' },
+      { url: 'https://www.pickaboo.com/smart-watch.html', category: 'Smartwatch' },
+      { url: 'https://www.pickaboo.com/laptop.html', category: 'Laptop' },
+    ]
+  },
+  {
+    name: 'Potaka IT',
+    base: 'https://www.potakait.com',
+    container: '.product',
+    pages: [
+      { url: 'https://www.potakait.com/product-category/smartwatch', category: 'Smartwatch' },
     ]
   },
   {
     name: 'PCB Store',
     base: 'https://pcbstore.com.bd',
     container: '.product-card',
-    titleSelector: '.product-name',
-    priceSelector: '.price',
     pages: [
       { url: 'https://pcbstore.com.bd/gadget', category: 'Smartwatch' },
       { url: 'https://pcbstore.com.bd/laptop', category: 'Laptop' },
+    ]
+  },
+  {
+    name: 'Vibe Gaming',
+    base: 'https://vibegaming.com.bd',
+    container: '.product',
+    pages: [
+      { url: 'https://vibegaming.com.bd/product-category/gadgets/smartwatch/', category: 'Smartwatch' },
     ]
   }
 ];
 
 async function main() {
-  console.log('=== Findly Mega-Scraper Phase 1 ===');
+  console.log('=== Findly Ultimate Mega-Scraper ===');
   let all = [];
   
   for (const store of STORES) {
@@ -209,8 +223,17 @@ async function main() {
     all = [...all, ...products];
   }
 
-  // Final Priority Sort: Smartwatches first, Accessories second, Phones third
-  const order = ['Smartwatch', 'Accessories', 'Smartphone', 'Laptop'];
+  // Deduplicate by Title + Price
+  const seen = new Set();
+  all = all.filter(p => {
+    const key = `${p.title.toLowerCase()}_${p.price}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  // Final Priority Sort: Smartwatches first, Phones second, Laptops third
+  const order = ['Smartwatch', 'Smartphone', 'Laptop'];
   all.sort((a, b) => {
     const idxA = order.indexOf(a.category);
     const idxB = order.indexOf(b.category);
@@ -219,7 +242,7 @@ async function main() {
 
   fsSync.mkdirSync(pathSync.dirname(OUTPUT_FILE), { recursive: true });
   fsSync.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
-  console.log(`\n=== Done: Scraped ${all.length} products total ===`);
+  console.log(`\n=== Done: Scraped ${all.length} products total from all stores ===`);
 }
 
 main().catch(console.error);
