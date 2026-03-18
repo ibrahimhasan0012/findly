@@ -1,18 +1,20 @@
 /**
  * scripts/fetch-deals.js — Findly Multi-Store Live Deal Scraper
  * 
- * UPDATED: Prioritizes Gadgets and Accessories at the top.
+ * UPDATED: Prioritizes Gadgets and Accessories at the top. Corrected URLs.
  */
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import path from 'path';
+import path from 'url';
 import { fileURLToPath } from 'url';
+import fsSync from 'fs';
+import pathSync from 'path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUTPUT_FILE = path.join(__dirname, '../public/shopnot-inspired/data/products.json');
-const MAX_PER_CATEGORY = 15;
+const __dirname = pathSync.dirname(fileURLToPath(import.meta.url));
+const OUTPUT_FILE = pathSync.join(__dirname, '../public/shopnot-inspired/data/products.json');
+const MAX_PER_CATEGORY = 20;
 const DELAY_MS = 600;
 
 const HEADERS = {
@@ -54,8 +56,7 @@ function extractBrand(title = '') {
     'ASUS', 'Lenovo', 'HP', 'Dell', 'Acer', 'MSI', 'Gigabyte', 'Razer', 'Intel', 'AMD', 'NVIDIA',
     'Sony', 'LG', 'AOC', 'Logitech', 'Corsair', 'HyperX', 'SteelSeries', 'TP-Link', 'Tenda',
     'Seagate', 'WD', 'Kingston', 'Anker', 'Baseus', 'UGREEN', 'Orico', 'Hoco', 'Remax', 'Joyroom',
-    'Amazfit', 'Garmin', 'Huawei', 'Honor', 'Jabra', 'JBL', 'Bose', 'Nothing', 'Motorola',
-    'PlayStation', 'Xbox', 'Nintendo', 'ZOTAC', 'Pantum', 'Brother', 'Canon', 'Epson'
+    'Amazfit', 'Garmin', 'Huawei', 'Honor', 'Jabra', 'JBL', 'Bose', 'Nothing', 'Motorola'
   ];
   const lower = title.toLowerCase();
   for (const b of brands) {
@@ -78,12 +79,12 @@ async function scrapeOpenCart(name, baseUrl, pages) {
       $('.product-layout, .p-item, .product-thumb').each((_, el) => {
         if (count >= MAX_PER_CATEGORY) return false;
         const card = $(el);
-        const title = card.find('.caption .name a, h4 a, .p-item-name a, .name a').first().text().trim();
+        const title = card.find('.caption .name a, h4 a, .p-item-name a, .name a, .product-name a').first().text().trim();
         const href = card.find('a').first().attr('href');
         const link = cleanUrl(href, baseUrl);
         const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
         const img = cleanImg(rawImg, baseUrl);
-        const priceText = card.find('.price-new, .p-item-price, .price').first().text();
+        const priceText = card.find('.price-new, .p-item-price, .price, .regular-price').first().text();
         const price = parsePrice(priceText);
         if (title && link && img && price) {
           results.push({ title, category, store: name, dealUrl: link, image: img, price, brand: extractBrand(title) });
@@ -104,15 +105,15 @@ async function scrapeWooCommerce(name, baseUrl, pages) {
       const { data } = await axios.get(url, { headers: { ...HEADERS, Referer: baseUrl }, timeout: 15000 });
       const $ = cheerio.load(data);
       let count = 0;
-      $('li.product, .product-item').each((_, el) => {
+      $('li.product, .product-item, .product-grid-item').each((_, el) => {
         if (count >= MAX_PER_CATEGORY) return false;
         const card = $(el);
-        const title = card.find('.woocommerce-loop-product__title, h2, .product-title').first().text().trim();
+        const title = card.find('.woocommerce-loop-product__title, h2, h3, .product-title').first().text().trim();
         const href = card.find('a').first().attr('href');
         const link = cleanUrl(href, baseUrl);
         const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
         const img = cleanImg(rawImg, baseUrl);
-        const priceText = card.find('.price').first().text();
+        const priceText = card.find('.price, .amount').first().text();
         const price = parsePrice(priceText);
         if (title && link && img && price) {
           results.push({ title, category, store: name, dealUrl: link, image: img, price, brand: extractBrand(title) });
@@ -132,9 +133,9 @@ const STORES = [
     base: 'https://www.startech.com.bd',
     type: 'opencart',
     pages: [
-      { url: 'https://www.startech.com.bd/accessories/smart-watch', category: 'Smartwatches' },
-      { url: 'https://www.startech.com.bd/accessories/earphone-headphone', category: 'Earphones' },
-      { url: 'https://www.startech.com.bd/accessories/power-bank', category: 'Powerbanks' },
+      { url: 'https://www.startech.com.bd/smart-watch', category: 'Smartwatches' },
+      { url: 'https://www.startech.com.bd/earphone-headphone', category: 'Earphones' },
+      { url: 'https://www.startech.com.bd/power-bank', category: 'Powerbanks' },
       { url: 'https://www.startech.com.bd/mobile-phone', category: 'Smartphones' },
       { url: 'https://www.startech.com.bd/laptop', category: 'Laptops' },
     ]
@@ -144,9 +145,9 @@ const STORES = [
     base: 'https://www.gadgetandgear.com',
     type: 'woo',
     pages: [
-      { url: 'https://www.gadgetandgear.com/product-category/smartwatch', category: 'Smartwatches' },
-      { url: 'https://www.gadgetandgear.com/product-category/headphone', category: 'Earphones' },
-      { url: 'https://www.gadgetandgear.com/product-category/mobile-phone', category: 'Smartphones' },
+      { url: 'https://www.gadgetandgear.com/smart-watch', category: 'Smartwatches' },
+      { url: 'https://www.gadgetandgear.com/category/headphone', category: 'Earphones' },
+      { url: 'https://www.gadgetandgear.com/mobile-phone', category: 'Smartphones' },
     ]
   },
   {
@@ -156,7 +157,7 @@ const STORES = [
     pages: [
       { url: 'https://www.applegadgetsbd.com/product-category/apple-watch', category: 'Smartwatches' },
       { url: 'https://www.applegadgetsbd.com/product-category/airpods', category: 'Earphones' },
-      { url: 'https://www.applegadgetsbd.com/product-category/iphone', category: 'Smartphones' },
+      { url: 'https://www.applegadgetsbd.com/product-category/smart-watch', category: 'Smartwatches' },
     ]
   },
   {
@@ -166,16 +167,6 @@ const STORES = [
     pages: [
       { url: 'https://www.potakait.com/product-category/smartwatch', category: 'Smartwatches' },
       { url: 'https://www.potakait.com/product-category/earphone', category: 'Earphones' },
-      { url: 'https://www.potakait.com/product-category/power-bank', category: 'Powerbanks' },
-    ]
-  },
-  {
-    name: 'Pickaboo',
-    base: 'https://www.pickaboo.com',
-    type: 'opencart',
-    pages: [
-      { url: 'https://www.pickaboo.com/smart-watch.html', category: 'Smartwatches' },
-      { url: 'https://www.pickaboo.com/power-bank.html', category: 'Powerbanks' },
     ]
   },
   {
@@ -184,7 +175,6 @@ const STORES = [
     type: 'opencart',
     pages: [
       { url: 'https://www.techlandbd.com/smart-watch', category: 'Smartwatches' },
-      { url: 'https://www.techlandbd.com/power-bank', category: 'Powerbanks' },
       { url: 'https://www.techlandbd.com/earphone-headphone', category: 'Earphones' },
     ]
   }
@@ -192,7 +182,7 @@ const STORES = [
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('=== Findly Gadget-First Scraper ===\n');
+  console.log('=== Findly Gadget-First Scraper (Fixed URLs) ===\n');
   let all = [];
 
   for (const store of STORES) {
@@ -206,14 +196,14 @@ async function main() {
   // Deduplicate
   const seen = new Set();
   all = all.filter(p => {
-    const key = p.title.toLowerCase().substring(0, 40);
+    const key = p.title.toLowerCase().substring(0, 45);
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
 
-  // PRIORITY SORT: Accessories first, then Phones, then Laptops
-  const order = ['Smartwatches', 'Earphones', 'Powerbanks', 'Smartphones', 'Laptops', 'PC Components'];
+  // PRIORITY SORT: High-end Gadgets first, then others
+  const order = ['Smartwatches', 'Earphones', 'Powerbanks', 'Smartphones', 'Laptops'];
   all.sort((a, b) => {
     const idxA = order.indexOf(a.category);
     const idxB = order.indexOf(b.category);
@@ -221,7 +211,15 @@ async function main() {
     return 0;
   });
 
-  // Assign IDs
+  // Filter out budget phones from the very top if possible, but the category sort usually handles it.
+  // Move everything with "Symphony" brand down
+  all.sort((a, b) => {
+    if (a.brand === 'Symphony' && b.brand !== 'Symphony') return 1;
+    if (a.brand !== 'Symphony' && b.brand === 'Symphony') return -1;
+    return 0;
+  });
+
+  // Final IDs
   all.forEach((p, i) => {
     p.id = i + 1;
     p.currency = 'BDT';
@@ -229,9 +227,10 @@ async function main() {
     p.scrapedAt = new Date().toISOString();
   });
 
-  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
-  console.log(`\n=== Done: ${all.length} products saved (Accessories first) ===`);
+  fsSync.mkdirSync(pathSync.dirname(OUTPUT_FILE), { recursive: true });
+  fsSync.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
+  all = all.slice(0, 500); // safety cap
+  console.log(`\n=== Done: ${all.length} products saved (Gadgets prioritised) ===`);
 }
 
 main().catch(console.error);
