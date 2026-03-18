@@ -50,7 +50,10 @@ function renderProducts() {
         <div class="product-body">
           <span class="product-store">${item.store}</span>
           <h3 class="product-title">${item.title}</h3>
-          <p class="product-price">${formatCurrency(item.price)}</p>
+          <div class="product-pricing">
+            <span class="price-label">Special Price</span>
+            <p class="product-price">${formatCurrency(item.price)}</p>
+          </div>
         </div>
       </a>
     `;
