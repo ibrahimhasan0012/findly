@@ -1,20 +1,20 @@
 /**
  * scripts/fetch-deals.js — Findly Multi-Store Live Deal Scraper
  * 
- * UPDATED: Prioritizes Gadgets and Accessories at the top. Corrected URLs.
+ * UPDATED: Prioritizes Gadgets and Accessories at the top. 
+ * Corrected Star Tech and Gadget & Gear URLs based on research.
  */
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import path from 'url';
 import { fileURLToPath } from 'url';
 import fsSync from 'fs';
 import pathSync from 'path';
 
 const __dirname = pathSync.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = pathSync.join(__dirname, '../public/shopnot-inspired/data/products.json');
-const MAX_PER_CATEGORY = 20;
+const MAX_PER_CATEGORY = 24;
 const DELAY_MS = 600;
 
 const HEADERS = {
@@ -91,6 +91,7 @@ async function scrapeOpenCart(name, baseUrl, pages) {
           count++;
         }
       });
+      console.log(`    → ${count} products`);
     } catch (e) { console.log(`    ✗ ${e.message.substring(0, 40)}`); }
     await delay(DELAY_MS);
   }
@@ -105,21 +106,22 @@ async function scrapeWooCommerce(name, baseUrl, pages) {
       const { data } = await axios.get(url, { headers: { ...HEADERS, Referer: baseUrl }, timeout: 15000 });
       const $ = cheerio.load(data);
       let count = 0;
-      $('li.product, .product-item, .product-grid-item').each((_, el) => {
+      $('li.product, .product-item, .product-card').each((_, el) => {
         if (count >= MAX_PER_CATEGORY) return false;
         const card = $(el);
-        const title = card.find('.woocommerce-loop-product__title, h2, h3, .product-title').first().text().trim();
+        const title = card.find('.woocommerce-loop-product__title, h2, h3, .product-title, .RfADt').first().text().trim();
         const href = card.find('a').first().attr('href');
         const link = cleanUrl(href, baseUrl);
         const rawImg = card.find('img').first().attr('data-src') || card.find('img').first().attr('src') || '';
         const img = cleanImg(rawImg, baseUrl);
-        const priceText = card.find('.price, .amount').first().text();
+        const priceText = card.find('.price, .amount, .ooOxS').first().text();
         const price = parsePrice(priceText);
         if (title && link && img && price) {
           results.push({ title, category, store: name, dealUrl: link, image: img, price, brand: extractBrand(title) });
           count++;
         }
       });
+      console.log(`    → ${count} products`);
     } catch (e) { console.log(`    ✗ ${e.message.substring(0, 40)}`); }
     await delay(DELAY_MS);
   }
@@ -133,8 +135,8 @@ const STORES = [
     base: 'https://www.startech.com.bd',
     type: 'opencart',
     pages: [
-      { url: 'https://www.startech.com.bd/smart-watch', category: 'Smartwatches' },
-      { url: 'https://www.startech.com.bd/earphone-headphone', category: 'Earphones' },
+      { url: 'https://www.startech.com.bd/gadget/smart-watch', category: 'Smartwatches' },
+      { url: 'https://www.startech.com.bd/earphone', category: 'Earphones' },
       { url: 'https://www.startech.com.bd/power-bank', category: 'Powerbanks' },
       { url: 'https://www.startech.com.bd/mobile-phone', category: 'Smartphones' },
       { url: 'https://www.startech.com.bd/laptop', category: 'Laptops' },
@@ -157,16 +159,7 @@ const STORES = [
     pages: [
       { url: 'https://www.applegadgetsbd.com/product-category/apple-watch', category: 'Smartwatches' },
       { url: 'https://www.applegadgetsbd.com/product-category/airpods', category: 'Earphones' },
-      { url: 'https://www.applegadgetsbd.com/product-category/smart-watch', category: 'Smartwatches' },
-    ]
-  },
-  {
-    name: 'Potaka IT',
-    base: 'https://www.potakait.com',
-    type: 'woo',
-    pages: [
-      { url: 'https://www.potakait.com/product-category/smartwatch', category: 'Smartwatches' },
-      { url: 'https://www.potakait.com/product-category/earphone', category: 'Earphones' },
+      { url: 'https://www.applegadgetsbd.com/product-category/power-bank', category: 'Powerbanks' },
     ]
   },
   {
@@ -175,14 +168,24 @@ const STORES = [
     type: 'opencart',
     pages: [
       { url: 'https://www.techlandbd.com/smart-watch', category: 'Smartwatches' },
+      { url: 'https://www.techlandbd.com/power-bank', category: 'Powerbanks' },
       { url: 'https://www.techlandbd.com/earphone-headphone', category: 'Earphones' },
+    ]
+  },
+  {
+    name: 'Pickaboo',
+    base: 'https://www.pickaboo.com',
+    type: 'woo',
+    pages: [
+      { url: 'https://www.pickaboo.com/smart-watch.html', category: 'Smartwatches' },
+      { url: 'https://www.pickaboo.com/power-bank.html', category: 'Powerbanks' },
     ]
   }
 ];
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('=== Findly Gadget-First Scraper (Fixed URLs) ===\n');
+  console.log('=== Findly Gadget-First Scraper (Verified URLs) ===\n');
   let all = [];
 
   for (const store of STORES) {
@@ -196,13 +199,13 @@ async function main() {
   // Deduplicate
   const seen = new Set();
   all = all.filter(p => {
-    const key = p.title.toLowerCase().substring(0, 45);
+    const key = p.title.toLowerCase().substring(0, 48);
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
 
-  // PRIORITY SORT: High-end Gadgets first, then others
+  // PRIORITY SORT: Accessories first
   const order = ['Smartwatches', 'Earphones', 'Powerbanks', 'Smartphones', 'Laptops'];
   all.sort((a, b) => {
     const idxA = order.indexOf(a.category);
@@ -211,14 +214,18 @@ async function main() {
     return 0;
   });
 
-  // Filter out budget phones from the very top if possible, but the category sort usually handles it.
-  // Move everything with "Symphony" brand down
+  // Demote Symphony/Cheap phones from the start
   all.sort((a, b) => {
-    if (a.brand === 'Symphony' && b.brand !== 'Symphony') return 1;
-    if (a.brand !== 'Symphony' && b.brand === 'Symphony') return -1;
+    const aSym = a.brand === 'Symphony' || a.brand === 'itel' || a.brand === 'Walton';
+    const bSym = b.brand === 'Symphony' || b.brand === 'itel' || b.brand === 'Walton';
+    if (aSym && !bSym) return 1;
+    if (!aSym && bSym) return -1;
     return 0;
   });
 
+  // Re-order by store logic (optional, for variety)
+  // Let's just group by category then store
+  
   // Final IDs
   all.forEach((p, i) => {
     p.id = i + 1;
@@ -229,7 +236,6 @@ async function main() {
 
   fsSync.mkdirSync(pathSync.dirname(OUTPUT_FILE), { recursive: true });
   fsSync.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
-  all = all.slice(0, 500); // safety cap
   console.log(`\n=== Done: ${all.length} products saved (Gadgets prioritised) ===`);
 }
 

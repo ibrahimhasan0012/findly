@@ -1,5 +1,525 @@
 [
   {
+    "title": "COLMI P81 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-p81-bluetooth-calling-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p81/p81-01-228x228.webp",
+    "price": 14401550,
+    "brand": "COLMI",
+    "id": 1,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.793Z"
+  },
+  {
+    "title": "COLMI P71 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-p71-bluetooth-calling-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p71/p71-01-228x228.webp",
+    "price": 14801580,
+    "brand": "COLMI",
+    "id": 2,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "COLMI P76 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-p76-bluetooth-calling-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p76/p76-02-228x228.webp",
+    "price": 17901890,
+    "brand": "COLMI",
+    "id": 3,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "COLMI P73 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-p73-bluetooth-calling-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p73/p73-01-228x228.webp",
+    "price": 17301899,
+    "brand": "COLMI",
+    "id": 4,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Imilab IMIKI Frame 2 Lite Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/imilab-imiki-frame-2-lite-smartwatch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/imilab/frame-2-lite/frame-2-lite-black-02-228x228.webp",
+    "price": 18601999,
+    "brand": "Imilab",
+    "id": 5,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Oraimo Watch 5 Lite Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-watch-5-lite-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/oraimo/watch-5-lite/watch-5-lite-osw-804-black-228x228.webp",
+    "price": 17301899,
+    "brand": "Oraimo",
+    "id": 6,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "CHARG Fusion",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/charg-fusion",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/charg/fusion/fusion-228x228.webp",
+    "price": 29903199,
+    "brand": "CHARG",
+    "id": 7,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "CHARG Digiwatch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/charg-digiwatch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/charg/digiwatch/digiwatch-228x228.webp",
+    "price": 17901899,
+    "brand": "CHARG",
+    "id": 8,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Oraimo Watch 5 Max",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-watch-5-max-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/oraimo/watch-5-max/watch-5-max-01-228x228.webp",
+    "price": 17301899,
+    "brand": "Oraimo",
+    "id": 9,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Riversong Motive 6 Pro Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/riversong-motive-6-pro-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smartwatch/riversong/motive-6-pro/motive-6-pro1-228x228.webp",
+    "price": 18501999,
+    "brand": "Riversong",
+    "id": 10,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Awei H21 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/awei-h21-smartwatch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/awei/h21/h21-02-228x228.webp",
+    "price": 19002050,
+    "brand": "Awei",
+    "id": 11,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Havit M9035 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/havit-m9035-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m9035/m9035-black-01-228x228.webp",
+    "price": 19902150,
+    "brand": "Havit",
+    "id": 12,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Haylou Watch S6 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/haylou-watch-s6-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/haylou/watch-s6/watch-s6-01-228x228.webp",
+    "price": 19902150,
+    "brand": "Haylou",
+    "id": 13,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "COLMI V73 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-v73-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/v73/v73-black-01-228x228.webp",
+    "price": 23502550,
+    "brand": "COLMI",
+    "id": 14,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Riversong Motive 3 SW30 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/riversong-sw30-motive-3-waterproof-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smartwatch/riversong/sw30-motive-3/motive-3-228x228.webp",
+    "price": 20902199,
+    "brand": "Riversong",
+    "id": 15,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Awei H25 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/awei-h25-smartwatch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/awei/h25/h25-04-228x228.webp",
+    "price": 21402290,
+    "brand": "Awei",
+    "id": 16,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Haylou Solar Lite Smart Watch (Without Calling)",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xiaomi-haylou-solar-lite-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/solar-lite/solar-lite-blue-01-228x228.webp",
+    "price": 20992299,
+    "brand": "Haylou",
+    "id": 17,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "COLMI P28 Plus Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-p28-plus-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p28-plus/p28-plus-01-228x228.webp",
+    "price": 22402399,
+    "brand": "COLMI",
+    "id": 18,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Xtra Active S6 Pro Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xtra-active-s6-pro-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/xtra/active-s6-pro/active-s6-pro-01-228x228.webp",
+    "price": 22002399,
+    "brand": "Xtra",
+    "id": 19,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "COLMI C61 Smart Watch",
+    "category": "Smartwatches",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/colmi-c61-smart-watch",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/c61/c61-black-01-228x228.webp",
+    "price": 22502450,
+    "brand": "COLMI",
+    "id": 20,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Jiayou Bass 5 Wired 3.5mm Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-bass-5-wired-35mm-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/bass-5/bass-5-01-228x228.webp",
+    "price": 90,
+    "brand": "Jiayou",
+    "id": 21,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat G35 3.5mm Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-g35-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g35/celebrat-g35-01-228x228.webp",
+    "price": 130,
+    "brand": "Yison",
+    "id": 22,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat G3 3.5mm Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-g3-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g3/celebrat-g3-02-228x228.jpg",
+    "price": 140,
+    "brand": "Yison",
+    "id": 23,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Jiayou Bass 6 Wired 3.5mm Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-bass-6-wired-35mm-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/bass-6/bass-6-01-228x228.webp",
+    "price": 90,
+    "brand": "Jiayou",
+    "id": 24,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "CHARG DME62 3.5MM Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/charg-dme62-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/charg/dme62/dme62-01-228x228.webp",
+    "price": 160,
+    "brand": "CHARG",
+    "id": 25,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat G13 3.5mm Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-g13-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g13/celebrat-g13-02-228x228.jpg",
+    "price": 170,
+    "brand": "Yison",
+    "id": 26,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Oraimo OEP-320S In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-oep-320s-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/oraimo/oep-320s/oep-320s-001-228x228.webp",
+    "price": 175,
+    "brand": "Oraimo",
+    "id": 27,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat FLY-1 In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-fly-1-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-fly-1/celebrat-fly-1-01-228x228.jpg",
+    "price": 190,
+    "brand": "Yison",
+    "id": 28,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "FONENG EP200 3.5mm In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/foneng-ep200-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/ep200/ep200-01-228x228.webp",
+    "price": 190,
+    "brand": "FONENG",
+    "id": 29,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Jiayou VIBE 7 Type-C Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-vibe-7-type-c-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/vibe-7/vibe-7-01-228x228.webp",
+    "price": 210,
+    "brand": "Jiayou",
+    "id": 30,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat D2 3.5mm Wired Premium Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-d2-premium-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-d2/celebrat-d2-02-228x228.webp",
+    "price": 195,
+    "brand": "Yison",
+    "id": 31,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Jiayou VIBE 8 Type-C Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-vibe-8-type-c-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/vibe-8/vibe-8-01-228x228.webp",
+    "price": 220,
+    "brand": "Jiayou",
+    "id": 32,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Oraimo Halo Lite In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-halo-lite-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/oraimo/half/half-01-228x228.webp",
+    "price": 215,
+    "brand": "Oraimo",
+    "id": 33,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Hoco M97 Enjoy 3.5mm Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-m97-enjoy-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/hoco/m97-enjoy/m97-enjoy-01-228x228.webp",
+    "price": 230,
+    "brand": "Hoco",
+    "id": 34,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Riversong SEED+ EA64 Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/riversong-seed-plus-ea64-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/riversong/ea64/ea64-228x228.webp",
+    "price": 180235,
+    "brand": "Riversong",
+    "id": 35,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison Celebrat G9 Wired 3.5mm Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-g9-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/yison-g9/yison-g9-wired-228x228.webp",
+    "price": 240,
+    "brand": "Yison",
+    "id": 36,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Yison CX620 In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-cx620-in-ear-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/cx620/cx620-white-228x228.webp",
+    "price": 240,
+    "brand": "Yison",
+    "id": 37,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "FONENG T52 3.5mm In-Ear Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/foneng-t52-wired-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/t52/t52-01-228x228.webp",
+    "price": 190249,
+    "brand": "FONENG",
+    "id": 38,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "Recci REP-L15 3.5mm Wired Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/recci-rep-l15-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/recci/rep-l15/rep-l15-01-228x228.webp",
+    "price": 250,
+    "brand": "Recci",
+    "id": 39,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
+    "title": "FONENG T15 Half-In-Ear 3.5mm Heavy Bass Earphone",
+    "category": "Earphones",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/foneng-t15-earphone",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/t15/t15-01-228x228.webp",
+    "price": 250270,
+    "brand": "FONENG",
+    "id": 40,
+    "currency": "BDT",
+    "ctaLabel": "View deal",
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
+  },
+  {
     "title": "Jiayou Thunder 5 10000mAh Power Bank",
     "category": "Powerbanks",
     "store": "Star Tech",
@@ -7,10 +527,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-5/thunder-5-228x228.webp",
     "price": 700,
     "brand": "Jiayou",
-    "id": 1,
+    "id": 41,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.196Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Yison Celebrat PB-11 10000mAh Portable Power Bank",
@@ -20,10 +540,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/yison/celebrat-pb-11-01-228x228.webp",
     "price": 9901049,
     "brand": "Yison",
-    "id": 2,
+    "id": 42,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Awei P20K 10000mah Power Bank",
@@ -33,10 +553,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p20k/p20k-001-228x228.webp",
     "price": 8901090,
     "brand": "Awei",
-    "id": 3,
+    "id": 43,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Jiayou Thunder 7 10000mAh 22.5W Fast Charging Power Bank",
@@ -46,10 +566,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-7/thunder-7-228x228.webp",
     "price": 1190,
     "brand": "Jiayou",
-    "id": 4,
+    "id": 44,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Awei P37K 10000mAh Fast Charging Power Bank",
@@ -59,10 +579,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p37k/p37k-01-228x228.webp",
     "price": 8501150,
     "brand": "Awei",
-    "id": 5,
+    "id": 45,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Jiayou Thunder 6 20000mAh Power Bank",
@@ -72,10 +592,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-6/thunder-6-228x228.webp",
     "price": 1190,
     "brand": "Jiayou",
-    "id": 6,
+    "id": 46,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Jiayou Thunder 8 20000mAh 22.5W Fast Charging Power Bank",
@@ -85,10 +605,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-8/thunder-8-228x228.webp",
     "price": 1600,
     "brand": "Jiayou",
-    "id": 7,
+    "id": 47,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Hoco J101 Astute 10000mAh 22.5W Fast Charging Power Bank",
@@ -98,10 +618,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/hoco/j101-astute/j101-astute-black-01-228x228.webp",
     "price": 10501200,
     "brand": "Hoco",
-    "id": 8,
+    "id": 48,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Hoco J136A Sirui 20000mAh 22.5W Fast Charging Power Bank",
@@ -111,10 +631,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/hoco/j136a-sirui/j136a-sirui-black-01-228x228.webp",
     "price": 1790,
     "brand": "Hoco",
-    "id": 9,
+    "id": 49,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Joyroom JR-PBF12 10000mAh 12W 2.4A LED Power Bank",
@@ -124,10 +644,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-pbf12/jr-pbf12-01-228x228.webp",
     "price": 8701200,
     "brand": "Joyroom",
-    "id": 10,
+    "id": 50,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Fantech S2 10000mAh Power Bank",
@@ -137,10 +657,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/fantech/s2-/s2-02-228x228.webp",
     "price": 9901200,
     "brand": "Fantech",
-    "id": 11,
+    "id": 51,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Awei P5K 10000mAh Fast Charging Power Bank",
@@ -150,10 +670,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p5k/p5k-01-228x228.webp",
     "price": 7901250,
     "brand": "Awei",
-    "id": 12,
+    "id": 52,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Joyroom JR-L004 12W 10000mah Jelly Series Type-C Power Bank",
@@ -163,10 +683,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-l002/jr-l002-01-228x228.webp",
     "price": 1250,
     "brand": "Joyroom",
-    "id": 13,
+    "id": 53,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Joyroom JR-L005 12W 10000mah Jelly Series Lightning Power Bank",
@@ -176,10 +696,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-l005/jr-l005-228x228.webp",
     "price": 1250,
     "brand": "Joyroom",
-    "id": 14,
+    "id": 54,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Foneng PX101 10000mAh 22.5W Power Bank",
@@ -189,10 +709,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/foneng/px101/px101-01-228x228.webp",
     "price": 11801349,
     "brand": "Foneng",
-    "id": 15,
+    "id": 55,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Remax RPP-296 20000mah Fast Charging Power Bank",
@@ -202,10 +722,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/remax/rpp-296/rpp-296-black-228x228.webp",
     "price": 12501350,
     "brand": "Remax",
-    "id": 16,
+    "id": 56,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Awei P10K 10000mah 22.5W Fast Charging Digital Display Power Bank",
@@ -215,10 +735,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p10k/p10k-black-228x228.webp",
     "price": 9501350,
     "brand": "Awei",
-    "id": 17,
+    "id": 57,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Oraimo Toast 15 Flash OPB-1100 10000mAh 15W Type C Power Bank",
@@ -228,10 +748,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/oraimo/toast-15-flash/toast-15-flash-01-228x228.webp",
     "price": 12851399,
     "brand": "Oraimo",
-    "id": 18,
+    "id": 58,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Remax RPP-26 Lango 2 Series 20000mah Fast Charging Power Bank",
@@ -241,10 +761,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/remax/rpp-26/rpp-26-01-228x228.webp",
     "price": 12751400,
     "brand": "Remax",
-    "id": 19,
+    "id": 59,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Fantech S3 10000mAh Portable Power Bank",
@@ -254,10 +774,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/fantech/s3-/s3-01-228x228.webp",
     "price": 11501400,
     "brand": "Fantech",
-    "id": 20,
+    "id": 60,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "TCL Onetouch 4021",
@@ -267,10 +787,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/tcl/onetouch-4021/onetouch-4021-sage-green-228x228.webp",
     "price": 1600,
     "brand": "TCL",
-    "id": 21,
+    "id": 61,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony A20 4G",
@@ -280,10 +800,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/a20/a20-03-228x228.webp",
     "price": 950,
     "brand": "Symphony",
-    "id": 22,
+    "id": 62,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony B80",
@@ -293,10 +813,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/b80/b80-ink-black-228x228.webp",
     "price": 990,
     "brand": "Symphony",
-    "id": 23,
+    "id": 63,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony A30",
@@ -306,10 +826,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/a30/a30-forest-green-02-228x228.webp",
     "price": 999,
     "brand": "Symphony",
-    "id": 24,
+    "id": 64,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony B100",
@@ -319,10 +839,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/b100/b100-01-228x228.webp",
     "price": 1050,
     "brand": "Symphony",
-    "id": 25,
+    "id": 65,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony Hero 30 Mini",
@@ -332,10 +852,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero-30-mini/hero-30-mini-01-228x228.webp",
     "price": 1050,
     "brand": "Symphony",
-    "id": 26,
+    "id": 66,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony Hero20",
@@ -345,10 +865,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero20/hero20-01-228x228.webp",
     "price": 1170,
     "brand": "Symphony",
-    "id": 27,
+    "id": 67,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony BL103",
@@ -358,10 +878,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/bl103/bl103-001-228x228.webp",
     "price": 1170,
     "brand": "Symphony",
-    "id": 28,
+    "id": 68,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony D44",
@@ -371,10 +891,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d44/d44-04-228x228.webp",
     "price": 1240,
     "brand": "Symphony",
-    "id": 29,
+    "id": 69,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony BL132",
@@ -384,10 +904,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/bl132/bl132-deep-ash-228x228.webp",
     "price": 1240,
     "brand": "Symphony",
-    "id": 30,
+    "id": 70,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony D89",
@@ -397,10 +917,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d89/d89-blue-228x228.webp",
     "price": 1290,
     "brand": "Symphony",
-    "id": 31,
+    "id": 71,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony L48",
@@ -410,10 +930,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l48/l48-02-228x228.webp",
     "price": 1320,
     "brand": "Symphony",
-    "id": 32,
+    "id": 72,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony D43",
@@ -423,10 +943,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d43/d43-01-228x228.webp",
     "price": 1350,
     "brand": "Symphony",
-    "id": 33,
+    "id": 73,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony D90",
@@ -436,10 +956,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d90/d90-01-228x228.webp",
     "price": 1350,
     "brand": "Symphony",
-    "id": 34,
+    "id": 74,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony Hero 30",
@@ -449,10 +969,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero-30/hero-30-01-228x228.webp",
     "price": 1350,
     "brand": "Symphony",
-    "id": 35,
+    "id": 75,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony D54 Pro",
@@ -462,10 +982,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d54-pro/d54-pro-02-228x228.webp",
     "price": 1499,
     "brand": "Symphony",
-    "id": 36,
+    "id": 76,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony L256",
@@ -475,10 +995,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l256/l256-01-228x228.webp",
     "price": 1520,
     "brand": "Symphony",
-    "id": 37,
+    "id": 77,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony T94",
@@ -488,10 +1008,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/t94/t94-03-228x228.webp",
     "price": 1550,
     "brand": "Symphony",
-    "id": 38,
+    "id": 78,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony L152",
@@ -501,10 +1021,10 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l152/l152-01-228x228.webp",
     "price": 1550,
     "brand": "Symphony",
-    "id": 39,
+    "id": 79,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   },
   {
     "title": "Symphony L290",
@@ -514,9 +1034,9 @@
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l290/l290-space-black-228x228.webp",
     "price": 15991699,
     "brand": "Symphony",
-    "id": 40,
+    "id": 80,
     "currency": "BDT",
     "ctaLabel": "View deal",
-    "scrapedAt": "2026-03-18T15:22:54.197Z"
+    "scrapedAt": "2026-03-18T15:36:58.794Z"
   }
 ]
