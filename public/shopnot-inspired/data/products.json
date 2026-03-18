@@ -6,7 +6,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-15-plus",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-plus/iphone-15-plus-blue-official-02-228x228.webp",
     "price": 127500,
-    "scrapedAt": "2026-03-18T16:42:21.241Z"
+    "scrapedAt": "2026-03-18T16:45:11.466Z",
+    "id": 1
   },
   {
     "title": "iPhone 17",
@@ -15,7 +16,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-17",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-17/iphone-17-mist-blue-01-228x228.webp",
     "price": 146000,
-    "scrapedAt": "2026-03-18T16:42:21.241Z"
+    "scrapedAt": "2026-03-18T16:45:11.467Z",
+    "id": 2
   },
   {
     "title": "iPhone Air",
@@ -24,7 +26,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-air",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-air/iphone-air-sky-blue-228x228.webp",
     "price": 166500,
-    "scrapedAt": "2026-03-18T16:42:21.242Z"
+    "scrapedAt": "2026-03-18T16:45:11.467Z",
+    "id": 3
   },
   {
     "title": "iPhone 15 Pro",
@@ -33,7 +36,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-15-pro",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro/natural-titanium/iphone-15-pro-natural-titanium-001-228x228.webp",
     "price": 182000,
-    "scrapedAt": "2026-03-18T16:42:21.242Z"
+    "scrapedAt": "2026-03-18T16:45:11.468Z",
+    "id": 4
   },
   {
     "title": "iPhone 17 Pro",
@@ -42,7 +46,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-17-pro",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-17-pro/iphone-17-pro-cosmic-orange-228x228.webp",
     "price": 191600,
-    "scrapedAt": "2026-03-18T16:42:21.242Z"
+    "scrapedAt": "2026-03-18T16:45:11.468Z",
+    "id": 5
   },
   {
     "title": "iPhone 17 Pro Max",
@@ -51,7 +56,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-17-pro-max",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-17-pro-max/iphone-17-pro-max-cosmic-orange-228x228.webp",
     "price": 206500,
-    "scrapedAt": "2026-03-18T16:42:21.242Z"
+    "scrapedAt": "2026-03-18T16:45:11.468Z",
+    "id": 6
   },
   {
     "title": "iPhone 15 Pro Max",
@@ -60,7 +66,8 @@
     "dealUrl": "https://www.startech.com.bd/iphone-15-pro-max",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/natural-titanium/iphone-15-pro-max-natural-titanium-0001-228x228.webp",
     "price": 202000,
-    "scrapedAt": "2026-03-18T16:42:21.243Z"
+    "scrapedAt": "2026-03-18T16:45:11.469Z",
+    "id": 7
   },
   {
     "title": "Symphony A20 4G",
@@ -69,7 +76,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-a20",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/a20/a20-03-228x228.webp",
     "price": 950,
-    "scrapedAt": "2026-03-18T16:42:20.761Z"
+    "scrapedAt": "2026-03-18T16:45:10.923Z",
+    "id": 8
   },
   {
     "title": "Symphony B80",
@@ -78,7 +86,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-b80",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/b80/b80-ink-black-228x228.webp",
     "price": 990,
-    "scrapedAt": "2026-03-18T16:42:20.779Z"
+    "scrapedAt": "2026-03-18T16:45:11.034Z",
+    "id": 9
   },
   {
     "title": "Symphony A30",
@@ -87,7 +96,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-a30",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/a30/a30-forest-green-02-228x228.webp",
     "price": 999,
-    "scrapedAt": "2026-03-18T16:42:20.779Z"
+    "scrapedAt": "2026-03-18T16:45:11.035Z",
+    "id": 10
   },
   {
     "title": "Symphony B100",
@@ -96,7 +106,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-b100",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/b100/b100-01-228x228.webp",
     "price": 1050,
-    "scrapedAt": "2026-03-18T16:42:20.779Z"
+    "scrapedAt": "2026-03-18T16:45:11.035Z",
+    "id": 11
   },
   {
     "title": "Symphony Hero 30 Mini",
@@ -105,7 +116,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-hero-30-mini",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero-30-mini/hero-30-mini-01-228x228.webp",
     "price": 1050,
-    "scrapedAt": "2026-03-18T16:42:20.780Z"
+    "scrapedAt": "2026-03-18T16:45:11.036Z",
+    "id": 12
   },
   {
     "title": "Symphony Hero20",
@@ -114,7 +126,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-hero20",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero20/hero20-01-228x228.webp",
     "price": 1170,
-    "scrapedAt": "2026-03-18T16:42:20.780Z"
+    "scrapedAt": "2026-03-18T16:45:11.036Z",
+    "id": 13
   },
   {
     "title": "Symphony BL103",
@@ -123,7 +136,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-bl103",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/bl103/bl103-001-228x228.webp",
     "price": 1170,
-    "scrapedAt": "2026-03-18T16:42:20.780Z"
+    "scrapedAt": "2026-03-18T16:45:11.036Z",
+    "id": 14
   },
   {
     "title": "Symphony D44",
@@ -132,7 +146,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-d44",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d44/d44-04-228x228.webp",
     "price": 1240,
-    "scrapedAt": "2026-03-18T16:42:20.780Z"
+    "scrapedAt": "2026-03-18T16:45:11.037Z",
+    "id": 15
   },
   {
     "title": "Symphony BL132",
@@ -141,7 +156,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-bl132",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/bl132/bl132-deep-ash-228x228.webp",
     "price": 1240,
-    "scrapedAt": "2026-03-18T16:42:20.781Z"
+    "scrapedAt": "2026-03-18T16:45:11.037Z",
+    "id": 16
   },
   {
     "title": "Symphony D89",
@@ -150,7 +166,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-d89",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d89/d89-blue-228x228.webp",
     "price": 1290,
-    "scrapedAt": "2026-03-18T16:42:20.781Z"
+    "scrapedAt": "2026-03-18T16:45:11.037Z",
+    "id": 17
   },
   {
     "title": "Symphony L48",
@@ -159,7 +176,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-l48",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l48/l48-02-228x228.webp",
     "price": 1320,
-    "scrapedAt": "2026-03-18T16:42:20.781Z"
+    "scrapedAt": "2026-03-18T16:45:11.038Z",
+    "id": 18
   },
   {
     "title": "Symphony D43",
@@ -168,7 +186,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-d43",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d43/d43-01-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:20.781Z"
+    "scrapedAt": "2026-03-18T16:45:11.038Z",
+    "id": 19
   },
   {
     "title": "Symphony D90",
@@ -177,7 +196,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-d90",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d90/d90-01-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:20.782Z"
+    "scrapedAt": "2026-03-18T16:45:11.038Z",
+    "id": 20
   },
   {
     "title": "Symphony Hero 30",
@@ -186,7 +206,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-hero-30",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/hero-30/hero-30-01-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:20.782Z"
+    "scrapedAt": "2026-03-18T16:45:11.038Z",
+    "id": 21
   },
   {
     "title": "Symphony D54 Pro",
@@ -195,7 +216,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-d54-pro",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/d54-pro/d54-pro-02-228x228.webp",
     "price": 1499,
-    "scrapedAt": "2026-03-18T16:42:20.782Z"
+    "scrapedAt": "2026-03-18T16:45:11.039Z",
+    "id": 22
   },
   {
     "title": "Symphony L256",
@@ -204,7 +226,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-l256",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l256/l256-01-228x228.webp",
     "price": 1520,
-    "scrapedAt": "2026-03-18T16:42:20.783Z"
+    "scrapedAt": "2026-03-18T16:45:11.039Z",
+    "id": 23
   },
   {
     "title": "Symphony T94",
@@ -213,7 +236,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-t94",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/t94/t94-03-228x228.webp",
     "price": 1550,
-    "scrapedAt": "2026-03-18T16:42:20.783Z"
+    "scrapedAt": "2026-03-18T16:45:11.039Z",
+    "id": 24
   },
   {
     "title": "Symphony L152",
@@ -222,7 +246,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-l152",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l152/l152-01-228x228.webp",
     "price": 1550,
-    "scrapedAt": "2026-03-18T16:42:20.783Z"
+    "scrapedAt": "2026-03-18T16:45:11.039Z",
+    "id": 25
   },
   {
     "title": "TCL Onetouch 4021",
@@ -231,7 +256,8 @@
     "dealUrl": "https://www.startech.com.bd/tcl-onetouch-4021",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/tcl/onetouch-4021/onetouch-4021-sage-green-228x228.webp",
     "price": 1600,
-    "scrapedAt": "2026-03-18T16:42:20.783Z"
+    "scrapedAt": "2026-03-18T16:45:11.040Z",
+    "id": 26
   },
   {
     "title": "Symphony L290",
@@ -240,7 +266,8 @@
     "dealUrl": "https://www.startech.com.bd/symphony-l290",
     "image": "https://www.startech.com.bd/image/cache/catalog/mobile/symphony/l290/l290-space-black-228x228.webp",
     "price": 1599,
-    "scrapedAt": "2026-03-18T16:42:20.784Z"
+    "scrapedAt": "2026-03-18T16:45:11.040Z",
+    "id": 27
   },
   {
     "title": "COLMI P81 Smart Watch",
@@ -249,7 +276,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-p81-bluetooth-calling-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p81/p81-01-228x228.webp",
     "price": 1440,
-    "scrapedAt": "2026-03-18T16:42:22.741Z"
+    "scrapedAt": "2026-03-18T16:45:12.993Z",
+    "id": 28
   },
   {
     "title": "COLMI P71 Smart Watch",
@@ -258,7 +286,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-p71-bluetooth-calling-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p71/p71-01-228x228.webp",
     "price": 1480,
-    "scrapedAt": "2026-03-18T16:42:22.741Z"
+    "scrapedAt": "2026-03-18T16:45:12.993Z",
+    "id": 29
   },
   {
     "title": "COLMI P76 Smart Watch",
@@ -267,7 +296,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-p76-bluetooth-calling-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p76/p76-02-228x228.webp",
     "price": 1790,
-    "scrapedAt": "2026-03-18T16:42:22.741Z"
+    "scrapedAt": "2026-03-18T16:45:12.993Z",
+    "id": 30
   },
   {
     "title": "COLMI P73 Smart Watch",
@@ -276,7 +306,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-p73-bluetooth-calling-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p73/p73-01-228x228.webp",
     "price": 1730,
-    "scrapedAt": "2026-03-18T16:42:22.741Z"
+    "scrapedAt": "2026-03-18T16:45:12.994Z",
+    "id": 31
   },
   {
     "title": "Imilab IMIKI Frame 2 Lite Smart Watch",
@@ -285,7 +316,8 @@
     "dealUrl": "https://www.startech.com.bd/imilab-imiki-frame-2-lite-smartwatch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/imilab/frame-2-lite/frame-2-lite-black-02-228x228.webp",
     "price": 1860,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.994Z",
+    "id": 32
   },
   {
     "title": "Oraimo Watch 5 Lite Smart Watch",
@@ -294,7 +326,8 @@
     "dealUrl": "https://www.startech.com.bd/oraimo-watch-5-lite-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/oraimo/watch-5-lite/watch-5-lite-osw-804-black-228x228.webp",
     "price": 1730,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.994Z",
+    "id": 33
   },
   {
     "title": "CHARG Fusion",
@@ -303,7 +336,8 @@
     "dealUrl": "https://www.startech.com.bd/charg-fusion",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/charg/fusion/fusion-228x228.webp",
     "price": 2990,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.994Z",
+    "id": 34
   },
   {
     "title": "CHARG Digiwatch",
@@ -312,7 +346,8 @@
     "dealUrl": "https://www.startech.com.bd/charg-digiwatch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/charg/digiwatch/digiwatch-228x228.webp",
     "price": 1790,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.994Z",
+    "id": 35
   },
   {
     "title": "Oraimo Watch 5 Max",
@@ -321,7 +356,8 @@
     "dealUrl": "https://www.startech.com.bd/oraimo-watch-5-max-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/oraimo/watch-5-max/watch-5-max-01-228x228.webp",
     "price": 1730,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 36
   },
   {
     "title": "Riversong Motive 6 Pro Smart Watch",
@@ -330,7 +366,8 @@
     "dealUrl": "https://www.startech.com.bd/riversong-motive-6-pro-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smartwatch/riversong/motive-6-pro/motive-6-pro1-228x228.webp",
     "price": 1850,
-    "scrapedAt": "2026-03-18T16:42:22.742Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 37
   },
   {
     "title": "Awei H21 Smart Watch",
@@ -339,7 +376,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-h21-smartwatch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/awei/h21/h21-02-228x228.webp",
     "price": 1900,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 38
   },
   {
     "title": "Havit M9035 Smart Watch",
@@ -348,7 +386,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-m9035-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/havit/m9035/m9035-black-01-228x228.webp",
     "price": 1990,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 39
   },
   {
     "title": "Haylou Watch S6 Smart Watch",
@@ -357,7 +396,8 @@
     "dealUrl": "https://www.startech.com.bd/haylou-watch-s6-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/haylou/watch-s6/watch-s6-01-228x228.webp",
     "price": 1990,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 40
   },
   {
     "title": "COLMI V73 Smart Watch",
@@ -366,7 +406,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-v73-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/v73/v73-black-01-228x228.webp",
     "price": 2350,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.995Z",
+    "id": 41
   },
   {
     "title": "Riversong Motive 3 SW30 Smart Watch",
@@ -375,7 +416,8 @@
     "dealUrl": "https://www.startech.com.bd/riversong-sw30-motive-3-waterproof-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smartwatch/riversong/sw30-motive-3/motive-3-228x228.webp",
     "price": 2090,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.996Z",
+    "id": 42
   },
   {
     "title": "Awei H25 Smart Watch",
@@ -384,7 +426,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-h25-smartwatch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/awei/h25/h25-04-228x228.webp",
     "price": 2140,
-    "scrapedAt": "2026-03-18T16:42:22.743Z"
+    "scrapedAt": "2026-03-18T16:45:12.996Z",
+    "id": 43
   },
   {
     "title": "Haylou Solar Lite Smart Watch (Without Calling)",
@@ -393,7 +436,8 @@
     "dealUrl": "https://www.startech.com.bd/xiaomi-haylou-solar-lite-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/solar-lite/solar-lite-blue-01-228x228.webp",
     "price": 2099,
-    "scrapedAt": "2026-03-18T16:42:22.744Z"
+    "scrapedAt": "2026-03-18T16:45:12.996Z",
+    "id": 44
   },
   {
     "title": "COLMI P28 Plus Smart Watch",
@@ -402,7 +446,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-p28-plus-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/p28-plus/p28-plus-01-228x228.webp",
     "price": 2240,
-    "scrapedAt": "2026-03-18T16:42:22.744Z"
+    "scrapedAt": "2026-03-18T16:45:12.997Z",
+    "id": 45
   },
   {
     "title": "Xtra Active S6 Pro Smart Watch",
@@ -411,7 +456,8 @@
     "dealUrl": "https://www.startech.com.bd/xtra-active-s6-pro-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/xtra/active-s6-pro/active-s6-pro-01-228x228.webp",
     "price": 2200,
-    "scrapedAt": "2026-03-18T16:42:22.744Z"
+    "scrapedAt": "2026-03-18T16:45:12.997Z",
+    "id": 46
   },
   {
     "title": "COLMI C61 Smart Watch",
@@ -420,7 +466,8 @@
     "dealUrl": "https://www.startech.com.bd/colmi-c61-smart-watch",
     "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/colmi/c61/c61-black-01-228x228.webp",
     "price": 2250,
-    "scrapedAt": "2026-03-18T16:42:22.744Z"
+    "scrapedAt": "2026-03-18T16:45:12.997Z",
+    "id": 47
   },
   {
     "title": "Jiayou Bass 5 Wired 3.5mm Earphone",
@@ -429,7 +476,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-bass-5-wired-35mm-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/bass-5/bass-5-01-228x228.webp",
     "price": 90,
-    "scrapedAt": "2026-03-18T16:42:21.756Z"
+    "scrapedAt": "2026-03-18T16:45:12.099Z",
+    "id": 48
   },
   {
     "title": "Yison Celebrat G35 3.5mm Wired Earphone",
@@ -438,7 +486,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-g35-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g35/celebrat-g35-01-228x228.webp",
     "price": 130,
-    "scrapedAt": "2026-03-18T16:42:21.757Z"
+    "scrapedAt": "2026-03-18T16:45:12.099Z",
+    "id": 49
   },
   {
     "title": "Yison Celebrat G3 3.5mm Wired Earphone",
@@ -447,7 +496,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-g3-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g3/celebrat-g3-02-228x228.jpg",
     "price": 140,
-    "scrapedAt": "2026-03-18T16:42:21.757Z"
+    "scrapedAt": "2026-03-18T16:45:12.100Z",
+    "id": 50
   },
   {
     "title": "Jiayou Bass 6 Wired 3.5mm Earphone",
@@ -456,7 +506,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-bass-6-wired-35mm-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/bass-6/bass-6-01-228x228.webp",
     "price": 90,
-    "scrapedAt": "2026-03-18T16:42:21.757Z"
+    "scrapedAt": "2026-03-18T16:45:12.100Z",
+    "id": 51
   },
   {
     "title": "CHARG DME62 3.5MM Wired Earphone",
@@ -465,7 +516,8 @@
     "dealUrl": "https://www.startech.com.bd/charg-dme62-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/charg/dme62/dme62-01-228x228.webp",
     "price": 160,
-    "scrapedAt": "2026-03-18T16:42:21.757Z"
+    "scrapedAt": "2026-03-18T16:45:12.101Z",
+    "id": 52
   },
   {
     "title": "Yison Celebrat G13 3.5mm Wired Earphone",
@@ -474,7 +526,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-g13-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-g13/celebrat-g13-02-228x228.jpg",
     "price": 170,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.101Z",
+    "id": 53
   },
   {
     "title": "Oraimo OEP-320S In-Ear Wired Earphone",
@@ -483,7 +536,8 @@
     "dealUrl": "https://www.startech.com.bd/oraimo-oep-320s-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/oraimo/oep-320s/oep-320s-001-228x228.webp",
     "price": 175,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.101Z",
+    "id": 54
   },
   {
     "title": "Yison Celebrat FLY-1 In-Ear Wired Earphone",
@@ -492,7 +546,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-fly-1-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-fly-1/celebrat-fly-1-01-228x228.jpg",
     "price": 190,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.102Z",
+    "id": 55
   },
   {
     "title": "FONENG EP200 3.5mm In-Ear Wired Earphone",
@@ -501,7 +556,8 @@
     "dealUrl": "https://www.startech.com.bd/foneng-ep200-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/ep200/ep200-01-228x228.webp",
     "price": 190,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.102Z",
+    "id": 56
   },
   {
     "title": "Jiayou VIBE 7 Type-C Wired Earphone",
@@ -510,7 +566,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-vibe-7-type-c-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/vibe-7/vibe-7-01-228x228.webp",
     "price": 210,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.102Z",
+    "id": 57
   },
   {
     "title": "Yison Celebrat D2 3.5mm Wired Premium Earphone",
@@ -519,7 +576,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-d2-premium-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/celebrat-d2/celebrat-d2-02-228x228.webp",
     "price": 195,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.102Z",
+    "id": 58
   },
   {
     "title": "Jiayou VIBE 8 Type-C Wired Earphone",
@@ -528,7 +586,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-vibe-8-type-c-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jiayou/vibe-8/vibe-8-01-228x228.webp",
     "price": 220,
-    "scrapedAt": "2026-03-18T16:42:21.758Z"
+    "scrapedAt": "2026-03-18T16:45:12.103Z",
+    "id": 59
   },
   {
     "title": "Oraimo Halo Lite In-Ear Wired Earphone",
@@ -537,7 +596,8 @@
     "dealUrl": "https://www.startech.com.bd/oraimo-halo-lite-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/oraimo/half/half-01-228x228.webp",
     "price": 215,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.103Z",
+    "id": 60
   },
   {
     "title": "Hoco M97 Enjoy 3.5mm Wired Earphone",
@@ -546,7 +606,8 @@
     "dealUrl": "https://www.startech.com.bd/hoco-m97-enjoy-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/hoco/m97-enjoy/m97-enjoy-01-228x228.webp",
     "price": 230,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.103Z",
+    "id": 61
   },
   {
     "title": "Riversong SEED+ EA64 Wired Earphone",
@@ -555,7 +616,8 @@
     "dealUrl": "https://www.startech.com.bd/riversong-seed-plus-ea64-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/riversong/ea64/ea64-228x228.webp",
     "price": 180,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.103Z",
+    "id": 62
   },
   {
     "title": "Yison Celebrat G9 Wired 3.5mm Earphone",
@@ -564,7 +626,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-g9-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/yison-g9/yison-g9-wired-228x228.webp",
     "price": 240,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.104Z",
+    "id": 63
   },
   {
     "title": "Yison CX620 In-Ear Wired Earphone",
@@ -573,7 +636,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-cx620-in-ear-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/yison/cx620/cx620-white-228x228.webp",
     "price": 240,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.104Z",
+    "id": 64
   },
   {
     "title": "FONENG T52 3.5mm In-Ear Wired Earphone",
@@ -582,7 +646,8 @@
     "dealUrl": "https://www.startech.com.bd/foneng-t52-wired-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/t52/t52-01-228x228.webp",
     "price": 190,
-    "scrapedAt": "2026-03-18T16:42:21.759Z"
+    "scrapedAt": "2026-03-18T16:45:12.104Z",
+    "id": 65
   },
   {
     "title": "Recci REP-L15 3.5mm Wired Earphone",
@@ -591,7 +656,8 @@
     "dealUrl": "https://www.startech.com.bd/recci-rep-l15-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/recci/rep-l15/rep-l15-01-228x228.webp",
     "price": 250,
-    "scrapedAt": "2026-03-18T16:42:21.760Z"
+    "scrapedAt": "2026-03-18T16:45:12.105Z",
+    "id": 66
   },
   {
     "title": "FONENG T15 Half-In-Ear 3.5mm Heavy Bass Earphone",
@@ -600,142 +666,388 @@
     "dealUrl": "https://www.startech.com.bd/foneng-t15-earphone",
     "image": "https://www.startech.com.bd/image/cache/catalog/earphone/foneng/t15/t15-01-228x228.webp",
     "price": 250,
-    "scrapedAt": "2026-03-18T16:42:21.760Z"
+    "scrapedAt": "2026-03-18T16:45:12.105Z",
+    "id": 67
+  },
+  {
+    "title": "Jiayou Sonic 5 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-sonic-5-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/jiayou/sonic-5/sonic-5-black-01-228x228.webp",
+    "price": 920,
+    "scrapedAt": "2026-03-18T16:45:14.314Z",
+    "id": 68
+  },
+  {
+    "title": "Jiayou Sonic 6 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-sonic-6-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/jiayou/sonic-6/sonic-6-black-001-228x228.webp",
+    "price": 1380,
+    "scrapedAt": "2026-03-18T16:45:14.314Z",
+    "id": 69
+  },
+  {
+    "title": "Jiayou Sonic 7 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-sonic-7-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/jiayou/sonic-7/sonic-7-black-01-228x228.webp",
+    "price": 2650,
+    "scrapedAt": "2026-03-18T16:45:14.314Z",
+    "id": 70
+  },
+  {
+    "title": "Jiayou Sonic 8 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-sonic-8-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/jiayou/sonic-8/sonic-8-black-01-228x228.webp",
+    "price": 2520,
+    "scrapedAt": "2026-03-18T16:45:14.314Z",
+    "id": 71
+  },
+  {
+    "title": "Jiayou BOOMBOX B20 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/jiayou-boombox-b20-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/jiayou/boombox-b20/boombox-b20-black-01-228x228.webp",
+    "price": 4180,
+    "scrapedAt": "2026-03-18T16:45:14.315Z",
+    "id": 72
+  },
+  {
+    "title": "Awei Y385 Mini Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/awei-y385-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/awei/y385/y385-01-228x228.webp",
+    "price": 790,
+    "scrapedAt": "2026-03-18T16:45:14.315Z",
+    "id": 73
+  },
+  {
+    "title": "Fantech NeraBox BS154 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/fantech-nerabox-bs154-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/fantech/nerabox-bs154/nerabox-bs154-02-228x228.webp",
+    "price": 1000,
+    "scrapedAt": "2026-03-18T16:45:14.315Z",
+    "id": 74
+  },
+  {
+    "title": "Hoco BS60 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-bs60-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/hoco/bs60/bs60-01-228x228.webp",
+    "price": 1020,
+    "scrapedAt": "2026-03-18T16:45:14.315Z",
+    "id": 75
+  },
+  {
+    "title": "Yison Celebrat SP-3 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-sp-3-portable-blutooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/yison/sp-3/yison-celebrat-sp-3-portable-blutooth-speaker-green-228x228.jpg",
+    "price": 900,
+    "scrapedAt": "2026-03-18T16:45:14.316Z",
+    "id": 76
+  },
+  {
+    "title": "Yison Celebrat SP-8 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-sp-8-portable-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/yison/celebrat-sp-8/celebrat-sp-8-01-228x228.webp",
+    "price": 1090,
+    "scrapedAt": "2026-03-18T16:45:14.316Z",
+    "id": 77
+  },
+  {
+    "title": "Hoco HC22 Stereo Bluetooth Wireless Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-hc22-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/hoco/hc22/hcc22-black-228x228.webp",
+    "price": 1060,
+    "scrapedAt": "2026-03-18T16:45:14.316Z",
+    "id": 78
+  },
+  {
+    "title": "Hoco HC1 True Wireless Waterproof Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-hc1-true-wireless-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/hoco/hc1/hc1-black-228x228.webp",
+    "price": 1080,
+    "scrapedAt": "2026-03-18T16:45:14.316Z",
+    "id": 79
+  },
+  {
+    "title": "Yison Celebrat SKY-3 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-sky-3-portable-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/yison/celebrat-sky-3/celebrat-sky-3-01-228x228.webp",
+    "price": 1190,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 80
+  },
+  {
+    "title": "Havit SK838BT Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/havit-sk838bt-portable-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/havit/sk838bt/sk838bt-01-228x228.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 81
+  },
+  {
+    "title": "Weofly Stone Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/weofly-stone-portable-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/weofly/weofly-stone/stone-005-228x228.webp",
+    "price": 3055,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 82
+  },
+  {
+    "title": "Hoco HC16 True Wireless Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-hc16-true-wireless-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/hoco/hc16/hc16-01-228x228.webp",
+    "price": 1240,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 83
+  },
+  {
+    "title": "Xtrike Me SK-301 RGB Gaming Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xtrike-me-sk-301-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/xtrike-me/sk-301/sk-301-black-03-228x228.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 84
+  },
+  {
+    "title": "Xtrike Me SK-302 RGB Gaming Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xtrike-me-sk-302-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/xtrike-me/sk-302/sk-302-01-228x228.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 85
+  },
+  {
+    "title": "Yison Celebrat SP-19 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-sp-19-bluetooth-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/yison/celebrat-sp-19/celebrat-sp-19-01-228x228.webp",
+    "price": 1390,
+    "scrapedAt": "2026-03-18T16:45:14.317Z",
+    "id": 86
+  },
+  {
+    "title": "Fantech NeraBox BS152 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/fantech-nerabox-bs152-speaker",
+    "image": "https://www.startech.com.bd/image/cache/catalog/speaker/fantech/nerabox-bs152/nerabox-bs152-01-228x228.webp",
+    "price": 1275,
+    "scrapedAt": "2026-03-18T16:45:14.318Z",
+    "id": 87
+  },
+  {
+    "title": "Logitech H110",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Logitech/Logitech-H110-350x300h.jpg.webp",
+    "price": 949,
+    "scrapedAt": "2026-03-18T16:45:25.957Z",
+    "id": 88
+  },
+  {
+    "title": "Toa PC-648R PA Ceiling Speaker",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2025/Speaker/Toa-PC-350x300w.jpg.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:25.958Z",
+    "id": 89
+  },
+  {
+    "title": "Logitech H150 Stereo Headphones",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Logitech/Logitech-H150-Stereo-Headphones-350x300h.jpg.webp",
+    "price": 1699,
+    "scrapedAt": "2026-03-18T16:45:25.958Z",
+    "id": 90
+  },
+  {
+    "title": "Logitech H151",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2024/03/h151-001-500x500-1-350x300w.jpg.webp",
+    "price": 1699,
+    "scrapedAt": "2026-03-18T16:45:25.959Z",
+    "id": 91
   },
   {
     "title": "Xtreme JOY",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-joy-2-1-bluetooth-speaker-350x300h.jpg.webp",
     "price": 2599,
-    "scrapedAt": "2026-03-18T16:42:34.468Z"
+    "scrapedAt": "2026-03-18T16:45:25.959Z",
+    "id": 92
   },
   {
     "title": "Xtreme HERO",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-hero-multimedia-speaker-350x300h.jpg.webp",
     "price": 2699,
-    "scrapedAt": "2026-03-18T16:42:34.469Z"
+    "scrapedAt": "2026-03-18T16:45:25.960Z",
+    "id": 93
+  },
+  {
+    "title": "Jabra Evolve 10 Wired Microphone Headset",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Jabra/Jabra-Evolve-10-Wired-Microphone-Headset-350x300h.jpg.webp",
+    "price": 3199,
+    "scrapedAt": "2026-03-18T16:45:25.960Z",
+    "id": 94
   },
   {
     "title": "Xtreme RIO",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-rio-multimedia-speaker-350x300h.jpg.webp",
     "price": 3499,
-    "scrapedAt": "2026-03-18T16:42:34.470Z"
-  },
-  {
-    "title": "Xtreme Win 2:1 Multimedia Speaker",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Xtreme/Xtreme-Win-2_1-Multimedia-Speaker-350x300h.jpg.webp",
-    "price": 3499,
-    "scrapedAt": "2026-03-18T16:42:34.471Z"
+    "scrapedAt": "2026-03-18T16:45:25.990Z",
+    "id": 95
   },
   {
     "title": "Xtreme JUPITER",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-jupiter-multimedia-speaker-350x300h.jpg.webp",
     "price": 3999,
-    "scrapedAt": "2026-03-18T16:42:34.471Z"
+    "scrapedAt": "2026-03-18T16:45:25.990Z",
+    "id": 96
+  },
+  {
+    "title": "Logitech H390",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Logitech/logitech-h390-usb-headphones-350x300h.jpg.webp",
+    "price": 4299,
+    "scrapedAt": "2026-03-18T16:45:25.990Z",
+    "id": 97
+  },
+  {
+    "title": "X-Mini Kai X3 Portable Bluetooth Speaker",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/10/X-Mini-Kai-X3-Portable-Bluetooth-Speaker-350x300w.jpg.webp",
+    "price": 4600,
+    "scrapedAt": "2026-03-18T16:45:25.991Z",
+    "id": 98
   },
   {
     "title": "Xtreme WILLOW",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-willow-multimedia-speaker-350x300h.jpg.webp",
     "price": 4949,
-    "scrapedAt": "2026-03-18T16:42:34.472Z"
+    "scrapedAt": "2026-03-18T16:45:25.991Z",
+    "id": 99
   },
   {
     "title": "Xtreme Race 2:1 Multimedia Soundbar 60W Small",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-race-21-multimedia-soundbar-60w-small-350x300h.jpg.webp",
     "price": 5199,
-    "scrapedAt": "2026-03-18T16:42:34.473Z"
+    "scrapedAt": "2026-03-18T16:45:25.992Z",
+    "id": 100
   },
   {
     "title": "Microlab TMN 1 2:1 Multimedia Speaker",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/microlab-tmn1-2-1-subwoofer-system-tmn-series-speaker-350x300w.jpg.webp",
     "price": 5299,
-    "scrapedAt": "2026-03-18T16:42:34.473Z"
+    "scrapedAt": "2026-03-18T16:45:25.992Z",
+    "id": 101
   },
   {
     "title": "Xtreme TMS 75W Multimedia BT Speaker",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
     "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Xtreme/Xtreme-TMS-75W-Multimedia-BT-Speaker-(1)-350x300h.jpg.webp",
     "price": 5299,
-    "scrapedAt": "2026-03-18T16:42:34.474Z"
+    "scrapedAt": "2026-03-18T16:45:25.992Z",
+    "id": 102
   },
   {
-    "title": "Edifier M206BT",
+    "title": "Edifier M201BT  Computer Speaker System",
     "category": "Audio",
     "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2024/01/9a056cda0662711d36a19188bd45f68a-350x300w.png.webp",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Edifier/Edifier-M201BT-350x300h.jpg.webp",
+    "price": 5449,
+    "scrapedAt": "2026-03-18T16:45:25.993Z",
+    "id": 103
+  },
+  {
+    "title": "SONY ICF-19 FM/AM Portable Radio",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Sony/sony-icf-19-fmam-portable-radio-350x300w.jpg.webp",
+    "price": 5899,
+    "scrapedAt": "2026-03-18T16:45:25.993Z",
+    "id": 104
+  },
+  {
+    "title": "Come Away With Me by Norah Jones",
+    "category": "Audio",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/Norah-Jones-Come-Away-With-Me-Vinyl-LP-Record-350x300w.jpg.webp",
     "price": 5999,
-    "scrapedAt": "2026-03-18T16:42:34.475Z"
-  },
-  {
-    "title": "JBL Stage1 621 Speaker",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/JBL/JBL-Stage1-621-Speaker-350x300h.jpg.webp",
-    "price": 5999,
-    "scrapedAt": "2026-03-18T16:42:34.475Z"
-  },
-  {
-    "title": "Microlab M300 BT",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2024/02/Microlab-M300BT-350x300w.jpg.webp",
-    "price": 6349,
-    "scrapedAt": "2026-03-18T16:42:34.476Z"
-  },
-  {
-    "title": "Xtreme Glory",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/products_2024/xtreme-glory-21-multimedia-soundbar-60w-large-350x300h.jpg.webp",
-    "price": 6349,
-    "scrapedAt": "2026-03-18T16:42:34.477Z"
-  },
-  {
-    "title": "Edifier M203BT Multimedia Speaker",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Edifier/Edifier-M203BT-350x300h.jpg.webp",
-    "price": 6499,
-    "scrapedAt": "2026-03-18T16:42:34.477Z"
-  },
-  {
-    "title": "Edifier MP260",
-    "category": "Audio",
-    "store": "Multimedia Kingdom",
-    "dealUrl": "https://multimediakingdom.com.bd/#",
-    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2021/11/Edifier-MP260-Portable-Speake-350x300w.jpg.webp",
-    "price": 6999,
-    "scrapedAt": "2026-03-18T16:42:34.478Z"
+    "scrapedAt": "2026-03-18T16:45:25.993Z",
+    "id": 105
   },
   {
     "title": "Jiayou Thunder 5 10000mAh Power Bank",
@@ -744,7 +1056,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-thunder-5-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-5/thunder-5-228x228.webp",
     "price": 700,
-    "scrapedAt": "2026-03-18T16:42:22.237Z"
+    "scrapedAt": "2026-03-18T16:45:12.538Z",
+    "id": 106
   },
   {
     "title": "Yison Celebrat PB-11 10000mAh Portable Power Bank",
@@ -753,7 +1066,8 @@
     "dealUrl": "https://www.startech.com.bd/yison-celebrat-pb-11-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/yison/celebrat-pb-11-01-228x228.webp",
     "price": 990,
-    "scrapedAt": "2026-03-18T16:42:22.237Z"
+    "scrapedAt": "2026-03-18T16:45:12.539Z",
+    "id": 107
   },
   {
     "title": "Awei P20K 10000mah Power Bank",
@@ -762,7 +1076,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-p20k-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p20k/p20k-001-228x228.webp",
     "price": 890,
-    "scrapedAt": "2026-03-18T16:42:22.237Z"
+    "scrapedAt": "2026-03-18T16:45:12.539Z",
+    "id": 108
   },
   {
     "title": "Jiayou Thunder 7 10000mAh 22.5W Fast Charging Power Bank",
@@ -771,7 +1086,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-thunder-7-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-7/thunder-7-228x228.webp",
     "price": 1190,
-    "scrapedAt": "2026-03-18T16:42:22.237Z"
+    "scrapedAt": "2026-03-18T16:45:12.539Z",
+    "id": 109
   },
   {
     "title": "Awei P37K 10000mAh Fast Charging Power Bank",
@@ -780,7 +1096,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-p37k-10000mah-fast-charging-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p37k/p37k-01-228x228.webp",
     "price": 850,
-    "scrapedAt": "2026-03-18T16:42:22.237Z"
+    "scrapedAt": "2026-03-18T16:45:12.539Z",
+    "id": 110
   },
   {
     "title": "Jiayou Thunder 6 20000mAh Power Bank",
@@ -789,7 +1106,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-thunder-6-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-6/thunder-6-228x228.webp",
     "price": 1190,
-    "scrapedAt": "2026-03-18T16:42:22.238Z"
+    "scrapedAt": "2026-03-18T16:45:12.539Z",
+    "id": 111
   },
   {
     "title": "Jiayou Thunder 8 20000mAh 22.5W Fast Charging Power Bank",
@@ -798,7 +1116,8 @@
     "dealUrl": "https://www.startech.com.bd/jiayou-thunder-8-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/jiayou/thunder-8/thunder-8-228x228.webp",
     "price": 1600,
-    "scrapedAt": "2026-03-18T16:42:22.238Z"
+    "scrapedAt": "2026-03-18T16:45:12.540Z",
+    "id": 112
   },
   {
     "title": "Hoco J101 Astute 10000mAh 22.5W Fast Charging Power Bank",
@@ -807,7 +1126,8 @@
     "dealUrl": "https://www.startech.com.bd/hoco-j101-astute-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/hoco/j101-astute/j101-astute-black-01-228x228.webp",
     "price": 1050,
-    "scrapedAt": "2026-03-18T16:42:22.238Z"
+    "scrapedAt": "2026-03-18T16:45:12.540Z",
+    "id": 113
   },
   {
     "title": "Hoco J136A Sirui 20000mAh 22.5W Fast Charging Power Bank",
@@ -816,7 +1136,8 @@
     "dealUrl": "https://www.startech.com.bd/hoco-j136a-sirui-20000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/hoco/j136a-sirui/j136a-sirui-black-01-228x228.webp",
     "price": 1790,
-    "scrapedAt": "2026-03-18T16:42:22.238Z"
+    "scrapedAt": "2026-03-18T16:45:12.540Z",
+    "id": 114
   },
   {
     "title": "Joyroom JR-PBF12 10000mAh 12W 2.4A LED Power Bank",
@@ -825,7 +1146,8 @@
     "dealUrl": "https://www.startech.com.bd/joyroom-jr-pbf12-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-pbf12/jr-pbf12-01-228x228.webp",
     "price": 870,
-    "scrapedAt": "2026-03-18T16:42:22.239Z"
+    "scrapedAt": "2026-03-18T16:45:12.540Z",
+    "id": 115
   },
   {
     "title": "Fantech S2 10000mAh Power Bank",
@@ -834,7 +1156,8 @@
     "dealUrl": "https://www.startech.com.bd/fantech-s2-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/fantech/s2-/s2-02-228x228.webp",
     "price": 990,
-    "scrapedAt": "2026-03-18T16:42:22.239Z"
+    "scrapedAt": "2026-03-18T16:45:12.541Z",
+    "id": 116
   },
   {
     "title": "Awei P5K 10000mAh Fast Charging Power Bank",
@@ -843,7 +1166,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-p5k-10000mah-fast-charging-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p5k/p5k-01-228x228.webp",
     "price": 790,
-    "scrapedAt": "2026-03-18T16:42:22.239Z"
+    "scrapedAt": "2026-03-18T16:45:12.541Z",
+    "id": 117
   },
   {
     "title": "Joyroom JR-L004 12W 10000mah Jelly Series Type-C Power Bank",
@@ -852,7 +1176,8 @@
     "dealUrl": "https://www.startech.com.bd/joyroom-jr-l004-12w-10000mah-jelly-series-type-c-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-l002/jr-l002-01-228x228.webp",
     "price": 1250,
-    "scrapedAt": "2026-03-18T16:42:22.240Z"
+    "scrapedAt": "2026-03-18T16:45:12.541Z",
+    "id": 118
   },
   {
     "title": "Joyroom JR-L005 12W 10000mah Jelly Series Lightning Power Bank",
@@ -861,7 +1186,8 @@
     "dealUrl": "https://www.startech.com.bd/joyroom-jr-l005-12w-10000mah-jelly-series-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/joyroom/jr-l005/jr-l005-228x228.webp",
     "price": 1250,
-    "scrapedAt": "2026-03-18T16:42:22.240Z"
+    "scrapedAt": "2026-03-18T16:45:12.541Z",
+    "id": 119
   },
   {
     "title": "Foneng PX101 10000mAh 22.5W Power Bank",
@@ -870,7 +1196,8 @@
     "dealUrl": "https://www.startech.com.bd/foneng-px101-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/foneng/px101/px101-01-228x228.webp",
     "price": 1180,
-    "scrapedAt": "2026-03-18T16:42:22.240Z"
+    "scrapedAt": "2026-03-18T16:45:12.542Z",
+    "id": 120
   },
   {
     "title": "Remax RPP-296 20000mah Fast Charging Power Bank",
@@ -879,7 +1206,8 @@
     "dealUrl": "https://www.startech.com.bd/remax-rpp-296-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/remax/rpp-296/rpp-296-black-228x228.webp",
     "price": 1250,
-    "scrapedAt": "2026-03-18T16:42:22.240Z"
+    "scrapedAt": "2026-03-18T16:45:12.542Z",
+    "id": 121
   },
   {
     "title": "Awei P10K 10000mah 22.5W Fast Charging Digital Display Power Bank",
@@ -888,7 +1216,8 @@
     "dealUrl": "https://www.startech.com.bd/awei-p10k-10000mah-22-5w-fast-charging-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/awei/p10k/p10k-black-228x228.webp",
     "price": 950,
-    "scrapedAt": "2026-03-18T16:42:22.241Z"
+    "scrapedAt": "2026-03-18T16:45:12.542Z",
+    "id": 122
   },
   {
     "title": "Oraimo Toast 15 Flash OPB-1100 10000mAh 15W Type C Power Bank",
@@ -897,7 +1226,8 @@
     "dealUrl": "https://www.startech.com.bd/oraimo-toast-flash-15-opb-1100-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/oraimo/toast-15-flash/toast-15-flash-01-228x228.webp",
     "price": 1285,
-    "scrapedAt": "2026-03-18T16:42:22.241Z"
+    "scrapedAt": "2026-03-18T16:45:12.543Z",
+    "id": 123
   },
   {
     "title": "Remax RPP-26 Lango 2 Series 20000mah Fast Charging Power Bank",
@@ -906,7 +1236,8 @@
     "dealUrl": "https://www.startech.com.bd/remax-rpp-26-20000mah-fast-charging-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/remax/rpp-26/rpp-26-01-228x228.webp",
     "price": 1275,
-    "scrapedAt": "2026-03-18T16:42:22.241Z"
+    "scrapedAt": "2026-03-18T16:45:12.543Z",
+    "id": 124
   },
   {
     "title": "Fantech S3 10000mAh Portable Power Bank",
@@ -915,7 +1246,188 @@
     "dealUrl": "https://www.startech.com.bd/fantech-s3-10000mah-power-bank",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-bank/fantech/s3-/s3-01-228x228.webp",
     "price": 1150,
-    "scrapedAt": "2026-03-18T16:42:22.242Z"
+    "scrapedAt": "2026-03-18T16:45:12.543Z",
+    "id": 125
+  },
+  {
+    "title": "A Data A10050 Silver Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_A-Data-A10050-Silver-Power-Bank-__1652347603-228x228.jpeg.webp",
+    "price": 1230,
+    "scrapedAt": "2026-03-18T16:45:28.742Z",
+    "id": 126
+  },
+  {
+    "title": "Havit PB90 10000mAh Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/power-bank/havit/pb90-10000mah/havit-pb90-10000mah-power-bank-228x228.jpg.webp",
+    "price": 1280,
+    "scrapedAt": "2026-03-18T16:45:28.743Z",
+    "id": 127
+  },
+  {
+    "title": "Havit PB31 10000mAh Black+Gray 22.5W Power Bank with LED Indicator",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/havit-pb31-10000mah-blackgray-225w-power-bank-11756731588-228x228.jpg.webp",
+    "price": 1300,
+    "scrapedAt": "2026-03-18T16:45:28.743Z",
+    "id": 128
+  },
+  {
+    "title": "Havit PB32 10000mAh Black+Gray 22.5W Power Bank with LED Indicator",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/havit-pb32-10000mah-blackgray-225w-power-bank-11756731644-228x228.jpg.webp",
+    "price": 1500,
+    "scrapedAt": "2026-03-18T16:45:28.744Z",
+    "id": 129
+  },
+  {
+    "title": "Havit PB92 20000mAh Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/pb90-01-500x500-228x228.jpg.webp",
+    "price": 1600,
+    "scrapedAt": "2026-03-18T16:45:28.744Z",
+    "id": 130
+  },
+  {
+    "title": "A Data D8000L Blue Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_A-Data-D8000L-Blue-Power-Bank-__1652366626-228x228.jpeg.webp",
+    "price": 1850,
+    "scrapedAt": "2026-03-18T16:45:28.745Z",
+    "id": 131
+  },
+  {
+    "title": "Havit PB35 20000mAh Power Bank with Type C Cable",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/pb35-01-500x500-228x228.jpg.webp",
+    "price": 2000,
+    "scrapedAt": "2026-03-18T16:45:28.745Z",
+    "id": 132
+  },
+  {
+    "title": "Havit PB5215 10000mah Digital Display Power Bank with USB-C & Lightning Cable",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/HAVIT/pb5215-04-500x500-228x228.png.webp",
+    "price": 2100,
+    "scrapedAt": "2026-03-18T16:45:28.746Z",
+    "id": 133
+  },
+  {
+    "title": "Havit PB5219 Power Bank with Magnetic Wireless Charger and Watch Charger",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/HAVIT/PB5219-1-1-228x228.png.webp",
+    "price": 3200,
+    "scrapedAt": "2026-03-18T16:45:28.746Z",
+    "id": 134
+  },
+  {
+    "title": "Havit PB56 40000mAh Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/pb56-03-500x500-228x228.jpg.webp",
+    "price": 3900,
+    "scrapedAt": "2026-03-18T16:45:28.746Z",
+    "id": 135
+  },
+  {
+    "title": "REMAX RPP-78 5000mAh Crave Blue Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-78-5000mAh-Crave-Blue-Power-Bank-__1652419696-228x228.jpeg.webp",
+    "price": 800,
+    "scrapedAt": "2026-03-18T16:45:28.747Z",
+    "id": 136
+  },
+  {
+    "title": "REMAX RPP-17 5000mAh Floppy Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-17-5000mAh-Floppy-Power-Bank-__1652415411-228x228.jpeg.webp",
+    "price": 810,
+    "scrapedAt": "2026-03-18T16:45:28.747Z",
+    "id": 137
+  },
+  {
+    "title": "REMAX RPP-17 5000mAh Floppy White Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-17-5000mAh-Floppy-White-Power-Bank-__1652417330-228x228.jpeg.webp",
+    "price": 810,
+    "scrapedAt": "2026-03-18T16:45:28.748Z",
+    "id": 138
+  },
+  {
+    "title": "REMAX RPP-35 Mirror Series 5500mAh Gold Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-35-Mirror-Series-5500mAh-Gold-Power-Bank-__1652419186-228x228.jpeg.webp",
+    "price": 810,
+    "scrapedAt": "2026-03-18T16:45:28.748Z",
+    "id": 139
+  },
+  {
+    "title": "REMAX RPP-35 Mirror Series 5500mAh Silver Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-35-Mirror-Series-5500mAh-Silver-Power-Bank-__1652420840-228x228.jpeg.webp",
+    "price": 920,
+    "scrapedAt": "2026-03-18T16:45:28.749Z",
+    "id": 140
+  },
+  {
+    "title": "REMAX RPP-78 5000mAh Crave Red Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-78-5000mAh-Crave-Red-Power-Bank-__1652420234-228x228.jpeg.webp",
+    "price": 920,
+    "scrapedAt": "2026-03-18T16:45:28.749Z",
+    "id": 141
+  },
+  {
+    "title": "REMAX RPP-69 Beryl Series 8000mAh Green Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-69-Beryl-Series-8000mAh-Green-Power-Bank-__1652422028-228x228.jpeg.webp",
+    "price": 1100,
+    "scrapedAt": "2026-03-18T16:45:28.749Z",
+    "id": 142
+  },
+  {
+    "title": "REMAX RPP-69 Beryl Series 8000mAh Red Power Bank",
+    "category": "Powerbank",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_REMAX-RPP-69-Beryl-Series-8000mAh-Red-Power-Bank-__1652422616-228x228.jpeg.webp",
+    "price": 1100,
+    "scrapedAt": "2026-03-18T16:45:28.750Z",
+    "id": 143
   },
   {
     "title": "Gigasonic RDA-1707W 17 Inch LED Square Monitor",
@@ -924,7 +1436,8 @@
     "dealUrl": "https://www.startech.com.bd/gigasonic-rda-1707w-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/gigasonic/rda-1705m/rda-1705m-01-228x228.webp",
     "price": 4800,
-    "scrapedAt": "2026-03-18T16:42:26.545Z"
+    "scrapedAt": "2026-03-18T16:45:17.305Z",
+    "id": 144
   },
   {
     "title": "Gigasonic RB-G19S-300C 19\" HD LED Monitor",
@@ -933,7 +1446,8 @@
     "dealUrl": "https://www.startech.com.bd/gigasonic-rb-g19s-300c-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/gigasonic/rb-g19s-300c-black/rb-g19s-300c-01-228x228.webp",
     "price": 5600,
-    "scrapedAt": "2026-03-18T16:42:26.546Z"
+    "scrapedAt": "2026-03-18T16:45:17.305Z",
+    "id": 145
   },
   {
     "title": "Gigasonic RB-G20S-400C 20 Inch HD LED Monitor",
@@ -942,7 +1456,8 @@
     "dealUrl": "https://www.startech.com.bd/gigasonic-rb-g20s-400c-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/gigasonic/rb-g19s-400c/rb-g19s-400c-228x228.webp",
     "price": 5990,
-    "scrapedAt": "2026-03-18T16:42:26.546Z"
+    "scrapedAt": "2026-03-18T16:45:17.306Z",
+    "id": 146
   },
   {
     "title": "Gigasonic RB-G215S-400C 21.5\" FHD LED Monitor",
@@ -951,7 +1466,8 @@
     "dealUrl": "https://www.startech.com.bd/gigasonic-rb-g215s-400c-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/gigasonic/gs-21-5m/gs-21-5m-228x228.webp",
     "price": 6700,
-    "scrapedAt": "2026-03-18T16:42:26.546Z"
+    "scrapedAt": "2026-03-18T16:45:17.306Z",
+    "id": 147
   },
   {
     "title": "Dahua DHI-LM19-A202Y 18.5\" HD Monitor",
@@ -960,7 +1476,8 @@
     "dealUrl": "https://www.startech.com.bd/dahua-dhi-lm19-a202y-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/dahua/dhi-lm19-a202y/dhi-lm19-a202y-01-228x228.webp",
     "price": 8600,
-    "scrapedAt": "2026-03-18T16:42:26.546Z"
+    "scrapedAt": "2026-03-18T16:45:17.306Z",
+    "id": 148
   },
   {
     "title": "Lenovo D19-10 18.5 Inch HD HDMI VGA Monitor",
@@ -969,7 +1486,8 @@
     "dealUrl": "https://www.startech.com.bd/lenovo-d19-10-wled-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-001-228x228.webp",
     "price": 9700,
-    "scrapedAt": "2026-03-18T16:42:26.547Z"
+    "scrapedAt": "2026-03-18T16:45:17.306Z",
+    "id": 149
   },
   {
     "title": "Acer K202Q BI 19.5 Inch HD+ Monitor",
@@ -978,7 +1496,8 @@
     "dealUrl": "https://www.startech.com.bd/acer-k202qbi-19-5-inch-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/k202qbi/k202qbi-01-228x228.webp",
     "price": 9500,
-    "scrapedAt": "2026-03-18T16:42:26.547Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 150
   },
   {
     "title": "PC Power PCGM-King22 21.45\" IPS FHD 100Hz Monitor",
@@ -987,7 +1506,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcgm-king22-ips-fhd-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/pc-power/pcgm-king22/pcgm-king22-01-228x228.webp",
     "price": 9900,
-    "scrapedAt": "2026-03-18T16:42:26.547Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 151
   },
   {
     "title": "Eurovision EV-GT2200-F 21.45\" 100Hz FHD IPS Monitor",
@@ -996,7 +1516,8 @@
     "dealUrl": "https://www.startech.com.bd/eurovision-ev-gt2200-f-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/eurovision/ev-gt2200-f/ev-gt2200-f-01-228x228.webp",
     "price": 9590,
-    "scrapedAt": "2026-03-18T16:42:26.547Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 152
   },
   {
     "title": "Xiaomi Redmi V22FAB-RA 21.45\" FHD Monitor",
@@ -1005,7 +1526,8 @@
     "dealUrl": "https://www.startech.com.bd/xiaomi-redmi-v22fab-ra-fhd-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/xiaomi/v22fab-ra/v22fab-ra-001-228x228.webp",
     "price": 9900,
-    "scrapedAt": "2026-03-18T16:42:26.548Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 153
   },
   {
     "title": "PC Power PCGM22 21.45\" IPS FHD 100Hz Borderless Monitor",
@@ -1014,7 +1536,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcgm22-fhd-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/pc-power/pcgm22/pcgm22-01-228x228.webp",
     "price": 10200,
-    "scrapedAt": "2026-03-18T16:42:26.548Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 154
   },
   {
     "title": "Eurovision EV-GT2200A-W 21.45\" 100Hz FHD IPS Monitor",
@@ -1023,7 +1546,8 @@
     "dealUrl": "https://www.startech.com.bd/eurovision-ev-gt2200a-w-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/eurovision/ev-gt2200a-w/ev-gt2200a-w-01-228x228.webp",
     "price": 9790,
-    "scrapedAt": "2026-03-18T16:42:26.548Z"
+    "scrapedAt": "2026-03-18T16:45:17.307Z",
+    "id": 155
   },
   {
     "title": "Hikvision DS-D5022F2-2P2/CBD 21.5\" 100Hz Full HD IPS Monitor",
@@ -1032,7 +1556,8 @@
     "dealUrl": "https://www.startech.com.bd/hikvision-ds-d5022f2-2p2-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hikvision/ds-d5022f2-2p2/ds-d5022f2-2p2-01-228x228.webp",
     "price": 9900,
-    "scrapedAt": "2026-03-18T16:42:26.548Z"
+    "scrapedAt": "2026-03-18T16:45:17.308Z",
+    "id": 156
   },
   {
     "title": "Dahua DHI-LM22-A211Y 21.45\" IPS Full HD 120Hz Monitor",
@@ -1041,7 +1566,8 @@
     "dealUrl": "https://www.startech.com.bd/dahua-dhi-lm22-a211y-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/dahua/dhi-lm22-a211y/dhi-lm22-a211y-01-228x228.webp",
     "price": 10800,
-    "scrapedAt": "2026-03-18T16:42:26.549Z"
+    "scrapedAt": "2026-03-18T16:45:17.308Z",
+    "id": 157
   },
   {
     "title": "Walton WD215I10 21.45\" 100Hz FHD IPS Monitor",
@@ -1050,7 +1576,8 @@
     "dealUrl": "https://www.startech.com.bd/walton-wd215i10-100hz-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/walton/wd215i10/wd215i10-01-228x228.webp",
     "price": 9800,
-    "scrapedAt": "2026-03-18T16:42:26.549Z"
+    "scrapedAt": "2026-03-18T16:45:17.308Z",
+    "id": 158
   },
   {
     "title": "Dahua DHI-LM22-A201YFS 21.45\" IPS Full HD 100Hz Monitor",
@@ -1059,7 +1586,8 @@
     "dealUrl": "https://www.startech.com.bd/dahua-dhi-lm22-a201yfs-fhd-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/dahua/dhi-lm22-a201yf/dhi-lm22-a201yf-01-228x228.webp",
     "price": 10000,
-    "scrapedAt": "2026-03-18T16:42:26.549Z"
+    "scrapedAt": "2026-03-18T16:45:17.308Z",
+    "id": 159
   },
   {
     "title": "Hikvision DS-D5022F2-6P2 21.5\" 100Hz FHD IPS Monitor White",
@@ -1068,7 +1596,8 @@
     "dealUrl": "https://www.startech.com.bd/hikvision-ds-d5022f2-6p2-monitor-white",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hikvision/ds-d5022f2-6p2/ds-d5022f2-6p2-white-228x228.webp",
     "price": 10900,
-    "scrapedAt": "2026-03-18T16:42:26.549Z"
+    "scrapedAt": "2026-03-18T16:45:17.308Z",
+    "id": 160
   },
   {
     "title": "TRENDSONIC TSQ22F120B 21.45\" 120Hz IPS FHD Monitor",
@@ -1077,7 +1606,8 @@
     "dealUrl": "https://www.startech.com.bd/trendsonic-tsq22f120b-120hz-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/trendsonic/tsq22f120b/tsq22f120b-01-228x228.webp",
     "price": 10950,
-    "scrapedAt": "2026-03-18T16:42:26.549Z"
+    "scrapedAt": "2026-03-18T16:45:17.309Z",
+    "id": 161
   },
   {
     "title": "TRENDSONIC TSQ22F120W 21.45\" 120Hz IPS FHD Monitor",
@@ -1086,7 +1616,8 @@
     "dealUrl": "https://www.startech.com.bd/trendsonic-tsq22f120w-120hz-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/trendsonic/tsq22f120w/tsq22f120w-01-228x228.webp",
     "price": 10950,
-    "scrapedAt": "2026-03-18T16:42:26.550Z"
+    "scrapedAt": "2026-03-18T16:45:17.309Z",
+    "id": 162
   },
   {
     "title": "Aiwa MF2219-V 21.45\" IPS FHD 100Hz Monitor",
@@ -1095,7 +1626,8 @@
     "dealUrl": "https://www.startech.com.bd/aiwa-mf2219-v-100hz-monitor",
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/aiwa/mf2219-v/mf2219-v-01-228x228.webp",
     "price": 10200,
-    "scrapedAt": "2026-03-18T16:42:26.550Z"
+    "scrapedAt": "2026-03-18T16:45:17.309Z",
+    "id": 163
   },
   {
     "title": "Esonic 19 inch HD Monitor EM19S BLACK",
@@ -1104,7 +1636,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2026/Untitled-design-3-145x145.png.webp",
     "price": 5500,
-    "scrapedAt": "2026-03-18T16:42:35.813Z"
+    "scrapedAt": "2026-03-18T16:45:28.407Z",
+    "id": 164
   },
   {
     "title": "Esonic ESLM22S 22\" FHD Micro-Border Monitor",
@@ -1113,7 +1646,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2026/410438_600X600-145x145.png.webp",
     "price": 5800,
-    "scrapedAt": "2026-03-18T16:42:35.814Z"
+    "scrapedAt": "2026-03-18T16:45:28.408Z",
+    "id": 165
   },
   {
     "title": "Lenovo ThinkVision LT1712p 17 inch LCD Height Adjustable Monitor",
@@ -1122,7 +1656,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/Website-01[1]-952x952.jpg-145x145.jpg.webp",
     "price": 7100,
-    "scrapedAt": "2026-03-18T16:42:35.815Z"
+    "scrapedAt": "2026-03-18T16:45:28.409Z",
+    "id": 166
   },
   {
     "title": "Lenovo E20-30 ThinkVision 19.5-inch WLED HD+ Monitor",
@@ -1131,7 +1666,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_Lenovo-E20-30-ThinkVision-19.5-inch-WLED-HD-Monitor-Best-Price-__1668853421-145x145.jpeg.webp",
     "price": 8600,
-    "scrapedAt": "2026-03-18T16:42:35.815Z"
+    "scrapedAt": "2026-03-18T16:45:28.410Z",
+    "id": 167
   },
   {
     "title": "Uniview MW-LD22-B 22 Inch 100Hz LED Monitor",
@@ -1140,7 +1676,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Uniview/uniview-mw-ld22-b-22led-22-inch-monitor-145x145.jpg.webp",
     "price": 9200,
-    "scrapedAt": "2026-03-18T16:42:35.816Z"
+    "scrapedAt": "2026-03-18T16:45:28.411Z",
+    "id": 168
   },
   {
     "title": "Lenovo D19 10 HDMI 18.5 Inch VGA Monitor",
@@ -1149,7 +1686,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Lenovo/lenovo-d19-10-hdmi-185-inch-monitor-145x145.jpg.webp",
     "price": 9350,
-    "scrapedAt": "2026-03-18T16:42:35.816Z"
+    "scrapedAt": "2026-03-18T16:45:28.411Z",
+    "id": 169
   },
   {
     "title": "Hikvision DS-D5022F2-CBD 21.5-inch Full HD 100Hz IPS Monitor",
@@ -1158,7 +1696,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2026/hnb-145x145.jpg.webp",
     "price": 9600,
-    "scrapedAt": "2026-03-18T16:42:35.817Z"
+    "scrapedAt": "2026-03-18T16:45:28.413Z",
+    "id": 170
   },
   {
     "title": "Value-Top X22IFR100 21.5 Inch Full HD IPS Monitor",
@@ -1167,7 +1706,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2026/value-top-monitor-x22ifr100-cover-145x145.jpg.webp",
     "price": 9600,
-    "scrapedAt": "2026-03-18T16:42:35.818Z"
+    "scrapedAt": "2026-03-18T16:45:28.413Z",
+    "id": 171
   },
   {
     "title": "Acer K202Q BI 19.5 Inch HD+ Monitor",
@@ -1176,7 +1716,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2025/k202qbi-01-500x500-145x145.jpg.webp",
     "price": 9700,
-    "scrapedAt": "2026-03-18T16:42:35.818Z"
+    "scrapedAt": "2026-03-18T16:45:28.414Z",
+    "id": 172
   },
   {
     "title": "Revenger RETINA IPS22FW 21.5-Inch 100Hz FHD IPS Monitor",
@@ -1185,7 +1726,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/products_2026/revenger-monitor-retina-ips22fw-cover-145x145.jpg.webp",
     "price": 9700,
-    "scrapedAt": "2026-03-18T16:42:35.819Z"
+    "scrapedAt": "2026-03-18T16:45:28.415Z",
+    "id": 173
   },
   {
     "title": "Uniview MW-LC22IS3 22-Inch Full HD 100Hz IPS Display Monitor",
@@ -1194,7 +1736,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Uniview/uniview-monitor-mw-lc22is3-cover-145x145.png.webp",
     "price": 9800,
-    "scrapedAt": "2026-03-18T16:42:35.820Z"
+    "scrapedAt": "2026-03-18T16:45:28.416Z",
+    "id": 174
   },
   {
     "title": "Dahua DHI-LM22-A201YFS 21.45 inch 100Hz FHD Monitor",
@@ -1203,7 +1746,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Dahua/dahua-dhi-lm22-a201yfs-21-5-inch-fhd-100hz-monitor-145x145.jpg.webp",
     "price": 10000,
-    "scrapedAt": "2026-03-18T16:42:35.821Z"
+    "scrapedAt": "2026-03-18T16:45:28.418Z",
+    "id": 175
   },
   {
     "title": "PC Power PCGM-King22 21.45 Inch IPS 100Hz FHD Monitor",
@@ -1212,7 +1756,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/PC-Power/pc-power-pcgm-king22-monitor-1000x1000-145x145.jpg.webp",
     "price": 10000,
-    "scrapedAt": "2026-03-18T16:42:35.822Z"
+    "scrapedAt": "2026-03-18T16:45:28.421Z",
+    "id": 176
   },
   {
     "title": "PC Power PCGM22 21.45 inch IPS FHD 100Hz Borderless Monitor",
@@ -1221,7 +1766,38 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/PC-Power/pc-power-pcgm22-ips-fhd-100hz-borderless-monitor-1-145x145.jpg.webp",
     "price": 10200,
-    "scrapedAt": "2026-03-18T16:42:35.823Z"
+    "scrapedAt": "2026-03-18T16:45:28.422Z",
+    "id": 177
+  },
+  {
+    "title": "Hikvision DS-D5022F2-2P2 21.45 Inch Full HD Monitor",
+    "category": "Monitor",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/Hikvision/hikvision-ds-d5022f2-2p2-full-hd-monitor-145x145.jpg.webp",
+    "price": 10400,
+    "scrapedAt": "2026-03-18T16:45:28.422Z",
+    "id": 178
+  },
+  {
+    "title": "Dahua DHI-LM22-C201PL 21.5 Inch FHD IPS 100Hz Monitor",
+    "category": "Monitor",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/Dahua/dahua-dhi-lm22-c201pl-monitor-145x145.jpg.webp",
+    "price": 10500,
+    "scrapedAt": "2026-03-18T16:45:28.423Z",
+    "id": 179
+  },
+  {
+    "title": "PC Power PCGM22U 21.5 Inch IPS FHD 100Hz Borderless Gaming Monitor",
+    "category": "Monitor",
+    "store": "Computer Village",
+    "dealUrl": "https://www.computervillage.com.bd/#",
+    "image": "https://www.computervillage.com.bd/image/cache/catalog/PC-Power/pc-power-pcgm22u-100hz-gaming-monitor-145x145.jpg.webp",
+    "price": 11000,
+    "scrapedAt": "2026-03-18T16:45:28.424Z",
+    "id": 180
   },
   {
     "title": "Fantech GO K211 Bangla Keyboard",
@@ -1230,7 +1806,8 @@
     "dealUrl": "https://www.startech.com.bd/fantech-go-k211-bangla-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/fantech/go-k211/go-k211-01-228x228.webp",
     "price": 400,
-    "scrapedAt": "2026-03-18T16:42:25.502Z"
+    "scrapedAt": "2026-03-18T16:45:16.240Z",
+    "id": 181
   },
   {
     "title": "Havit KB271 USB Exquisite Keyboard with Bangla",
@@ -1239,7 +1816,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-kb271-usb-exquisite-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb271/kb271-01-228x228.jpg",
     "price": 379,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.240Z",
+    "id": 182
   },
   {
     "title": "Havit KB376 USB Multimedia Keyboard",
@@ -1248,7 +1826,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-kb376-usb-multimedia-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb376/kb376-01-228x228.webp",
     "price": 419,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.241Z",
+    "id": 183
   },
   {
     "title": "PC Power PCGKY601 Wired Keyboard with Bangla",
@@ -1257,7 +1836,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcgky601-office-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/pcgky601/pcgky601-228x228.webp",
     "price": 449,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.241Z",
+    "id": 184
   },
   {
     "title": "PC Power 604 Wired Keyboard with Bangla",
@@ -1266,7 +1846,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-604-office-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/604/604-228x228.webp",
     "price": 449,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.242Z",
+    "id": 185
   },
   {
     "title": "T-WOLF K220 Wired Keyboard with Bangla",
@@ -1275,7 +1856,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-k220-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/t-wolf/k220/k220-228x228.webp",
     "price": 499,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.242Z",
+    "id": 186
   },
   {
     "title": "Havit KB241 USB Wired Keyboard",
@@ -1284,7 +1866,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-kb241-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb241/kb241-01-228x228.webp",
     "price": 479,
-    "scrapedAt": "2026-03-18T16:42:25.503Z"
+    "scrapedAt": "2026-03-18T16:45:16.243Z",
+    "id": 187
   },
   {
     "title": "T-WOLF TF500 Keyboard and Mouse Combo",
@@ -1293,7 +1876,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-tf500-keyboard-and-mouse-combo",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/t-wolf/tf500/tf500-01-228x228.webp",
     "price": 600,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.243Z",
+    "id": 188
   },
   {
     "title": "PC Power 602 Wired Keyboard with Bangla",
@@ -1302,7 +1886,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-602-wired-office-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/602/602-228x228.webp",
     "price": 549,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.244Z",
+    "id": 189
   },
   {
     "title": "Jedel K26 Wired Keyboard",
@@ -1311,7 +1896,8 @@
     "dealUrl": "https://www.startech.com.bd/jedel-k26-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/jedel/k26/k26-228x228.webp",
     "price": 399,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.244Z",
+    "id": 190
   },
   {
     "title": "Havit KB249 Wired Keyboard with Bangla",
@@ -1320,7 +1906,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-kb249-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb249/kb249-228x228.webp",
     "price": 600,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.245Z",
+    "id": 191
   },
   {
     "title": "T-Wolf T20 Wired RGB Gaming Keyboard",
@@ -1329,7 +1916,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-t20-wired-rgb-gaming-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/t-wolf/t20/t20-01-228x228.webp",
     "price": 549,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.245Z",
+    "id": 192
   },
   {
     "title": "PC Power 603 Wired Keyboard with Bangla",
@@ -1338,7 +1926,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-603-wired-office-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/603/603-228x228.webp",
     "price": 549,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.245Z",
+    "id": 193
   },
   {
     "title": "PC Power PCK-161 Wired Keyboard with Bangla",
@@ -1347,7 +1936,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pck-161-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/pck-161/pck-161-228x228.webp",
     "price": 650,
-    "scrapedAt": "2026-03-18T16:42:25.504Z"
+    "scrapedAt": "2026-03-18T16:45:16.246Z",
+    "id": 194
   },
   {
     "title": "PC Power PCK-126 Mini Bangla Keyboard",
@@ -1356,7 +1946,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pck-126-mini-bangla-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/pck-126/pck-126-228x228.webp",
     "price": 559,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.246Z",
+    "id": 195
   },
   {
     "title": "T-WOLF T15 104 Keys USB Wired Keyboard",
@@ -1365,7 +1956,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-t15-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/t-wolf/t15/t15-01-228x228.webp",
     "price": 549,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.246Z",
+    "id": 196
   },
   {
     "title": "Redragon BK-7543 Keyboard with Bangla",
@@ -1374,7 +1966,8 @@
     "dealUrl": "https://www.startech.com.bd/redragon-bk-7543-keyboard-with-bangla",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/redragon/bk-7543/bk-7543-02-228x228.webp",
     "price": 670,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.246Z",
+    "id": 197
   },
   {
     "title": "HAVIT KB253 USB Wired Keyboard",
@@ -1383,7 +1976,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-kb253-usb-wired-keyboard",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb253/kb253-02-228x228.webp",
     "price": 649,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.246Z",
+    "id": 198
   },
   {
     "title": "Redragon BK-8345 Keyboard with Bangla",
@@ -1392,7 +1986,8 @@
     "dealUrl": "https://www.startech.com.bd/redragon-bk-8345-keyboard-with-bangla",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/redragon/bk-8345/bk-8345-01-228x228.webp",
     "price": 750,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.247Z",
+    "id": 199
   },
   {
     "title": "Xtrike Me MK-207 Wired Keyboard & Mouse Combo",
@@ -1401,7 +1996,8 @@
     "dealUrl": "https://www.startech.com.bd/xtrike-me-mk-207-keyboard-mouse-combo",
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/xtrike-me/mk-207/mk-207-01-228x228.webp",
     "price": 800,
-    "scrapedAt": "2026-03-18T16:42:25.505Z"
+    "scrapedAt": "2026-03-18T16:45:16.247Z",
+    "id": 200
   },
   {
     "title": "ASUS VivoBook 15 X515EA Core I3 11th Gen 4GB Ram 15.6 Inch FHD Laptop",
@@ -1410,7 +2006,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_asus-vivobook-15-x515ea-price-in-bangladesh-__1680542485-228x228.jpeg.webp",
     "price": 56800,
-    "scrapedAt": "2026-03-18T16:42:35.400Z"
+    "scrapedAt": "2026-03-18T16:45:27.722Z",
+    "id": 201
   },
   {
     "title": "Lenovo IdeaPad Slim 3i Core i3 11th Gen 14 Inch FHD Laptop",
@@ -1419,7 +2016,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Lenovo/lenovo-ideapad-slim-3i-core-i3-11th-gen-laptop-228x228.jpg.webp",
     "price": 57500,
-    "scrapedAt": "2026-03-18T16:42:35.400Z"
+    "scrapedAt": "2026-03-18T16:45:27.723Z",
+    "id": 202
   },
   {
     "title": "ASUS VivoBook 15 X515EA Core i3 11th Gen 8GB Ram 15.6 Inch Full HD Laptop",
@@ -1428,7 +2026,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Asus/asus-vivobook-15-x515ea-i3-4gb-laptop-228x228.jpg.webp",
     "price": 59500,
-    "scrapedAt": "2026-03-18T16:42:35.401Z"
+    "scrapedAt": "2026-03-18T16:45:27.723Z",
+    "id": 203
   },
   {
     "title": "ASUS Vivobook 15 X1504VA-NJ260W Core i3 13th Gen 15.6 Inch FHD Laptop",
@@ -1437,7 +2036,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Asus/asus-vivobook-15-x1504va-nj260w-core-i3-13th-gen-fhd-laptop-228x228.jpg.webp",
     "price": 59510,
-    "scrapedAt": "2026-03-18T16:42:35.402Z"
+    "scrapedAt": "2026-03-18T16:45:27.724Z",
+    "id": 204
   },
   {
     "title": "Lenovo IdeaPad 3 11th Gen Core i3 4GB RAM 512GB SSD 15.6 Inch Laptop",
@@ -1446,7 +2046,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Lenovo/lenovo-ideapad-3-11th-gen-core-i3-4gb-ram-laptop11-228x228.jpg.webp",
     "price": 61000,
-    "scrapedAt": "2026-03-18T16:42:35.402Z"
+    "scrapedAt": "2026-03-18T16:45:27.724Z",
+    "id": 205
   },
   {
     "title": "ASUS VivoBook 15 X515EA (Upgraded)-BQ2313WN 11TH Gen Core i5 Laptop",
@@ -1455,7 +2056,8 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Asus/ASUS-Vivobbok-15-M515DA-600x600-228x228.jpg.webp",
     "price": 71000,
-    "scrapedAt": "2026-03-18T16:42:35.403Z"
+    "scrapedAt": "2026-03-18T16:45:27.724Z",
+    "id": 206
   },
   {
     "title": "Lenovo IdeaPad Slim 3i Core i5 12th Gen 8GB RAM  14 Inch FHD Laptop",
@@ -1464,7 +2066,718 @@
     "dealUrl": "https://www.computervillage.com.bd/#",
     "image": "https://www.computervillage.com.bd/image/cache/catalog/Lenovo/lenovo-ideapad-slim-3i-core-i5-12th-14-inch-fhd-laptop12-228x228.jpg.webp",
     "price": 75400,
-    "scrapedAt": "2026-03-18T16:42:35.404Z"
+    "scrapedAt": "2026-03-18T16:45:27.725Z",
+    "id": 207
+  },
+  {
+    "title": "Asus NUC 14 Essential Intel N97 Portable Mini PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/asus-nuc-14-essential-mini-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mini-pc/asus/nuc-14-essential/nuc-14-essential-01-228x228.webp",
+    "price": 27000,
+    "scrapedAt": "2026-03-18T16:45:18.095Z",
+    "id": 208
+  },
+  {
+    "title": "AMD Ryzen 3 2200G Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-3-2200g-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/47054-228x228.webp",
+    "price": 26999,
+    "scrapedAt": "2026-03-18T16:45:18.095Z",
+    "id": 209
+  },
+  {
+    "title": "AMD Ryzen 3 3200G Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-3-3200g-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/amd-ryzen-3-3200g-desktop-pc-0009-228x228.webp",
+    "price": 28999,
+    "scrapedAt": "2026-03-18T16:45:18.095Z",
+    "id": 210
+  },
+  {
+    "title": "AMD Ryzen 5 2400G Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-5-2400g-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/31744-228x228.webp",
+    "price": 28999,
+    "scrapedAt": "2026-03-18T16:45:18.095Z",
+    "id": 211
+  },
+  {
+    "title": "Asus Nuc 14 Essential Core 3 N355 Portable Mini Pc",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/asus-nuc-14-essential-core-3-n355-mini-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mini-pc/asus/asus-nuc-14-essential/asus-nuc-14-essential-1-228x228.webp",
+    "price": 32000,
+    "scrapedAt": "2026-03-18T16:45:18.096Z",
+    "id": 212
+  },
+  {
+    "title": "AMD Ryzen 5 3400G Processor Gaming Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-5-3400g-processor-gaming-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/44878-02-228x228.webp",
+    "price": 32600,
+    "scrapedAt": "2026-03-18T16:45:18.096Z",
+    "id": 213
+  },
+  {
+    "title": "AMD Ryzen 5 5600G Budget Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-5-5600g-budget-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/35208-20-228x228.webp",
+    "price": 40400,
+    "scrapedAt": "2026-03-18T16:45:18.096Z",
+    "id": 214
+  },
+  {
+    "title": "TECLAST K24 Air Intel Celeron N5095 24\" FHD All-in-One PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/teclast-k24-air-celeron-n5095-all-in-one-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/teclast/k24-air/k24-air-01-228x228.webp",
+    "price": 43000,
+    "scrapedAt": "2026-03-18T16:45:18.096Z",
+    "id": 215
+  },
+  {
+    "title": "Intel Core i3-12100 12th Gen Budget Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/intel-core-i3-12100-12th-gen-budget-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/35123-02-228x228.webp",
+    "price": 40800,
+    "scrapedAt": "2026-03-18T16:45:18.097Z",
+    "id": 216
+  },
+  {
+    "title": "AMD Ryzen 5 5600GT Budget Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-5-5600gt-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/38204-05-228x228.webp",
+    "price": 41400,
+    "scrapedAt": "2026-03-18T16:45:18.097Z",
+    "id": 217
+  },
+  {
+    "title": "Intel 10th Gen Core i5-10400 Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/intel-10th-gen-core-i5-10400-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/intel-10th-gen-core-i5-10400-desktop-pc-0009-228x228.webp",
+    "price": 42200,
+    "scrapedAt": "2026-03-18T16:45:18.097Z",
+    "id": 218
+  },
+  {
+    "title": "AMD Ryzen 7 5700G Custom Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/amd-ryzen-7-5700g-custom-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/31452-03-228x228.webp",
+    "price": 42900,
+    "scrapedAt": "2026-03-18T16:45:18.120Z",
+    "id": 219
+  },
+  {
+    "title": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini Pc",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/asus-nuc-13-pro-core-i3-13th-gen-mini-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mini-pc/asus/nuc-13-pro/asus-nuc-13-pro-1-228x228.webp",
+    "price": 40500,
+    "scrapedAt": "2026-03-18T16:45:18.120Z",
+    "id": 220
+  },
+  {
+    "title": "AOC A33 Intel Celeron N5095 23.8\" FHD All in One PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/aoc-a33-celeron-n5095-all-in-one-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/aoc/e33/e33-01-228x228.webp",
+    "price": 51200,
+    "scrapedAt": "2026-03-18T16:45:18.121Z",
+    "id": 221
+  },
+  {
+    "title": "AOC B911 Intel Celeron N95 23.8\" Full HD All in One PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/aoc-b911-celeron-n95-all-in-one-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/aoc/e99-1/e99-1-01-228x228.webp",
+    "price": 51990,
+    "scrapedAt": "2026-03-18T16:45:18.121Z",
+    "id": 222
+  },
+  {
+    "title": "Intel 12th Gen Core i5-12400 Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/intel-12th-gen-core-i5-12400-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/38909-03-228x228.webp",
+    "price": 46500,
+    "scrapedAt": "2026-03-18T16:45:18.121Z",
+    "id": 223
+  },
+  {
+    "title": "Dell OptiPlex 7010 Core i3 12th Gen Tower Desktop PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/dell-optiplex-7010-core-i3-12th-gen-tower-desktop-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/dell/optiplex/dell-optiplex-228x228.webp",
+    "price": 54000,
+    "scrapedAt": "2026-03-18T16:45:18.121Z",
+    "id": 224
+  },
+  {
+    "title": "Acer Veriton MT M4690G Core i3 14th Gen Tower Brand PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/acer-veriton-mt-m4690g-core-i3-14th-gen-brand-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/acer/veriton-m4690g/veriton-m4690g-02-228x228.webp",
+    "price": 54500,
+    "scrapedAt": "2026-03-18T16:45:18.122Z",
+    "id": 225
+  },
+  {
+    "title": "Asus NUC 13 Pro Core i3 13th Gen Portable Mini PC With RAM & SSD",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/asus-nuc-13-pro-core-i3-mini-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mini-pc/asus/nuc-13-pro/asus-nuc-13-pro-1-228x228.webp",
+    "price": 57000,
+    "scrapedAt": "2026-03-18T16:45:18.122Z",
+    "id": 226
+  },
+  {
+    "title": "Asus ExpertCenter PN64 Core i5 12th Gen Portable Mini PC",
+    "category": "Desktop",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/asus-expertcenter-pn64-core-i5-12th-gen-mini-pc",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mini-pc/asus/expertcenter-pn64-mini-pc/expertcenter-pn64-mini-pc-01-228x228.webp",
+    "price": 58000,
+    "scrapedAt": "2026-03-18T16:45:18.122Z",
+    "id": 227
+  },
+  {
+    "title": "Kemei KM-9050 Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/kemei-km-9050-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/kemei/km-9050/km-9050-01-228x228.webp",
+    "price": 650,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 228
+  },
+  {
+    "title": "HTC AT-528 Beard Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/htc-at-528-beard-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/htc/at-528/at-528-03-228x228.webp",
+    "price": 650,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 229
+  },
+  {
+    "title": "HTC AT-1210 Beard Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/htc-at-1210-beard-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/htc/at-1210-04-228x228.webp",
+    "price": 650,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 230
+  },
+  {
+    "title": "Kemei KM-1251 Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/kemei-km-1251-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/kemei/km-1251/km-1251-01-228x228.webp",
+    "price": 650,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 231
+  },
+  {
+    "title": "Xiaomi ShowSee C1 Electric Mini Nose Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xiaomi-showsee-c1-electric-mini-hair-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/xiaomi/showsee-c1/showsee-c1-01-228x228.webp",
+    "price": 999,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 232
+  },
+  {
+    "title": "Kemei KM-5017 Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/kemei-km-5017-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/kemei/km-5017/km-5017-05-228x228.webp",
+    "price": 1050,
+    "scrapedAt": "2026-03-18T16:45:14.844Z",
+    "id": 233
+  },
+  {
+    "title": "Kemei KM-6330 3-in-1 Hair & Beard Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/kemei-km-6330-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/kemei/km-6330/km-6330-01-228x228.webp",
+    "price": 1025,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 234
+  },
+  {
+    "title": "ENCHEN N3 Mini Electric Ear and Nose Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/enchen-n3-mini-electric-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gadget/daily-lifestyle/enchen/enchen-n3/enchen-n3-01-228x228.webp",
+    "price": 1100,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 235
+  },
+  {
+    "title": "Xiaomi Huanxing HN3 Electric Nose Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xiaomi-huanxing-hn3-nose-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/xiaomi/huanxing-hn3/huanxing-hn3-01-228x228.webp",
+    "price": 1200,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 236
+  },
+  {
+    "title": "Kemei KM-234 Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/kemei-km-234-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/kemei/km-234/km-234-228x228.webp",
+    "price": 1200,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 237
+  },
+  {
+    "title": "ENCHEN Boost USB Electric Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/enchen-boost-hair-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gadget/daily-lifestyle/enchen/boost/boost-01-228x228.webp",
+    "price": 1150,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 238
+  },
+  {
+    "title": "VGR V-963 Beard And Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vgr-v-963-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/vgr/v-963/v-963-01-228x228.webp",
+    "price": 1250,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 239
+  },
+  {
+    "title": "VGR V-932 Portable Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vgr-v-932-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/vgr/v-932/v-932-01-228x228.webp",
+    "price": 1200,
+    "scrapedAt": "2026-03-18T16:45:14.845Z",
+    "id": 240
+  },
+  {
+    "title": "VGR V-937 Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vgr-v-937-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/vgr/v-937/v-937-01-228x228.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 241
+  },
+  {
+    "title": "ENCHEN Beardo 2 Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/enchen-beardo-2-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/enchen/beardo-2/beardo-2-01-228x228.webp",
+    "price": 1450,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 242
+  },
+  {
+    "title": "ENCHEN Blackstone Men's Electric Shaver",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/enchen-blackstone-electric-shaver",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gadget/daily-lifestyle/enchen/blackstone/blackstone-01-228x228.jpg",
+    "price": 1590,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 243
+  },
+  {
+    "title": "ENCHEN Boost 2 Type-C Electric Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/enchen-boost-2-electric-hair-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/trimmer/enchen/boost-2/boost-2-01-228x228.webp",
+    "price": 1500,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 244
+  },
+  {
+    "title": "Oraimo Smart Trimmer Home",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-smart-trimmer-home",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/oraimo/smart-trimmer-home/smart-trimmer-home-011-228x228.webp",
+    "price": 1350,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 245
+  },
+  {
+    "title": "DIZO Trimmer Kit",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/dizo-trimmer-kit",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/dizo/trimmer/trimmer-kit/trimmer-kit-01-228x228.webp",
+    "price": 1900,
+    "scrapedAt": "2026-03-18T16:45:14.846Z",
+    "id": 246
+  },
+  {
+    "title": "Oraimo EasyCut Hair Trimmer",
+    "category": "Healthcare",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-easycut-hair-trimmer",
+    "image": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/oraimo/easycut/easycut-01-228x228.webp",
+    "price": 1900,
+    "scrapedAt": "2026-03-18T16:45:14.847Z",
+    "id": 247
+  },
+  {
+    "title": "Fantech PAC1 Portable Handheld Charger Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/fantech-pac1-charger-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/fantech/pac1/pac1-01-228x228.webp",
+    "price": 510,
+    "scrapedAt": "2026-03-18T16:45:15.346Z",
+    "id": 248
+  },
+  {
+    "title": "Vyvylabs VKL01 Babbit Handheld Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vyvylabs-vkl01-babbit-handheld-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/vyvylabs/vkl01-babbit/vkl01-babbit-01-228x228.webp",
+    "price": 590,
+    "scrapedAt": "2026-03-18T16:45:15.346Z",
+    "id": 249
+  },
+  {
+    "title": "Yison Celebrat F6 Portable Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-f6-portable-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/yison/celebrat-f6/celebrat-f6-02-228x228.webp",
+    "price": 590,
+    "scrapedAt": "2026-03-18T16:45:15.346Z",
+    "id": 250
+  },
+  {
+    "title": "Yison Celebrat F4 Clip-on Portable Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/yison-celebrat-f4-portable-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/yison/celebrat-f4/6-228x228.webp",
+    "price": 890,
+    "scrapedAt": "2026-03-18T16:45:15.346Z",
+    "id": 251
+  },
+  {
+    "title": "Xiaomi Qualitell Y2 Portable Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/xiaomi-qualitell-y2-portable-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/xiaomi/qualitell-y2/qualitell-y2-01-228x228.webp",
+    "price": 890,
+    "scrapedAt": "2026-03-18T16:45:15.347Z",
+    "id": 252
+  },
+  {
+    "title": "Fantech PAC2 Portable Handheld Charger Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/fantech-pac2-charger-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/fantech/pac2/pac2-02-228x228.webp",
+    "price": 1180,
+    "scrapedAt": "2026-03-18T16:45:15.347Z",
+    "id": 253
+  },
+  {
+    "title": "Vyvylabs D02 Handheld Foldable Clip Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vyvylabs-d02-handheld-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/vyvylabs/d02/d02-01-228x228.webp",
+    "price": 1250,
+    "scrapedAt": "2026-03-18T16:45:15.347Z",
+    "id": 254
+  },
+  {
+    "title": "Fantech PAC4 Lite Multi Function Portable Cooler Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/fantech-pac4-lite-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/fantech/pac4-lite/pac4-lite-01-228x228.webp",
+    "price": 1600,
+    "scrapedAt": "2026-03-18T16:45:15.347Z",
+    "id": 255
+  },
+  {
+    "title": "Vyvylabs VKH01 Babbit High Speed Handheld Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vyvylabs-vkh01-babbit-handheld-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/vyvylabs/vkh01-babbit/vkh01-babbit-01-228x228.webp",
+    "price": 1840,
+    "scrapedAt": "2026-03-18T16:45:15.347Z",
+    "id": 256
+  },
+  {
+    "title": "Verbatim Cool 'n' Go AirJet Handheld Fan",
+    "category": "Lifestyle",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/verbatim-cool-n-go-airjet-handheld-fan",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gadget/mini-fan/verbatim/cool-n-go-airjet/cool-n-go-airjet-01-228x228.webp",
+    "price": 2500,
+    "scrapedAt": "2026-03-18T16:45:15.348Z",
+    "id": 257
+  },
+  {
+    "title": "Ugreen US133 Micro USB Male to USB Female OTG Cable #10396",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-us133-otg-cable",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cable/ugreen/us133/us133-01-228x228.webp",
+    "price": 120,
+    "scrapedAt": "2026-03-18T16:45:13.454Z",
+    "id": 258
+  },
+  {
+    "title": "Ugreen AV162 Cannon XLR Male to 6.5mm Female Converter #80439",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-av162-cannon-xlr-male-to-6-5mm-female-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/av162/av162-001-228x228.webp",
+    "price": 120,
+    "scrapedAt": "2026-03-18T16:45:13.454Z",
+    "id": 259
+  },
+  {
+    "title": "Ugreen AV162 6.5mm Female to Cannon XLR Male Converter #80440",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-av162-6-5mm-female-to-cannon-xlr-male-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/av162/av162-0001-228x228.webp",
+    "price": 120,
+    "scrapedAt": "2026-03-18T16:45:13.454Z",
+    "id": 260
+  },
+  {
+    "title": "VENTION AIOB0 HDMI 90 Degree Male to Female Adapter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vention-aiob0-hdmi-male-to-female-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/vention/aiob0/AIOB0-01-228x228.webp",
+    "price": 120,
+    "scrapedAt": "2026-03-18T16:45:13.455Z",
+    "id": 261
+  },
+  {
+    "title": "Oraimo OAA-310 Type C to 3.5mm  Audio Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/oraimo-oaa-310type-c-to-3.5mm-audio-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/oraimo/oaa-310/oaa-310-001-228x228.webp",
+    "price": 220,
+    "scrapedAt": "2026-03-18T16:45:13.455Z",
+    "id": 262
+  },
+  {
+    "title": "Hoco UA17 Type-C Male to USB 3.0 Female Adapter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/hoco-ua17-type-c-male-to-usb-female-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/hoco/ua17/ua17-type-c-01-228x228.jpg",
+    "price": 240,
+    "scrapedAt": "2026-03-18T16:45:13.455Z",
+    "id": 263
+  },
+  {
+    "title": "UGREEN US157 USB Type-C to Micro USB Adapter #30391",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-us157-type-c-to-micro-usb-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/us157/us157-02-228x228.webp",
+    "price": 190,
+    "scrapedAt": "2026-03-18T16:45:13.455Z",
+    "id": 264
+  },
+  {
+    "title": "VENTION AIRB0 HDMI Female to Female Coupler Adapter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vention-airb0-hdmi-female-coupler-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/vention/airb0/AIRB0-01-228x228.webp",
+    "price": 180,
+    "scrapedAt": "2026-03-18T16:45:13.455Z",
+    "id": 265
+  },
+  {
+    "title": "UGREEN HD112 HDMI Male to Female Down HDMI Converter #20109",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-hd112-hdmi-male-to-female-down-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/hdmi-male-to-female/hd112-hdmi-male-to-female-down-228x228.webp",
+    "price": 220,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 266
+  },
+  {
+    "title": "LDNIO LC140 Type-C To USB OTG Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ldnio-lc140-otg-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/ldnio/lc140/lc140-02-228x228.webp",
+    "price": 250,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 267
+  },
+  {
+    "title": "LDNIO LC150 Type-C To USB OTG Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ldnio-lc150-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/ldnio/lc150/lc150-01-228x228.webp",
+    "price": 250,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 268
+  },
+  {
+    "title": "Dtech DT-2980 Type C USB OTG Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/dtech-dt-2980-otg-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/dtech/dt-2980/dt-2980-01-228x228.webp",
+    "price": 250,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 269
+  },
+  {
+    "title": "Ugreen US270 Type-C To USB Type-A Adapter with Lanyard #50283",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-us270-type-c-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/us270/us270-01-228x228.webp",
+    "price": 280,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 270
+  },
+  {
+    "title": "LDNIO LC280 Type-C To USB OTG Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ldnio-lc280-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/ldnio/lc280/lc280-01-228x228.webp",
+    "price": 290,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 271
+  },
+  {
+    "title": "UGREEN HD112 HDMI Male to Female UP HDMI Converter #20110",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-hdmi-male-to-female-up-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/hdmi-male-to-female/hdmi-male-to-female-up-01-228x228.webp",
+    "price": 300,
+    "scrapedAt": "2026-03-18T16:45:13.456Z",
+    "id": 272
+  },
+  {
+    "title": "VENTION BDBW0 3.5mm Male to Dual Female Audio Converter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vention-bdbw0-3-5mm-male-audio-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/splitter/vention/bdaw0/bdbw0-01-228x228.webp",
+    "price": 250,
+    "scrapedAt": "2026-03-18T16:45:13.457Z",
+    "id": 273
+  },
+  {
+    "title": "UGREEN US280 USB Male to Type-C Female Converter #50568",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-us280-usb-male-to-type-c-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/us280/us280-01-228x228.webp",
+    "price": 300,
+    "scrapedAt": "2026-03-18T16:45:13.457Z",
+    "id": 274
+  },
+  {
+    "title": "Ugreen HD159 8K Female to Female HDMI Converter #90592",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-hd159-8k-hdmi-female-to-female-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/hd159/hd159-01-228x228.webp",
+    "price": 300,
+    "scrapedAt": "2026-03-18T16:45:13.457Z",
+    "id": 275
+  },
+  {
+    "title": "Ugreen LS502 USB Male to Type-C Converter #65332",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ugreen-ls502-converter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/converter/ugreen/ls502/ls502-01-228x228.webp",
+    "price": 315,
+    "scrapedAt": "2026-03-18T16:45:13.457Z",
+    "id": 276
+  },
+  {
+    "title": "Vention CDWB0 USB 2.0 Male to USB-Type C Female Adapter",
+    "category": "Adapter",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/vention-cdwb0-usb-to-usb-type-c-adapter",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/vention/cdwb0/cdwb0-01-228x228.webp",
+    "price": 320,
+    "scrapedAt": "2026-03-18T16:45:13.457Z",
+    "id": 277
+  },
+  {
+    "title": "WIWU Waltz Rotative Folio Protective Tablet Case For iPad 12.9 Inch",
+    "category": "Covers",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/wiwu-waltz-rotative-folio-case",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/wiwu/waltz-rotative-folio/waltz-rotative-folio-228x228.webp",
+    "price": 1700,
+    "scrapedAt": "2026-03-18T16:45:13.819Z",
+    "id": 278
   },
   {
     "title": "TX10 Pro 8K Android TV Box with Voice Control Remote",
@@ -1473,7 +2786,8 @@
     "dealUrl": "https://www.startech.com.bd/tx10-pro-android-tv-box",
     "image": "https://www.startech.com.bd/image/cache/catalog/tv-box/tx10-pro/tx10-pro-01-228x228.webp",
     "price": 2650,
-    "scrapedAt": "2026-03-18T16:42:24.939Z"
+    "scrapedAt": "2026-03-18T16:45:15.734Z",
+    "id": 279
   },
   {
     "title": "TRANSPEED X88 MINI Android TV Box",
@@ -1482,7 +2796,8 @@
     "dealUrl": "https://www.startech.com.bd/transpeed-x88-mini-tv-box",
     "image": "https://www.startech.com.bd/image/cache/catalog/tv-box/transpeed/x88-mini/x88-mini-01-228x228.webp",
     "price": 2800,
-    "scrapedAt": "2026-03-18T16:42:24.940Z"
+    "scrapedAt": "2026-03-18T16:45:15.734Z",
+    "id": 280
   },
   {
     "title": "Xiaomi Mi MDZ-27-EU HDMI Android 4K TV Stick",
@@ -1491,7 +2806,8 @@
     "dealUrl": "https://www.startech.com.bd/xiaomi-mi-mdz-27-eu-tv-stick",
     "image": "https://www.startech.com.bd/image/cache/catalog/others/xiaomi/mi-mdz-27-eu/mi-mdz-27-eu-001-228x228.webp",
     "price": 6000,
-    "scrapedAt": "2026-03-18T16:42:24.940Z"
+    "scrapedAt": "2026-03-18T16:45:15.735Z",
+    "id": 281
   },
   {
     "title": "A4tech OP-550S Silent Wired Optical Mouse",
@@ -1500,7 +2816,8 @@
     "dealUrl": "https://www.startech.com.bd/a4tech-op-550s-silent-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/op-550s/op-550s-001-228x228.webp",
     "price": 425,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.725Z",
+    "id": 282
   },
   {
     "title": "Pc Power PCGMG17 Wired Gaming Mouse",
@@ -1509,7 +2826,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcgmg17-gaming-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/pc-power/pcgmg17/pcgmg17-01-228x228.webp",
     "price": 219,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.725Z",
+    "id": 283
   },
   {
     "title": "T-WOLF V13 Wired Mouse",
@@ -1518,7 +2836,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-v13-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/t-wolf/v13/v13-01-228x228.webp",
     "price": 300,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.725Z",
+    "id": 284
   },
   {
     "title": "Redragon BM-4125 Wired Mouse",
@@ -1527,7 +2846,8 @@
     "dealUrl": "https://www.startech.com.bd/redragon-bm-4125-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/redragon/bm-4125/bm-4125-01-228x228.webp",
     "price": 350,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.725Z",
+    "id": 285
   },
   {
     "title": "Redragon BM-4062 Wired Mouse",
@@ -1536,7 +2856,8 @@
     "dealUrl": "https://www.startech.com.bd/redragon-bm-4062-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/redragon/bm-4062/bm-4062-01-228x228.webp",
     "price": 375,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.725Z",
+    "id": 286
   },
   {
     "title": "Havit MS70 Wired Optical Mouse",
@@ -1545,7 +2866,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-ms70-wired-optical-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms70/ms70-01-228x228.webp",
     "price": 349,
-    "scrapedAt": "2026-03-18T16:42:26.017Z"
+    "scrapedAt": "2026-03-18T16:45:16.726Z",
+    "id": 287
   },
   {
     "title": "Pc Power PCM-315 Wired Mouse",
@@ -1554,7 +2876,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcm-315-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/pc-power/pcm-315/pcm-315-01-228x228.webp",
     "price": 349,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.726Z",
+    "id": 288
   },
   {
     "title": "Havit MS4254 USB Gaming Mouse",
@@ -1563,7 +2886,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-ms4254-gaming-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms4254/ms4254-01-228x228.webp",
     "price": 400,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.726Z",
+    "id": 289
   },
   {
     "title": "Pc Power PCM-316 Wired Mouse",
@@ -1572,7 +2896,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcm-316-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/pc-power/pcm-315/pcm-315-01-228x228.webp",
     "price": 410,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.726Z",
+    "id": 290
   },
   {
     "title": "A4TECH OP-720 USB Wired Mouse",
@@ -1581,7 +2906,8 @@
     "dealUrl": "https://www.startech.com.bd/a4tech-op-720-usb-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/op-720/op-720-01-228x228.jpg",
     "price": 425,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.727Z",
+    "id": 291
   },
   {
     "title": "A4TECH OP-330 USB Wired Mouse",
@@ -1590,7 +2916,8 @@
     "dealUrl": "https://www.startech.com.bd/a4tech-op-330-usb-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/op-330/op-330-01-228x228.jpg",
     "price": 425,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.727Z",
+    "id": 292
   },
   {
     "title": "Logitech B100 Optical USB Mouse",
@@ -1599,7 +2926,8 @@
     "dealUrl": "https://www.startech.com.bd/Logitech-B100-Optical-USB-Mouse-new",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/b100/b100-01-228x228.webp",
     "price": 449,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.727Z",
+    "id": 293
   },
   {
     "title": "Logitech M90 USB Mouse",
@@ -1608,7 +2936,8 @@
     "dealUrl": "https://www.startech.com.bd/Logitech-M90-USB-MOUSE",
     "image": "https://www.startech.com.bd/image/cache/catalog/Accessories/Mouse/logitech/m90-228x228.png",
     "price": 449,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.727Z",
+    "id": 294
   },
   {
     "title": "HAVIT HV-MS989GT Wireless Mouse",
@@ -1617,7 +2946,8 @@
     "dealUrl": "https://www.startech.com.bd/havit-hv-ms989gt-wireless-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms989gt/ms989gt-1-228x228.jpg",
     "price": 450,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.727Z",
+    "id": 295
   },
   {
     "title": "Xtrike Me GM-110 Wired RGB Gaming Mouse",
@@ -1626,7 +2956,8 @@
     "dealUrl": "https://www.startech.com.bd/xtrike-me-gm-110-gaming-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/xtrike-me/gm-110/gm-110-01-228x228.webp",
     "price": 450,
-    "scrapedAt": "2026-03-18T16:42:26.018Z"
+    "scrapedAt": "2026-03-18T16:45:16.728Z",
+    "id": 296
   },
   {
     "title": "Pc Power PCM-378 Wired Mouse",
@@ -1635,7 +2966,8 @@
     "dealUrl": "https://www.startech.com.bd/pc-power-pcm-378-wired-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/pc-power/pcm-378/pcm-378-01-228x228.webp",
     "price": 450,
-    "scrapedAt": "2026-03-18T16:42:26.019Z"
+    "scrapedAt": "2026-03-18T16:45:16.728Z",
+    "id": 297
   },
   {
     "title": "Rapoo N100 Wired Optical Mouse",
@@ -1644,7 +2976,8 @@
     "dealUrl": "https://www.startech.com.bd/rapoo-n100wired-optical-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/rapoo/n100/n100-228x228.jpg",
     "price": 475,
-    "scrapedAt": "2026-03-18T16:42:26.019Z"
+    "scrapedAt": "2026-03-18T16:45:16.728Z",
+    "id": 298
   },
   {
     "title": "Rapoo N200 Wired Optical Mouse",
@@ -1653,7 +2986,8 @@
     "dealUrl": "https://www.startech.com.bd/rapoo-n200-wired-optical-mouse",
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/rapoo/n200/n200-228x228.jpg",
     "price": 475,
-    "scrapedAt": "2026-03-18T16:42:26.019Z"
+    "scrapedAt": "2026-03-18T16:45:16.728Z",
+    "id": 299
   },
   {
     "title": "OVO OPS-P4 450W ATX Power Supply",
@@ -1662,7 +2996,8 @@
     "dealUrl": "https://www.startech.com.bd/ovo-ops-p4-450w-atx-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:27.473Z"
+    "scrapedAt": "2026-03-18T16:45:18.567Z",
+    "id": 300
   },
   {
     "title": "Xtreme XPS200B 200W ATX Non-Modular Power Supply",
@@ -1671,7 +3006,8 @@
     "dealUrl": "https://www.startech.com.bd/xtreme-xps200b-200w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/xtreme/xps200b/xps200b-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:27.473Z"
+    "scrapedAt": "2026-03-18T16:45:18.567Z",
+    "id": 301
   },
   {
     "title": "T-Wolf ATX 350W Power Supply",
@@ -1680,7 +3016,8 @@
     "dealUrl": "https://www.startech.com.bd/t-wolf-atx-350w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/t-wolf/atx-350/atx-350w-04-228x228.webp",
     "price": 1350,
-    "scrapedAt": "2026-03-18T16:42:27.473Z"
+    "scrapedAt": "2026-03-18T16:45:18.567Z",
+    "id": 302
   },
   {
     "title": "Huntkey CP3000 300W Power Supply",
@@ -1689,7 +3026,8 @@
     "dealUrl": "https://www.startech.com.bd/huntkey-cp3000-300w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/huntkey/cp3000/cp3000-01-228x228.webp",
     "price": 1950,
-    "scrapedAt": "2026-03-18T16:42:27.473Z"
+    "scrapedAt": "2026-03-18T16:45:18.567Z",
+    "id": 303
   },
   {
     "title": "1stPlayer FK 300W Power Supply",
@@ -1698,7 +3036,8 @@
     "dealUrl": "https://www.startech.com.bd/1stplayer-fk-300w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/fk-300w/fk-300w-01-228x228.jpg",
     "price": 2100,
-    "scrapedAt": "2026-03-18T16:42:27.473Z"
+    "scrapedAt": "2026-03-18T16:45:18.567Z",
+    "id": 304
   },
   {
     "title": "Gamdias AURA GP300 300W Power Supply",
@@ -1707,7 +3046,8 @@
     "dealUrl": "https://www.startech.com.bd/gamdias-aura-gp300-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp300/aura-gp300-01-228x228.webp",
     "price": 2150,
-    "scrapedAt": "2026-03-18T16:42:27.474Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 305
   },
   {
     "title": "MSI MAG A300N-H 300W 80 Plus Non Modular Power Supply",
@@ -1716,7 +3056,8 @@
     "dealUrl": "https://www.startech.com.bd/msi-mag-a300n-h-300w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/msi/mag-a300n-h/mag-a300n-h-01-228x228.webp",
     "price": 2300,
-    "scrapedAt": "2026-03-18T16:42:27.474Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 306
   },
   {
     "title": "1STPlayer PS-400FK Non Modular Power Supply",
@@ -1725,7 +3066,8 @@
     "dealUrl": "https://www.startech.com.bd/1stplayer-ps-400fk-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/ps-400fk/ps-400fk-01-228x228.webp",
     "price": 2400,
-    "scrapedAt": "2026-03-18T16:42:27.474Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 307
   },
   {
     "title": "Ocypus BETA P400 400W Non Modular ATX Power Supply",
@@ -1734,7 +3076,8 @@
     "dealUrl": "https://www.startech.com.bd/ocypus-beta-p400-400w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ocypus/beta-p400/beta-p400-01-228x228.webp",
     "price": 2900,
-    "scrapedAt": "2026-03-18T16:42:27.474Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 308
   },
   {
     "title": "Antec META V350 350W Power Supply",
@@ -1743,7 +3086,8 @@
     "dealUrl": "https://www.startech.com.bd/antec-meta-v350-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-228x228.webp",
     "price": 2600,
-    "scrapedAt": "2026-03-18T16:42:27.475Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 309
   },
   {
     "title": "Gamdias AURA GP450 PRO 450W 80 Plus White Certified ATX Power Supply Black",
@@ -1752,7 +3096,8 @@
     "dealUrl": "https://www.startech.com.bd/gamdias-aura-gp450-pro-450w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp450-pro/aura-gp450-pro-01-228x228.webp",
     "price": 2650,
-    "scrapedAt": "2026-03-18T16:42:27.475Z"
+    "scrapedAt": "2026-03-18T16:45:18.568Z",
+    "id": 310
   },
   {
     "title": "Antec META V450 450W Power Supply",
@@ -1761,7 +3106,8 @@
     "dealUrl": "https://www.startech.com.bd/antec-meta-v450-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v450/meta-v450-228x228.webp",
     "price": 2950,
-    "scrapedAt": "2026-03-18T16:42:27.475Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 311
   },
   {
     "title": "Thermaltake Litepower 450W Non Modular Power Supply",
@@ -1770,7 +3116,8 @@
     "dealUrl": "https://www.startech.com.bd/thermaltake-litepower-450w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/component/power-supply/thermaltake/litepower/450w/450w-1-228x228.jpg",
     "price": 3190,
-    "scrapedAt": "2026-03-18T16:42:27.475Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 312
   },
   {
     "title": "Ocypus BETA P500 500W Non Modular ATX Power Supply",
@@ -1779,7 +3126,8 @@
     "dealUrl": "https://www.startech.com.bd/ocypus-beta-p500-500w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ocypus/beta-p500/beta-p500-01-228x228.webp",
     "price": 3650,
-    "scrapedAt": "2026-03-18T16:42:27.476Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 313
   },
   {
     "title": "Gamdias AURA GP550 550W Power Supply",
@@ -1788,7 +3136,8 @@
     "dealUrl": "https://www.startech.com.bd/gamdias-aura-gp550-550w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp550/aura-gp550-01-228x228.webp",
     "price": 2900,
-    "scrapedAt": "2026-03-18T16:42:27.476Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 314
   },
   {
     "title": "Ocypus BETA P600 600W Non Modular ATX Power Supply",
@@ -1797,7 +3146,8 @@
     "dealUrl": "https://www.startech.com.bd/ocypus-beta-p600-600w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ocypus/beta-p600/beta-p600-01-228x228.webp",
     "price": 3950,
-    "scrapedAt": "2026-03-18T16:42:27.476Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 315
   },
   {
     "title": "Gigabyte P450B 450W 80 Plus Bronze Certified Power Supply",
@@ -1806,7 +3156,8 @@
     "dealUrl": "https://www.startech.com.bd/gigabyte-p450b-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gigabyte/p450b/p450b-228x228.jpg",
     "price": 3900,
-    "scrapedAt": "2026-03-18T16:42:27.476Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 316
   },
   {
     "title": "Huntkey CP6000 600W Power Supply",
@@ -1815,7 +3166,8 @@
     "dealUrl": "https://www.startech.com.bd/huntkey-cp6000-600w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/huntkey/cp6000/cp6000-01-228x228.webp",
     "price": 4000,
-    "scrapedAt": "2026-03-18T16:42:27.476Z"
+    "scrapedAt": "2026-03-18T16:45:18.569Z",
+    "id": 317
   },
   {
     "title": "Gamdias HELIOS M1-450B 450W 80 Plus Bronze Power Supply",
@@ -1824,7 +3176,8 @@
     "dealUrl": "https://www.startech.com.bd/gamdias-helios-m1-450b-450w-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/helios-m1-450b/helios-m1-450b-01-228x228.webp",
     "price": 3800,
-    "scrapedAt": "2026-03-18T16:42:27.477Z"
+    "scrapedAt": "2026-03-18T16:45:18.570Z",
+    "id": 318
   },
   {
     "title": "Gamdias AURA GP650 650W 80+ White Power Supply",
@@ -1833,7 +3186,8 @@
     "dealUrl": "https://www.startech.com.bd/gamdias-aura-gp650-power-supply",
     "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp650/aura-gp650-01-228x228.png",
     "price": 3900,
-    "scrapedAt": "2026-03-18T16:42:27.477Z"
+    "scrapedAt": "2026-03-18T16:45:18.570Z",
+    "id": 319
   },
   {
     "title": "Lexar THOR 16GB DDR5 6000MHz CL32 Desktop RAM",
@@ -1842,7 +3196,8 @@
     "dealUrl": "https://www.startech.com.bd/lexar-thor-16gb-ddr5-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/thor/thor-01-228x228.webp",
     "price": 27000,
-    "scrapedAt": "2026-03-18T16:42:27.959Z"
+    "scrapedAt": "2026-03-18T16:45:19.010Z",
+    "id": 320
   },
   {
     "title": "Adata 8GB DDR5 4800MHz U-DIMM Desktop RAM",
@@ -1851,7 +3206,8 @@
     "dealUrl": "https://www.startech.com.bd/adata-8gb-ddr5-4800mhz-u-dimm-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/adata/ddr5-4800mhz/adata-ddr5-4800mhz-01-228x228.jpg",
     "price": 15300,
-    "scrapedAt": "2026-03-18T16:42:27.959Z"
+    "scrapedAt": "2026-03-18T16:45:19.010Z",
+    "id": 321
   },
   {
     "title": "Lexar THOR RGB 2nd Gen 32GB DDR5 6000Mhz CL40 Desktop RAM",
@@ -1860,7 +3216,8 @@
     "dealUrl": "https://www.startech.com.bd/lexar-thor-rgb-2nd-gen-32gb-ddr5-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/thor-rgb-2nd-gen/thor-rgb-2nd-gen-01-228x228.webp",
     "price": 45999,
-    "scrapedAt": "2026-03-18T16:42:27.959Z"
+    "scrapedAt": "2026-03-18T16:45:19.010Z",
+    "id": 322
   },
   {
     "title": "Lexar THOR OC 16GB 6000Mhz DDR5 CL36 Desktop RAM White",
@@ -1869,7 +3226,8 @@
     "dealUrl": "https://www.startech.com.bd/lexar-thor-oc-16gb-ddr5-ram-white",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/thor-oc/thor-oc-white-01-228x228.webp",
     "price": 27500,
-    "scrapedAt": "2026-03-18T16:42:27.959Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 323
   },
   {
     "title": "Lexar THOR OC 16GB 6000Mhz DDR5 CL36 Desktop RAM",
@@ -1878,7 +3236,8 @@
     "dealUrl": "https://www.startech.com.bd/lexar-thor-oc-16gb-ddr5-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/thor-oc/thor-oc-01-228x228.webp",
     "price": 27500,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 324
   },
   {
     "title": "Lexar THOR 8GB DDR4 3200Mhz Desktop RAM",
@@ -1887,7 +3246,8 @@
     "dealUrl": "https://www.startech.com.bd/lexar-thor-8gb-ddr4-3200mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/8gb/thor-228x228.webp",
     "price": 7500,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 325
   },
   {
     "title": "Netac Basic DDR3 8GB 1600MHZ Desktop RAM",
@@ -1896,7 +3256,8 @@
     "dealUrl": "https://www.startech.com.bd/netac-basic-ddr3-8gb-1600mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-ddr3-4gb-1600mhz/basic-ddr3-4gb-1600mhz-01-228x228.webp",
     "price": 3900,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 326
   },
   {
     "title": "Netac Basic 4GB DDR4 2666MHZ Desktop RAM",
@@ -1905,7 +3266,8 @@
     "dealUrl": "https://www.startech.com.bd/netac-basic-4gb-ddr4-2666mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-4gb-ddr4-2666mhz/basic-4gb-ddr4-2666mhz-01-228x228.webp",
     "price": 3900,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 327
   },
   {
     "title": "Netac Basic 8GB DDR4 2666MHZ Desktop RAM",
@@ -1914,7 +3276,8 @@
     "dealUrl": "https://www.startech.com.bd/netac-basic-8gb-ddr4-2666mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-4gb-ddr4-2666mhz/basic-4gb-ddr4-2666mhz-01-228x228.webp",
     "price": 6550,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 328
   },
   {
     "title": "G.SKILL Value 8GB DDR4 2400Mhz Desktop RAM",
@@ -1923,7 +3286,8 @@
     "dealUrl": "https://www.startech.com.bd/g-skill-value-8gb-ddr4-2400mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/value/value-01-228x228.webp",
     "price": 7700,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 329
   },
   {
     "title": "G.SKILL Value 8GB DDR4 2666Mhz Desktop RAM",
@@ -1932,7 +3296,8 @@
     "dealUrl": "https://www.startech.com.bd/g-skill-value-8gb-ddr4-2666mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/value/value-01-228x228.webp",
     "price": 7700,
-    "scrapedAt": "2026-03-18T16:42:27.960Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 330
   },
   {
     "title": "Colorful Battle-AX DDR4 8GB 3200MHz Desktop RAM",
@@ -1941,7 +3306,8 @@
     "dealUrl": "https://www.startech.com.bd/colorful-battle-ax-ddr4-8gb-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/colorful/battle-ax-ddr4/battle-ax-ddr4-black-228x228.webp",
     "price": 6800,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.011Z",
+    "id": 331
   },
   {
     "title": "G.SKILL Aegis 8GB DDR4 3200Mhz Desktop RAM",
@@ -1950,7 +3316,8 @@
     "dealUrl": "https://www.startech.com.bd/g-skill-aegis-8gb-ddr4-3200mhz-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/Aegis/Aegis-01-228x228.webp",
     "price": 7700,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.012Z",
+    "id": 332
   },
   {
     "title": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM",
@@ -1959,7 +3326,8 @@
     "dealUrl": "https://www.startech.com.bd/ocpc-xt-ii-ddr4-3200mhz-8gb-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/ocpc/xt-ii-ddr4/xt-ii-228x228.webp",
     "price": 7800,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.012Z",
+    "id": 333
   },
   {
     "title": "OCPC XT II DDR4 3200MHz 8GB Desktop RAM White",
@@ -1968,7 +3336,8 @@
     "dealUrl": "https://www.startech.com.bd/ocpc-xt-ii-ddr4-3200mhz-8gb-ram-white",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/ocpc/xt-ii-ddr4-3200-8gb/xt-ii-ddr4-3200-8gb-228x228.webp",
     "price": 7800,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.012Z",
+    "id": 334
   },
   {
     "title": "OSCOO M200 Warrior 8GB DDR4 3200MHz Desktop RAM",
@@ -1977,7 +3346,8 @@
     "dealUrl": "https://www.startech.com.bd/oscoo-m200-warrior-8gb-ddr4-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/oscoo/m200-warrior/m200-warrior-228x228.webp",
     "price": 8000,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.012Z",
+    "id": 335
   },
   {
     "title": "AITC Kingsman Innovator 8GB DDR4 3200MHz Gaming Desktop RAM",
@@ -1986,7 +3356,8 @@
     "dealUrl": "https://www.startech.com.bd/aitc-kingsman-innovator-8gb-ddr4-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/aitc/kingsman-innovator/kingsman-innovator-01-228x228.webp",
     "price": 9000,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.028Z",
+    "id": 336
   },
   {
     "title": "G.Skill RIPJAWS-V 8GB DDR4 3200MHz Desktop RAM",
@@ -1995,7 +3366,8 @@
     "dealUrl": "https://www.startech.com.bd/g-skill-ripjaws-v-8gb-desktop-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/ripjaws-v/ripjaws-v-001-228x228.jpg",
     "price": 8300,
-    "scrapedAt": "2026-03-18T16:42:27.961Z"
+    "scrapedAt": "2026-03-18T16:45:19.028Z",
+    "id": 337
   },
   {
     "title": "G.Skill Trident Z 8GB DDR4 3200MHz Desktop RAM",
@@ -2004,7 +3376,8 @@
     "dealUrl": "https://www.startech.com.bd/g-skill-trident-z-8gb-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/trident-z-8gb/trident-z-8gb-228x228.jpg",
     "price": 8400,
-    "scrapedAt": "2026-03-18T16:42:27.962Z"
+    "scrapedAt": "2026-03-18T16:45:19.028Z",
+    "id": 338
   },
   {
     "title": "OCPC X3 RGB DDR4 3200MHz 8GB Desktop RAM",
@@ -2013,7 +3386,8 @@
     "dealUrl": "https://www.startech.com.bd/ocpc-x3-rgb-ddr4-3200mhz-8gb-ram",
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/ocpc/x3-rgb-ddr4/x3-rgb-ddr4-01-228x228.webp",
     "price": 8200,
-    "scrapedAt": "2026-03-18T16:42:27.962Z"
+    "scrapedAt": "2026-03-18T16:45:19.028Z",
+    "id": 339
   },
   {
     "title": "D-Link R03 N300 300mbps Smart Router",
@@ -2022,7 +3396,8 @@
     "dealUrl": "https://www.startech.com.bd/d-link-r03-n300-300mbps-eagle-pro-ai-smart-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/d-link/r03/r03-01-228x228.jpg",
     "price": 1050,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.476Z",
+    "id": 340
   },
   {
     "title": "Mercusys MW325R 300Mbps Wifi Router",
@@ -2031,7 +3406,8 @@
     "dealUrl": "https://www.startech.com.bd/mercusys-mw325r",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mw325r/mw325r-0001-228x228.webp",
     "price": 1220,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.476Z",
+    "id": 341
   },
   {
     "title": "Tenda F3 300mbps Wireless Router",
@@ -2040,7 +3416,8 @@
     "dealUrl": "https://www.startech.com.bd/tenda-f3",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tenda-f3/tenda-f3-01-228x228.webp",
     "price": 1375,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.477Z",
+    "id": 342
   },
   {
     "title": "Zyxel NBG-418N V2 300 Mbps Wireless Router",
@@ -2049,7 +3426,8 @@
     "dealUrl": "https://www.startech.com.bd/zyxel-nbg-418n-v2-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/nbg-418n/nbg-418n-228x228.jpg",
     "price": 1150,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.477Z",
+    "id": 343
   },
   {
     "title": "Netis WF2409E 300Mbps Wireless N Router",
@@ -2058,7 +3436,8 @@
     "dealUrl": "https://www.startech.com.bd/netis-wf409e-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router1/Netis/w2631/ne-1-228x228.jpg",
     "price": 1499,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.477Z",
+    "id": 344
   },
   {
     "title": "Tenda F6 300Mbps WiFi Router",
@@ -2067,7 +3446,8 @@
     "dealUrl": "https://www.startech.com.bd/tenda-f6-300mbps-n300-wifi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tenda/f6-300-mbps-n300/tenda-f6-01-228x228.webp",
     "price": 1499,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.477Z",
+    "id": 345
   },
   {
     "title": "TP-Link TL-WR841N 300Mbps Wireless Router",
@@ -2076,7 +3456,8 @@
     "dealUrl": "https://www.startech.com.bd/tp-link-tl-wr841n-300mbps-wireless-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/tl-wr841n/tl-wr841n-001-228x228.webp",
     "price": 1619,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.478Z",
+    "id": 346
   },
   {
     "title": "Mercusys MW330HP 300Mbps WiFi Router",
@@ -2085,7 +3466,8 @@
     "dealUrl": "https://www.startech.com.bd/mercusys-mw330hp-wireless-n-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mw330hp/mw330hp-1-228x228.jpg",
     "price": 1490,
-    "scrapedAt": "2026-03-18T16:42:28.453Z"
+    "scrapedAt": "2026-03-18T16:45:19.478Z",
+    "id": 347
   },
   {
     "title": "Mercusys AC10 AC1200 Dual Band WiFi Router",
@@ -2094,7 +3476,8 @@
     "dealUrl": "https://www.startech.com.bd/mercusys-ac10-ac1200-dual-band-wifi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/ac10/ac10-01-228x228.jpg",
     "price": 1550,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.478Z",
+    "id": 348
   },
   {
     "title": "Cudy WR300S 300mbps WiFi Router",
@@ -2103,7 +3486,8 @@
     "dealUrl": "https://www.startech.com.bd/cudy-wr300s-wifi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr300s/wr300s-01-228x228.webp",
     "price": 1700,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.478Z",
+    "id": 349
   },
   {
     "title": "Tenda AC3 AC750 Dual-Band Wi-Fi Router",
@@ -2112,7 +3496,8 @@
     "dealUrl": "https://www.startech.com.bd/tenda-ac3-ac750-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac3-ac750/ac3-ac750-228x228.webp",
     "price": 1750,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.478Z",
+    "id": 350
   },
   {
     "title": "TP-Link Archer C24 AC750 Dual-Band WiFi Router",
@@ -2121,7 +3506,8 @@
     "dealUrl": "https://www.startech.com.bd/tp-link-archer-c24-ac750-dual-band-wi-fi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c24/archer-c24-01-228x228.webp",
     "price": 1850,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.479Z",
+    "id": 351
   },
   {
     "title": "Mercusys AC12 AC1200 Dual Band WiFi Router",
@@ -2130,7 +3516,8 @@
     "dealUrl": "https://www.startech.com.bd/mercusys-ac12-1200mbps-dual-band-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/ac12/ac12-1-228x228.jpg",
     "price": 1750,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.479Z",
+    "id": 352
   },
   {
     "title": "Tenda AC5 AC1200 Dual-Band WiFi Router",
@@ -2139,7 +3526,8 @@
     "dealUrl": "https://www.startech.com.bd/tenda-ac5-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac5/ac5-001-228x228.png",
     "price": 2050,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.479Z",
+    "id": 353
   },
   {
     "title": "Hikvision DS-3WR12C AC1200 1200Mbps Dual Band WiFi Router",
@@ -2148,7 +3536,8 @@
     "dealUrl": "https://www.startech.com.bd/hikvision-ds-3wr12c-dual-band-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/hikvision/ds-3wr12c/ds-3wr12c-01-228x228.webp",
     "price": 1950,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.479Z",
+    "id": 354
   },
   {
     "title": "Netis NC21 AC1200 Dual Band Router",
@@ -2157,7 +3546,8 @@
     "dealUrl": "https://www.startech.com.bd/netis-nc21-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/netis/nc21/nc21-01-228x228.webp",
     "price": 2000,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.480Z",
+    "id": 355
   },
   {
     "title": "TP-Link Archer C54 AC1200 Dual Band Wi-Fi Router",
@@ -2166,7 +3556,8 @@
     "dealUrl": "https://www.startech.com.bd/tp-link-archer-c54-ac1200-dual-band-mu-mimo-beamforming-wi-fi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c54/archer-c54-01-228x228.jpg",
     "price": 2179,
-    "scrapedAt": "2026-03-18T16:42:28.454Z"
+    "scrapedAt": "2026-03-18T16:45:19.480Z",
+    "id": 356
   },
   {
     "title": "TP-Link Archer C50 AC1200 Dual Band Wi-Fi Router",
@@ -2175,7 +3566,8 @@
     "dealUrl": "https://www.startech.com.bd/tp-link-archer-c50-wifi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c50/archer-c50-black-228x228.webp",
     "price": 2279,
-    "scrapedAt": "2026-03-18T16:42:28.455Z"
+    "scrapedAt": "2026-03-18T16:45:19.480Z",
+    "id": 357
   },
   {
     "title": "Cudy WR1200 AC1200 Dual Band WiFi Router",
@@ -2184,7 +3576,8 @@
     "dealUrl": "https://www.startech.com.bd/cudy-wr1200-ac1200-dual-band-wi-fi-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr1200/wr1200-01-228x228.jpg",
     "price": 2250,
-    "scrapedAt": "2026-03-18T16:42:28.455Z"
+    "scrapedAt": "2026-03-18T16:45:19.480Z",
+    "id": 358
   },
   {
     "title": "ASUS RT-N12+ 300Mbps Wifi Router",
@@ -2193,6 +3586,387 @@
     "dealUrl": "https://www.startech.com.bd/asus-rt-n12-plus-router",
     "image": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-n12-plus/rt-n12-plus-228x228.jpg",
     "price": 2300,
-    "scrapedAt": "2026-03-18T16:42:28.455Z"
+    "scrapedAt": "2026-03-18T16:45:19.480Z",
+    "id": 359
+  },
+  {
+    "title": "L7 HD Portable Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/l7-hd-portable-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/body-camera/l7-/l7-01-228x228.webp",
+    "price": 1990,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 360
+  },
+  {
+    "title": "CS07 1080P Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/cs07-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/cs07/cs07-01-228x228.webp",
+    "price": 2100,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 361
+  },
+  {
+    "title": "CS06 1080P Wi-Fi Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/cs06-1080p-wifi-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/cs06/cs06-01-228x228.webp",
+    "price": 3450,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 362
+  },
+  {
+    "title": "CB77 4G Portable Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/cb77-4g-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/cb77/cb77-4g-01-228x228.webp",
+    "price": 4500,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 363
+  },
+  {
+    "title": "L18 WiFi 2K Portable Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/l18-portable-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/body-camera/l18/l18-001-228x228.webp",
+    "price": 4800,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 364
+  },
+  {
+    "title": "L15 Ultra HD 4K Wifi Portable Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/l15-4k-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/cb77/cb77-4g-01-228x228.webp",
+    "price": 3900,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 365
+  },
+  {
+    "title": "MC81 1080P Wi-Fi Body Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/mc81-wifi-hd-body-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/mc81/mc81-228x228.webp",
+    "price": 4200,
+    "scrapedAt": "2026-03-18T16:45:19.900Z",
+    "id": 366
+  },
+  {
+    "title": "SJCAM SJ4000 Dual Screen Full HD WiFi Waterproof Sports Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/sjcam-sj4000-dual-screen-wifi-sports-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/sjcam/sj4000-dual-screen/sj4000-dual-screen-01-228x228.webp",
+    "price": 6000,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 367
+  },
+  {
+    "title": "Ausek AT-S9R Combo 4K WiFi Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-s9r-combo-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-s9r-combo/at-s9r-combo-01-228x228.webp",
+    "price": 6340,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 368
+  },
+  {
+    "title": "Ausek AT-M40R Touch Wireless Mic Combo 5K WiFi Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m40r-wireless-mic-combo-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m40r/m40r-01-228x228.webp",
+    "price": 7530,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 369
+  },
+  {
+    "title": "Ausek AT-M40R Combo 5K Wifi Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m40r-combo-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m40r/m40r-01-228x228.webp",
+    "price": 6490,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 370
+  },
+  {
+    "title": "Ausek AT-M40R Touch Combo 5K WiFi Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m40r-touch-combo-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m40r/m40r-01-228x228.webp",
+    "price": 6990,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 371
+  },
+  {
+    "title": "Akaso EK7000 12MP 4K WiFi Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/akaso-ek7000-4k-wifi-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/akaso/ek7000/ek7000-01-228x228.webp",
+    "price": 8500,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 372
+  },
+  {
+    "title": "AUSEK AT-M60TR Combo 5K Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m60tr-combo-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m60tr/at-m60tr-05-228x228.webp",
+    "price": 7490,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 373
+  },
+  {
+    "title": "Blisbond GO3 4K Portable Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/blisbond-go3-4k-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/blisbond/go3-228x228.webp",
+    "price": 7300,
+    "scrapedAt": "2026-03-18T16:45:19.901Z",
+    "id": 374
+  },
+  {
+    "title": "Ausek AT-M44R 5K Wifi Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m44r-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m44r/at-m44r-1-228x228.webp",
+    "price": 6900,
+    "scrapedAt": "2026-03-18T16:45:19.902Z",
+    "id": 375
+  },
+  {
+    "title": "Dgs OX3 Pocket Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/dgs-ox3-pocket-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ox3/ox3-01-228x228.webp",
+    "price": 9000,
+    "scrapedAt": "2026-03-18T16:45:19.902Z",
+    "id": 376
+  },
+  {
+    "title": "Ausek AT-M80TR 4K WiFi Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/ausek-at-m80tr-4k-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/ausek/at-m80tr/at-m80tr-001-228x228.webp",
+    "price": 8500,
+    "scrapedAt": "2026-03-18T16:45:19.902Z",
+    "id": 377
+  },
+  {
+    "title": "SJCAM C200 4K 16M 6-Axis Gyroscope Stabilization Waterproof Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/sjcam-c200-4k-16m-waterproof-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/sjcam/c200/c200-01-228x228.webp",
+    "price": 8800,
+    "scrapedAt": "2026-03-18T16:45:19.902Z",
+    "id": 378
+  },
+  {
+    "title": "SJCAM SJ6 Legend 16MP 4K Wi-Fi Waterproof Touch Screen Sports Action Camera",
+    "category": "Camera",
+    "store": "Star Tech",
+    "dealUrl": "https://www.startech.com.bd/sjcam-sj6-legend-action-camera",
+    "image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/sjcam/sj6-legend/sj6-legend-01-228x228.webp",
+    "price": 10000,
+    "scrapedAt": "2026-03-18T16:45:19.902Z",
+    "id": 379
+  },
+  {
+    "title": "Veikk Creator Pop VK430",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/11/Veikk-Creator-Pop-VK430-350x300w.jpg.webp",
+    "price": 3299,
+    "scrapedAt": "2026-03-18T16:45:26.886Z",
+    "id": 380
+  },
+  {
+    "title": "Bosto T1060",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/Bosto/bosto-t1060-tablet-350x300h.jpg.webp",
+    "price": 6999,
+    "scrapedAt": "2026-03-18T16:45:26.887Z",
+    "id": 381
+  },
+  {
+    "title": "Wacom One Small CTC-4110",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2023/08/One-small-350x300w.jpg.webp",
+    "price": 10499,
+    "scrapedAt": "2026-03-18T16:45:26.887Z",
+    "id": 382
+  },
+  {
+    "title": "Huion Inspiroy Q11K V2",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/11/huion-inspiroy-q11k-v2-3-350x300w.jpg.webp",
+    "price": 10999,
+    "scrapedAt": "2026-03-18T16:45:26.887Z",
+    "id": 383
+  },
+  {
+    "title": "XP-Pen Deco Pro M",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/XP-Pen-Deco-Pro-Medium-01-350x300w.png.webp",
+    "price": 10999,
+    "scrapedAt": "2026-03-18T16:45:26.888Z",
+    "id": 384
+  },
+  {
+    "title": "XP-Pen Deco Pro SW",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/Deco-Pro-350x300w.jpg.webp",
+    "price": 10999,
+    "scrapedAt": "2026-03-18T16:45:26.888Z",
+    "id": 385
+  },
+  {
+    "title": "XP-Pen Deco Pro XLW (Gen 2)",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2023/06/Deco-Pro-XLW-350x300w.jpg.webp",
+    "price": 20999,
+    "scrapedAt": "2026-03-18T16:45:26.889Z",
+    "id": 386
+  },
+  {
+    "title": "XP-Pen Magic Drawing Pad",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2024/01/XP-Pen-Magic-Drawing-Pad-350x300w.jpg.webp",
+    "price": 53999,
+    "scrapedAt": "2026-03-18T16:45:26.889Z",
+    "id": 387
+  },
+  {
+    "title": "Wacom Cintiq 16 DTK-1660",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/Wacom-Cintiq-16-350x300w.jpg.webp",
+    "price": 77999,
+    "scrapedAt": "2026-03-18T16:45:26.889Z",
+    "id": 388
+  },
+  {
+    "title": "Huion 420",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2020/11/Huion-420-350x300w.jpg.webp",
+    "price": 2099,
+    "scrapedAt": "2026-03-18T16:45:26.890Z",
+    "id": 389
+  },
+  {
+    "title": "Huion H420",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/HUION/Huion%20H420-350x300h.jpg.webp",
+    "price": 2199,
+    "scrapedAt": "2026-03-18T16:45:26.890Z",
+    "id": 390
+  },
+  {
+    "title": "XP-Pen Deco Fun XS",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/XP-Pen-Deco-Fun-XS-350x300w.jpg.webp",
+    "price": 2499,
+    "scrapedAt": "2026-03-18T16:45:26.891Z",
+    "id": 391
+  },
+  {
+    "title": "XP-Pen Star G430S",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/XP-Pen-Star-G430S-Game-Play-350x300w.jpg.webp",
+    "price": 2499,
+    "scrapedAt": "2026-03-18T16:45:26.891Z",
+    "id": 392
+  },
+  {
+    "title": "Huion Inspiroy H430P",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/11/Huion-Inspiroy-H430P-Unleash-your-creativity-350x300w.jpg.webp",
+    "price": 2799,
+    "scrapedAt": "2026-03-18T16:45:26.891Z",
+    "id": 393
+  },
+  {
+    "title": "Parblo Ninos N4",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/11/Ninos-N4-350x300w.jpg.webp",
+    "price": 2999,
+    "scrapedAt": "2026-03-18T16:45:26.892Z",
+    "id": 394
+  },
+  {
+    "title": "Huion Inspiroy H420X",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2021/04/Huion-Inspiroy-H420X-350x300w.jpg.webp",
+    "price": 3099,
+    "scrapedAt": "2026-03-18T16:45:26.893Z",
+    "id": 395
+  },
+  {
+    "title": "XP-Pen Star G640",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/2022/09/XP-Pen-Star-G640-Graphics-Drawing-Tablet-350x300w.jpg.webp",
+    "price": 3199,
+    "scrapedAt": "2026-03-18T16:45:26.894Z",
+    "id": 396
+  },
+  {
+    "title": "XP-Pen Deco 640",
+    "category": "Hardware",
+    "store": "Multimedia Kingdom",
+    "dealUrl": "https://www.multimediakingdom.com.bd/#",
+    "image": "https://www.multimediakingdom.com.bd/image/cache/catalog/XP-PEN/xp-pen-deco-640-350x300h.jpg.webp",
+    "price": 3249,
+    "scrapedAt": "2026-03-18T16:45:26.895Z",
+    "id": 397
   }
 ]
