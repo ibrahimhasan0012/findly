@@ -1,0 +1,260 @@
+
+--- Page 1 ---
+Md. Mamun Molla
+Email: mamun.molla@northsouth.edu
+Room: SAC1039
+AMCS506: Introduction of CFD
+Lecture 1
+
+--- Page 2 ---
+Chapter1: What us CFD?
+Ans: Computational fluid dynamics (CFD) is the analysis of systems involving fluid
+flow, heat transfer and associated phenomena such as chemical reactions by means
+of computer-based simulation. The technique is very powerful and spans a wide
+range of industrial and non-industrial application areas. Some examples are:
+•
+aerodynamics of aircraft and vehicles: lift and drag
+•
+hydrodynamics of ships
+•
+power plant: combustion in internal combustion engines and gas turbines
+•
+turbomachinery: flows inside rotating passages, diffusers etc.
+•
+electrical and electronic engineering: cooling of equipment including microcircuits
+•
+chemical process engineering: mixing and separation, polymer moulding
+external and internal
+environment of buildings: wind loading and heating/ventilation
+•
+marine engineering: loads on off-shore structures
+•
+environmental engineering: distribution of pollutants and effluents
+•
+hydrology and oceanography: flows in rivers, estuaries, oceans
+•
+meteorology: weather prediction
+•
+biomedical engineering: blood flows through arteries and veins
+# How does CFD works?
+Ans: CFD codes are structured around the numerical algorithms that can tackle
+fluid flow problems. All codes contain three main elements: (i) a pre-processor, (ii) a 
+solver and (iii) a post-processor.
+
+--- Page 3 ---
+# Pre-processor:The user activities at the pre-processing stage involve as follows:
+# Solver:There are three distinct streams of numerical solution techniques: finite difference 
+method (FDM), finite volume method (FVM), and finite element method(FEM).  There are 
+several commercial CFD software, such as:  CFX/ANSYS, FLUENT, PHOENICS, STAR-CD and 
+COMSOL. Non-commercial software: OpenFoam.
+# Post-processor: after computer simulation we have to do the following things:
+•
+Definition of the geometry of the region of interest: the computational domain.
+•
+Grid generation – the sub-division of the domain into a number of smaller, non-overlapping sub-
+domains: a grid (or mesh) of cells (or control volumes or elements).
+•
+Selection of the physical and chemical phenomena that need to be modelled.
+•
+Definition of fluid properties: incompressible, compressible, Newtonian or non-Newtonian.
+•
+Specification of appropriate boundary conditions at cells which coincide with or touch the domain
+boundary.
+In outline the numerical algorithm consists of the following steps:
+Integration of the governing equations of fluid flow over all the (finite) control volumes of the domain.
+Discretisation – conversion of the resulting integral equations into a system of algebraic equations.
+Solution of the algebraic equations by an iterative method.
+(i) Domain geometry and grid display (ii) Vector plots (iii) Line and shaded contour plots (iv) 2D
+and 3D surface plots (v) Particle tracking (vi) Colour output as EPS, PNG JPG etc.
+
+--- Page 4 ---
+Chapter 2: Conservation law of fluid motion and boundary conditions
+For the CFD, we need to know mainly four laws as follows:
+(i)The law of conservation of mass
+(ii) Newton’s second law of motion
+(iii) The first law of thermodynamics
+(iv)The second law of thermodynamics
+In addition to the general laws, it is usually necessary to bring certain particular
+laws into analysis. Examples are (a) Fourier’s law of heat conduction, (b) Newton’s
+law of cooling, (b) the Stefan–Boltzmann law of radiation, (c) Newton’s law of
+viscosity, and (d) the ideal gas law.
+డఘ
+డ௧ +
+డ(ఘ௨)
+డ௫ +
+డ(ఘ௩)
+డ௬+
+డ(ఘ௪)
+డ௭
+= 0
+which is valid of the compressible flow.
+Mass conservation law:
+Rate of increase of mass in fluid element=Net rate of flow of mass into fluid element.
+That means the in a system the volume of inflow fluid should the same of the volume of
+outflow fluid. Mathematically, the mass conservation law is also known as the
+equations of continuity as:
+డ௨
+డ௫ +
+డ௩
+డ௬+
+డ௪
+డ௭= ∇. ܝ= ݀݅ݒ ܝ= 0 
+For the incompressible flow the fluid
+density, ߩis constant.
+Fig: Mass flows in and out of fluid element
+
+--- Page 5 ---
+Momentum equation in three dimensions
+Newton’s second law states that the rate of change of momentum of a fluid particle equals the sum of the 
+forces on the particle:
+Rate of increase of Sum of forces momentum of = on fluid particle fluid particle
+The rates of increase of x-, y- and z-momentum per unit volume of a fluid particle are 
+given by ߩ஽௨
+డ௧ , ߩ
+஽௩
+డ௧ , ߩ
+஽௪
+డ௧ 
+We distinguish two types of forces on fluid particles:
+• surface forces
+– pressure forces
+– viscous forces
+– gravity force
+• body forces
+– centrifugal force
+– Coriolis force
+– electromagnetic force
+x-component of the momentum equation:
+ߩܦݑ
+߲ݐ = ߲(−݌+ ߬௫௫)
+߲ݔ 
++ ߲(߬௬௫)
+߲ݕ
++ ߲(߬௭௫)
+߲ݖ
++ ܵ௨
+y-component of the momentum equation:
+ߩܦݒ
+߲ݐ = ߲(߬௫௬)
+߲ݔ
++ ߲(−݌+ ߬௬௬)
+߲ݕ 
++ ߲(߬௭௬)
+߲ݖ
++ ܵ௩
+z-component of the momentum equation:
+ߩܦݓ
+߲ݐ = ߲(߬௫௭)
+߲ݔ
++ ߲(߬௬௭)
+߲ݕ 
++ ߲(−݌+ ߬௭௭)
+߲ݖ
++ ܵ௪
+Fig: Normal and shear stresses acting on a surface element whose
+normal is in the x-direction.
+Fig: Normal and shear stresses acting on an element of fluid. (a) All stresses acting on an element 
+of fluids and (b) only the shear stresses in the x- and y-directions (both positive and negative).
+
+--- Page 6 ---
+Navier-Stokes equations in terms of stress tenson
+߲ݑ
+߲ݔ + ߲ݒ
+߲ݕ+ ߲ݓ
+߲ݖ= 0
+ߩܦݑ
+߲ݐ = ߲(−݌+ ߬௫௫)
+߲ݔ 
++ ߲(߬௬௫)
+߲ݕ
++ ߲(߬௭௫)
+߲ݖ
++ ܵ௨
+ߩܦݒ
+߲ݐ = ߲(߬௫௬)
+߲ݔ
++ ߲(−݌+ ߬௬௬)
+߲ݕ 
++ ߲(߬௭௬)
+߲ݖ
++ ܵ௩
+ߩܦݓ
+߲ݐ = ߲(߬௫௭)
+߲ݔ
++ ߲(߬௬௭)
+߲ݕ 
++ ߲(−݌+ ߬௭௭)
+߲ݖ
++ ܵ௪
+Where ߬௫௫= 2ߤడ௨
+డ௫ + ߣ݀݅ݒܝ , ߬௬௬= 2ߤడ௩
+డ௬ + ߣ݀݅ݒܝ,  
+߬௭௭=  2ߤడ௪
+డ௭+ ߣ݀݅ݒܝ,
+߬௫௬= ߬௬௫= ߤ ߲ݑ
+߲ݕ + ߲ݒ
+߲ݔ , ߬௫௭= ߬௭௫
+= ߤ ߲ݑ
+߲ݖ + ߲ݓ
+߲ݔ , ߬௬௭= ߬௭௬= ߤ ߲ݓ
+߲ݕ + ߲ݒ
+߲ݖ ,
+The full Navier-Stokes equation in terms of velocity and 
+pressure and the source terms
+Where the fluid viscosity= 
+ߤ and density = ߩ
+
+--- Page 7 ---
+For the incompressible flow the Navier-Stokes equations 
+becomes (in 3D) 
+Where the fluid viscosity 
+ߤ and is  constant
+  ߲ݑ
+߲ݔ + ߲ݒ
+߲ݕ+ ߲ݓ
+߲ݖ= 0
+ߩܦݑ
+߲ݐ = −߲݌
+߲ݔ + ߤ(߲ଶݑ
+߲ݔଶ+ ߲ଶݑ
+߲ݕଶ+ ߲ଶݑ
+߲ݖଶ) + ܵ௨
+ߩܦݒ
+߲ݐ = −߲݌
+߲ݕ + ߤ(߲ଶݒ
+߲ݔଶ+ ߲ଶݒ
+߲ݕଶ+ ߲ଶݒ
+߲ݖଶ) + +ܵ௩
+ߩܦݓ
+߲ݐ = −߲݌
+߲ݖ + ߤ(߲ଶݓ
+߲ݔଶ+ ߲ଶݓ
+߲ݕଶ+ ߲ଶݓ
+߲ݖଶ) + +ܵ௪
+Where
+ܦ
+߲ݐ = ߲
+߲ݐ + ݑ߲
+߲ݔ + ݒ߲
+߲ݕ + ݓ߲
+߲ݖ 
+For the incompressible flow the Navier-Stokes equations becomes 
+(in 2D) 
+డ௨
+డ௫ +
+డ௩
+డ௬= 0
+ߩ(߲ݑ
+߲ݐ + ݑ߲ݑ
+߲ݔ + ݒ߲ݑ
+߲ݕ ) = −߲݌
+߲ݔ + ߤ(߲ଶݑ
+߲ݔଶ+ ߲ଶݑ
+߲ݕଶ) + ܵ௨
+ߩ(߲ݒ
+߲ݐ + ݑ߲ݒ
+߲ݔ + ݒ߲ݒ
+߲ݕ ) = −߲݌
+߲ݕ + ߤ(߲ଶݒ
+߲ݔଶ+ ߲ଶݒ
+߲ݕଶ) + ܵ௩

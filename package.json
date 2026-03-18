@@ -1,0 +1,19 @@
+{
+  "name": "findly",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Findly - BD tech deals discovery, a product of Giggly Gadgets",
+  "scripts": {
+    "preview:shopnot": "live-server public/shopnot-inspired --port=48297 --host=127.0.0.1 --no-browser",
+    "fetch-deals": "node scripts/fetch-deals.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.3.1",
+    "uuid": "^11.0.4"
+  }
+}

@@ -1,0 +1,2138 @@
+
+--- Page 1 ---
+Desalination and Water Treatment 
+www.deswater.com
+1944-3994/1944-3986 © 2012 Desalination Publications. All rights reserved
+doi: 10/5004/dwt.2012.1939
+*Corresponding author.
+44 (2012) 7–14
+June
+Natural convection from a vertical plate embedded in a stratiﬁ ed 
+medium with uniform heat source
+Suvash C. Sahaa,*, YuanTong Gua, Md. M. Mollab, Sadia Siddiqac, Md. Anwar Hossainc
+aSchool of Chemistry, Physics and Mechanical Engineering, Queensland University of Technology, 
+GPO Box 2434, Brisbane QLD 4001, Australia
+Tel. +61 7 4781 3614; Fax: +61 7 4781 6788; email: s_c_saha@yahoo.com, suvash.saha@qut.edu.au
+bDepartment of Electrical Engineering and Computer Science, North South University, Dhaka, Bangladesh
+cDepartment of Mathematics, COMSATS Institute of Information Technology, Islamabad, Pakistan
+Received 31 March 2010; Accepted 17 November 2011
+A B S T R AC T
+Natural convection ﬂ ow from an isothermal vertical plate with uniform heat source embedded 
+in a stratiﬁ ed medium has been discussed in this paper. The resulting momentum and energy 
+equations of boundary layer approximation are then made non-similar by introducing the usual 
+non-similarity transformations. Numerical solutions of these equations are obtained by an 
+implicit ﬁ nite difference method for a wide range of the stratiﬁ cation parameter, X. The solutions 
+are also obtained for different values of pertinent parameters, namely, the Prandtl number, Pr 
+and the heat generation or absorption parameter, λ and are expressed in terms of the local skin-
+friction and local heat transfer, which are shown as graphical form. Effect of heat generation or 
+absorption on the streamlines and isotherms are also shown graphically for different values of λ.
+Keywords:  Natural convection; Stratiﬁ ed media; Heat source; Heat Transfer; Vertical plate; 
+Boundary layer ﬂ ow.
+1. Introduction
+Every day various free convection processes occur in 
+environments with temperature stratiﬁ cation. Yang [1] 
+ﬁ rst presented a general approach for obtaining similar-
+ity solutions for a class of problems with a non-isothermal 
+vertical wall surrounded by an isothermal atmosphere. 
+For laminar free convection along a vertical plate, Chee-
+sewright [2] obtained similarity solutions dealing with 
+various types of non-uniform ambient temperature dis-
+tributions by using the technique developed by Yang 
+[1]. Fujii et al. [3] presented both analytical and experi-
+mental results for a temperature stratiﬁ cation in which 
+the ambient temperature distribution varies with x0.7.
+Numerical investigation on the natural convection ﬂ ow 
+along a vertical porous surface placed in thermally strat-
+iﬁ ed media has recently been investigated by Saha [4] 
+and natural convection ﬂ ow from a vertical ﬂ at plate 
+in a stratiﬁ ed medium with effect of viscous dissipa-
+tion and double diffusion has been studied by Saha and 
+Hossain [5]. More recently, effect of viscous dissipation 
+on the natural convection boundary layer ﬂ ow along a 
+porous surface considering a temperature stratiﬁ cation 
+in which the ambient temperature distribution varies 
+with x by Hossain et al. [6]. Later, Saha et al. [7] studied 
+the conjugate effect of thermal and mass diffusion on the 
+problem proposed in Ref. [4].
+The study of radiation or heat generation/absorp-
+tion effects in moving ﬂ uids is important in view of 
+several physical problems such as those dealing with 
+
+--- Page 2 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+8
+ chemical reactions and those concerned with dissoci-
+ating ﬂ uids [8,9]. In fact, the literature is replete with 
+examples dealing with the heat transfer in laminar ﬂ ow 
+of viscous ﬂ uids. Sparrow and Cess [10] investigated the 
+problem of the steady two-dimensional ﬂ ow and heat 
+transfer of the stagnation point ﬂ ow taking into account 
+the temperature-dependent heat generation (absorp-
+tion). Topper [11] analyzed the piston ﬂ ow in pipes with 
+circular cross-section when the rate of heat generation 
+depends linearly on the local temperature. The author 
+presented an analytical solution both for the case where 
+the wall is isothermal and for the case where the exterior 
+surroundings are isothermal and the heat transfer coef-
+ﬁ cient between the tube wall and the surroundings is 
+constant. The author claimed that this analysis should 
+be helpful for estimating local temperature and also for 
+predicting the transient response to changes in one of 
+the independent operating variables. Foraboschi and 
+Federico [12] have assumed the volumetric rate of heat 
+generation to be in Eq. (1):
+Q
+Q
+T
+T
+T
+T
+=
+(
+)
+T
+T
+−
+≥
+⎧
+⎨
+⎧
+⎩
+⎨
+0 (T
+T
+−
+0
+T
+0
+T
+0
+,
+,
+ 
+(1)
+in their study of the steady state temperature proﬁ les for 
+linear parabolic and piston ﬂ ow in circular tubes. The 
+above relation as explained by Foraboschi and Federico 
+[12], is valid as an approximation of the state of some 
+exothermic process and having T0 as the ambient ﬂ uid 
+temperature. With the inlet temperatures less than T0, 
+they used Q = Q0(T − T0) and studied its effects on the 
+heat transfer in laminar ﬂ ow of non-Newtonian heat 
+generating ﬂ uids. On the other hand, Moalem [13] stud-
+ied the effect of temperature-dependent heat sources 
+[Q ∝ 1/(a + bT)], where a and b are constants, occurring 
+in electrical heating, on the steady-state heat transfer 
+within a porous medium.
+In the present analysis, attention has been given to a 
+study of the natural convection ﬂ ow of a viscous incom-
+pressible ﬂ uid from a vertical ﬂ at plate embedded in a 
+stratiﬁ ed medium with a distributed heat source which 
+is dependent on the local temperature. Here the ambient 
+temperature is assumed to be a linear function of x that 
+measures the distance from the leading edge in the direc-
+tion parallel to the surface of the plate. Solutions of the 
+dimensionless boundary layer equations that govern the 
+ﬂ ow are obtained by introducing the primitive variable 
+formulation as well as the stream-function formulation 
+(SFF) for a wide range of values of the local stratiﬁ cation 
+parameter, X. The effect of varying the heat sources or 
+sinks on the skin friction and heat transfer rates are also 
+shown graphically for a ﬂ uids having Prandtl number, 
+Pr equal to 0.7 and 7.0. Finally the effects of varying heat 
+source or sink are also shown in terms of the streamlines 
+and the isotherms patterns.
+2. Mathematical formalisms
+Consider a steady two-dimensional viscous incom-
+pressible ﬂ uid on a vertical plate embedded in a strati-
+ﬁ ed medium with uniform heat source. Let x_ be the 
+distance along the surface from the leading edge and y_
+the normal distance from the surface. The ﬂ ow conﬁ gu-
+ration and the co-ordinate system are shown in Fig. 1. 
+The governing equations within the boundary layer 
+subject to the Boussinesq approximation can be written 
+as follows:
+∂
+∂
++ ∂
+∂
+=
+u
+x
+y
+∂
+v
+0
+ 
+(2)
+u
+u
+x
+v
+u
+y
+u
+y
+g
+∂
+∂
++
+∂
+∂
+=
+∂
+∂
+(
+)
+T
+T
+x
+T
+T
+−
+T
+T
+ν
+β
+u
+g
+∂
+∂
++ g
+2
+2
+ 
+(3)
+u
+T
+x
+v
+T
+y
+T
+y
+Q
+∂
+∂
++
+∂
+∂
+=
+∂
+∂
++ Q (
+)
+T
+T
+x
+−
+T
+T
+α
+2
+2
+ 
+(4)
+where u and v are the x - and y -components of the 
+velocity ﬁ eld, respectively, g is the acceleration due to 
+gravity, βT is the volumetric expansion coefﬁ cients for 
+temperature, α is the effective thermal diffusivity. Fur-
+ther, T and T∞,x are the temperature of the ﬂ uid and the 
+ambient temperature, respectively and Q is heat genera-
+tion (>0) or absorption (<0) coefﬁ cient.
+The boundary conditions for this problem can be 
+written as:
+u
+v
+T
+y
+u
+T
+T
+T
+B
+x
+L
+y
+x
+=
+v
+=
+y
+=
+T
++
+T
+⎛
+⎝
+⎛
+⎝
+⎛
+⎞
+⎠
+⎞
+⎠
+⎞
+→∞
+∞
+T
+0,
+0,
+as
+0
+0
+T
+,
+ 
+(5)
+Fig. 1. The ﬂ ow conﬁ guration and the co-ordinate system.
+x
+v
+u
+T∞(x)
+g
+0
+δT
+y
+Tw
+δM
+
+--- Page 3 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+9
+where the wall temperature, Tw is assumed to be con-
+stant and the ambient temperature T∞ vary along the 
+plate as given in Eq. (4), B is constant and L and T0 being 
+the reference length and reference temperature, respec-
+tively:
+u
+Lu Gr
+v
+Lv Gr
+T
+T
+T
+T
+x
+x
+L
+y
+y
+L Gr
+L
+L
+r
+v
+Gr
+x
+w
+T
+Lr
+=
+=
+Gr
+v
+Lr
+v
+=
+=
+=
+y
+∞
+T
+−
+ν
+ν
+θ
+1
+2
+0
+T
+1 4
+/
+/
+v
+Lv Gr
+2
+1
+,
+/
+,
+L
+v
+Gr
+,
+,
+ 
+(6)
+where the Grashof number for diffusion, GrL is deﬁ ned 
+as:
+Gr
+g
+L
+Lr =
+(
+)
+T
+T
+w
+T −
+β
+ν
+T
+3
+L
+2
+ 
+(7)
+Using the transformations from Eq. (6), we obtain:
+∂
+∂
++ ∂
+∂
+=
+u
+x
+y
+∂
+v
+0,
+ 
+(8)
+u
+u
+x
+u
+y
+u
+y
+∂
+∂
++
+∂
+∂
+= ∂
+∂
++
+v
+2
+2
+θ
+ 
+(9)
+u
+x
+v
+y
+Su
+y
+S
+∂
+∂
++
+∂
+∂
++
+=
+Su
+∂
+∂
++
+θ
+θ
+∂
+θ
+λ
+θ
+S
+1
+2
+2
+2
+1
+Pr
+/
+ 
+(10)
+where the heat generation parameter, λ, the stratiﬁ ca-
+tion parameter, S and the Prandtl number, Pr are deﬁ ned 
+respectively by:
+λ
+ν
+ν
+α
+=
+=
+−
+QL
+S
+Gr
+S
+B
+T
+T
+−
+Lr
+w
+T
+2
+L
+1 2
+1 2
+0
+T
+/
+/ ,
+P
+=
+S
+B
+T
+T
+r
+d
+ 
+(11)
+The Eqs. (8)–(10) satisfy the boundary conditions:
+u
+Sx
+y
+u
+y
+=
+→∞
+0
+0
+0
+0
+,
+Sx
+θ
+t
+(12)
+The important physical quantities are the wall shear 
+stress factor, τw, and the heat transfer rate, q(x) which is 
+deﬁ ned as:
+τ
+μ
+κ
+y
+y
+u
+y
+q x
+T
+y
+∂
+∂
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+( ) = −
+∂
+∂
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+0
+y
+0
+y
+∂
+⎝
+⎠
+=
+y
+,
+ 
+(13)
+The dimensionless shear stress factor or the skin-
+friction, Cf, can be expressed as follows:
+C
+U
+f
+w
+=
+∞
+2
+2
+τ
+ρ
+ 
+(14)
+where U∞ is the free stream velocity. Using the quantity 
+(14) in (13) and the transformation (6), we can calculate 
+the local skin-friction in terms of the non-dimensional 
+shearing stress, Cf, given as:
+1
+2
+1 4
+0
+Gr
+C
+u
+y
+Lr
+f
+y
+/
+=
+∂
+∂
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+=  
+(15)
+We may now deﬁ ne a non-dimensional coefﬁ cient of 
+heat transfer in terms of Nusselt number Nu, which is:
+Nu
+qL
+T
+= κ Δ 0
+T  
+(16)
+Substituting the transformation (6) in (13) with 
+boundary condition (12), we obtain the rate of heat 
+transfer, in terms of the non-dimensional Nusselt num-
+ber, given as:
+Nu
+Gr
+y
+Lr
+y
+1 4
+0
+/
+= −
+∂
+∂
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+=
+θ
+ 
+(17)
+The present problem is proposed to be investigated 
+numerically using the primitive-variable formulation 
+(PVF) as well as the SFF, the details of which are dis-
+cussed in Sections 2.1 and 2.2.
+2.1. Primitive-variable formulation
+To ﬁ nd the solutions of the set of Eqs. (8)–(10) 
+together with the boundary conditions (12), we intro-
+duce the ﬂ owing free variable transformations to reduce 
+the equations into parabolic form:
+u
+x
+U
+X
+x
+V
+X
+X
+y
+X
+Sx
+x
+U
+X
+X
+−
+1 2
+1 4
+−
+1 4
+( ,
+Y
+),
+( ,
+Y
+),
+( ,
+Y
+)
+,
+x
+y
+=
+−1 4
+−
+v
+y
+θ
+Θ
+=
+ 
+(18)
+Thus from Eqs. (8)–(10), we get:
+∂
+∂
+= −
+∂
+∂
+−
+∂
+∂
+⎡
+⎣⎢
+⎡
+⎣
+⎤
+⎦⎥
+⎤
+⎦
+V
+Y
+U
+X
++
+U
+X
+Y
+U
+Y
+1
+2
+1
+4
+ 
+(19)
+1
+2
+1
+4
+2
+2
+2
+U
+X
+2
+U
+U
+X
+V
+Y
+1
+U
+U
+Y
+U
+Y
+∂
+∂
++ V
+⎛
+⎝
+⎛
+⎝
+⎞
+⎠
+⎞
+⎠
+⎞∂
+∂
+= ∂
+∂
++ Θ
+ 
+(20)
+
+--- Page 4 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+10
+ XU
+X
+V
+YU
+Y
+XU
+Y
+X
+∂
+∂
+V
++ ⎛
+⎝
+⎛
+⎝
+⎞
+⎠
+⎞
+⎠
+⎞∂
+∂
++
+=
+∂
+∂
++
+Θ
+Θ
+V
+YU
+⎛
+⎞∂
+Θ
+Θ
+1
+4
+1
+2
+2
+1 2
+Pr
+/
+λ
+(21)
+and the boundary conditions become:
+U
+V
+X
+Y
+U
+Y
+=
+V
+−
+=
+= ∞
+0
+1
+=
+0
+0
+0
+,
+,
+X
+1
+,
+at
+s
+ 
+(22)
+Now Eqs. (19)–(21) subject to the boundary condi-
+tions (22) are discretised by a simple numerical scheme, 
+in which we use central-differencing for diffusion terms 
+and the forward-differencing for the advection terms 
+and thus obtain:
+V
+V
+Y
+Y
+i j
+V
+i
+j
+V
+j
+i
++
+Vi
+j
+V
+(
+)
+Y
+Y
+j
+j
+Y
+Y
+(
+)
+U
+U
+i
+j
+i
+j
+j
+i
+−
+(
+)
+U
+U
+i j
+i j
+j
+i
+U
+−
+j +
+j
+(
+j
+j
+Y
+(Y
+j +
+j
+(Yj
+j
+Y
+Y
+Y
+Y
+Ui
+j
+i
+U
+j
+i
+j
+i
+1
+8
+2
+Δ
+Δ
+ΔX Xi(
+)
+U
+U
+U
+U
+i
+U
+j
+i
+U
+j
+i
+U
+j
+i
+U
+j
+,
+,
+j
+i
+,
+,
+j
+i
+U
+i
+Ui
+U
+j, j
+ 
+(23)
+1
+4
+2
+2
+1
+2
+2
++
+−
+⎛
+⎝
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+⎡
+⎣
+⎢
+⎡
+⎣
+⎤
+⎦
+⎥
+⎤
+⎦
+−
++ (
+)
++
+⎛
+⎝
+⎛
+⎝
+⎛
+⎞
+⎠
+⎞
+⎠
+⎞
+V
+Y
+Y
+U
+Y
+X
+X
+U
+i j
+V
+j
+i
+Y
+j
+i
+j
+1
+−
+i
+i
+,
+μ
+Δ
+Δ
+Δ
+,
+,
+j
+i j,
+i j,
+j
+i j
+i
+j,
+U
+Vi
+Yj
+Y
+U
+Y
+⎡
+⎣
+⎢
+⎡
+⎢
+⎢
+⎢⎣
+⎢
+⎤
+⎦
+⎥
+⎤
+⎥
+⎥
+⎥⎦
+⎥
++
+−
+−
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+⎡
+⎣
+⎢
+⎡
+⎣
+⎤
+⎦
+⎥
+⎤
+⎦
+= −(
+1
+4
+2
+⎠
+μ
+Δ
+Δ ) ⎡
+⎣⎢
+⎡
+⎣
+⎤
+⎦⎥
+⎤
+⎦
+−
+2
+1
+X
+X U
+X
++
++
+−1
+i
+i j
+i j
+i j
+i
+Δ
+j
+i
+μ
+(24)
+1
+4
+2
+2
+2
+Pr
+Pr
+,
+,
++
+−
+⎛
+⎝
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+⎡
+⎣
+⎢
+⎡
+⎣
+⎤
+⎦
+⎥
+⎤
+⎦
+−
++ (
+)
+−
+V
+Y
+Y
+Y
+X
+X U
+X
+i j,
+V
+j
+i
+Y
+j
+i
+j
+1,
+−
+i
+i
+U
+j
+μ
+λ
+Δ
+Θ
+Δ
+Δ
+i
+i j
+i j
+j
+i j
+i
+j
+Vi
+YU
+j
+Y
+1 2
+1
+4
+2
+/
+,
+Pr
+⎡
+⎣
+⎢
+⎡
+⎢
+⎢
+⎢⎣
+⎢
+⎤
+⎦
+⎥
+⎤
+⎥
+⎥
+⎥⎦
+⎥
+−
++
+−
+⎛
+⎝⎜
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+⎡
+⎣
+⎢
+⎡
+⎣
+⎤
+⎦
+⎥
+⎤
+⎦
+=
+Θ
+Δ
+Θ
+−(
+)
+(
+)
+−
+Δ
+Δ
+Y
+X
+X U
+Y
+(
+−
+Θ
+Δ
++ (
+−
+XU
+i
+i j
+i j
+i j
+2
+1
+2
+j
+i
+ 
+(25)
+The resulted system of tri-diagonal algebraic is solved 
+by double-sweep technique. The computation is started 
+at X = 0, and then marches downstream implicitly. The 
+ordinary differential equations governing the upstream 
+condition at X = 0 can be obtained by taking the limit 
+of Eqs. (23)–(25) that X approaches zero. The associated 
+boundary conditions are Eq. (22) with X = 0. This is, 
+in fact, the similarity solution of a natural convection 
+boundary layer along a vertical plate with the y-axis. 
+After several testing runs for convergence, the Y-and 
+X-grids are set at 0.01 in the following computations.
+Once we know the values of U, V, and Θ and their 
+derivatives, we are at the position to ﬁ nd the values of 
+skin-friction and the rate of heat-transfer from the rela-
+tions given, respectively as:
+1
+2
+1 4
+0
+1 4
+0
+Gr
+C
+U
+Y
+Nu
+Gr
+Y
+x
+f
+r
+C
+Y
+X
+r
+Y
+/
+/
+=
+∂
+∂
+⎛
+⎝
+⎛
+⎝
+⎛
+⎞
+⎠
+⎞
+⎠
+⎞
+= −
+∂
+∂
+⎛
+⎝
+⎛
+⎝
+⎛
+⎞
+⎠
+⎞
+⎠
+⎞
+=
+Y
+Y
+=0
+GrX
+r
+∂
+⎝
+⎠
+and
+Θ
+ 
+(26)
+where GrX is the local Grashof number.
+2.2. Stream-function formulation
+Here we introduce the conventional free-stream 
+transformations on the set of Eqs. (8)–(10) as given 
+below:
+ψ
+θ
+η
+=
+θ
+=
+−
+f
+X
+X
+x
+y
+X
+S
+=
+x
+4
+3
+1 4
+/
+(Y
+)
+( ,
+Y
+)
+,
+Θ
+ 
+(27)
+where, ψ is the stream-function that satisﬁ es the equa-
+tion of continuity and η is the similarity same as Y.
+Thus from Eqs. (8)–(10), we get:
+′ +
+=
+′ ∂′
+∂
+−
+′′ ∂
+∂
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+f
+f
+′′′ +
+f
+f
+′′ −
+f
+X
+f
+⎛
+⎝⎜
+⎛
+⎝
+f
+∂
+X
+f
+f
+∂
+X
+3
+4
+1
+2
+2
+Θ
+ 
+(28)
+1
+3
+4
+1 2
+Pr
+/
+=
+1 2
+/
+′∂
+∂
+−
+′ ∂
+∂
++
+′
+⎛
+⎝
+⎞
+⎠⎟
+⎞
+⎠
+Θ
+3
+′′ +
+Θ
+Θ
+Θ
+f
+X
+′ +
+Θ
+X
+f
+⎛
+⎝⎜
+⎛
+⎝
+X
+f
+∂
+X
+f
+λ
+ 
+(29)
+where ′ denotes the differentiation with respect to η. The 
+boundary conditions become:
+f
+X
+f
+X
+X
+f
+X
+X
+)
+f
+)
+X
+,
+( ,
+)
+X
+)
+,
+( ,
+)
+X)
+f
+0
+0
+,
+(
+0
+0
+(
+1
+0
+X
+,
+( ,
+)
+X
+=
+0
+(
+0
+X)
+X)
+ 
+(30)
+Now, we are at the position to employ one of the 
+most efﬁ cient and accurate implicit ﬁ nite difference 
+method together with the Keller-box elimination tech-
+nique (also known as Keller box method), introduced 
+by Keller [14] and described more detail in Hossain [15] 
+and Hossain et al. [16,17]. To employ this method, the 
+set of Eqs. (28) and (29) is written in terms of a system 
+of ﬁ rst order equations in Y, which are then expressed 
+in ﬁ nite difference form by approximating the functions 
+and their derivatives in terms of the central differences 
+in both co-ordinate directions. Denoting the mesh points 
+in the (X, Y) plane by Xi and Yj, where I = 1, 2, 3, …, M
+
+--- Page 5 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+11
+and j = 1, 2, 3, …, N, central difference approximations 
+are made such that the equations involving X explicitly 
+are centred at (Xi−1/2, Xj−1/2) and the remainder at (Xi, 
+Yj−1/2), where Yj−1/2 = (Yj + Yj−1)/2, etc. This results in a 
+set of non-linear difference equations for the unknowns 
+at Xi in terms of their values at Xi−1. These equations 
+are then linearised by the Newton’s quasi-linearization 
+technique and are solved using a block-tridiagonal algo-
+rithm, taking as the initial iteration of the converged 
+solution at X = Xi−1. Now to initiate the process at X = 0, 
+we ﬁ rst provide guess proﬁ les for all ﬁ ve variables 
+(arising the reduction to the ﬁ rst order form) and use 
+the Keller box method to solve the governing ordinary 
+differential equations. Having obtained the lower stag-
+nation point solution it is possible to march step by 
+step along the boundary layer. For a given value of X, 
+the iterative procedure is stopped when the difference 
+in computing the velocity and the temperature in the 
+next iteration is less than 10−6, that is, when |δf i| ≤ 10−6, 
+where the superscript denotes the iteration number. The 
+computations were not performed using a uniform grid 
+in the y direction, but a non uniform grid was used and 
+deﬁ ned by Yj = sinh((j−1)/p), with j = 1, 2, …, 301 and 
+p = 100, the measures Ymax = 7.0 for Pr = 0.7 and Ymax = 5.0 
+for Pr = 7.0.
+As before, we calculate the local skin-friction and 
+local heat transfer from the following relations:
+1
+2
+1 4
+1 4
+Gr
+C
+f
+X
+Nu
+Gr
+X
+x
+f
+r
+C
+X
+r
+′′
+′ (
+)
+( ,0
+,0
+)
+1 4
+Nu
+G
+′ (
+/
+ 
+(31)
+Solutions thus obtained for Pr = 0.7 and 7.0 are 
+presented graphically in Figs. 2 and 3 in terms of local 
+shear-stress and local heat-transfer coefﬁ cients. In Fig. 2, 
+the dashed curves represent the results obtained for 
+the case λ = 0, which was investigated by Venkatachala 
+and Nath [18] by three methods, namely, (1) Keller-box 
+method, (2) local non-similarity method and (3) the reg-
+ular perturbation method.
+Fig. 2. Numerical results of (a) heat-transfer coefﬁ cient and (b) shear-stress coefﬁ cient obtained by two methods against X for 
+Pr = 0.7 and 7.0 while λ = 0.0.
+X
+–θ′(0, X)
+f ″(0, X)
+0.0
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+(a)
+Pr
+7.0
+0.7
+λ=0.0
+PVF
+SVF
+X
+0.0
+1.0
+0.8
+0.6
+0.4
+0.2
+λ=0.0
+PVF
+SVF
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(b)
+Pr
+0.7
+7.0
+Fig. 3. Numerical results of (a) heat-transfer coefﬁ cient and (b) shear-stress coefﬁ cient obtained by two methods against X for 
+λ = −0.5, 0 and 0.5 while Pr = 0.7.
+X
+0
+0.2
+0.4
+0.6
+0.8
+1
+X
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+0.1
+0.2
+0.3
+0.4
+λ
+0.5
+0.0
+−0.5
+0
+0.2
+0.4
+0.6
+0.8
+(b)
+f ″(0, X)
+–θ′(0, X)
+(a)
+Pr=0.7
+PVF
+SVF
+Pr=0.7
+PVF
+SVF
+λ
+0.5
+0.0
+–0.5
+
+--- Page 6 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+12
+ 3. Results and discussion
+We have investigated the problems of the steady two-
+dimensional ﬂ ow of viscous incompressible ﬂ uid along a 
+vertical ﬂ at plate embedded in a stratiﬁ ed medium with 
+temperature dependent heat source as well as heat-sink.
+We obtained numerical results for a variety of cases, 
+in terms of heat-transfer coefﬁ cient, −Θ′ (0, X), and shear-
+stress coefﬁ cient, f ″(0, X), a selection of which are shown 
+in Figs. 2 and 3. For similar section of physical param-
+eters, Figs. 4 and 5 plot the isotherms and contours of 
+stream functions respectively. Near the leading edge, 
+the surface temperature is higher than the local ambi-
+ent temperature (i.e., that far from the surface but at the 
+same value of X), and this generates an upward moving 
+boundary layer due to buoyancy forces. However, as X 
+increases, the local ambient temperature also increases 
+since the thermal environment is stratiﬁ ed. Thus the 
+magnitude of the buoyancy force decreases which serves 
+to decelerate and thicken the boundary layer, with a con-
+sequent reduction in the surface shear stress and rate of 
+heat transfer. These effects are seen quite clearly in both 
+Figs. 2 and 3.
+Fig. 4. Numerical results of isolines of temperature at Pr = 
+0.7: (a) λ = −0.5, (b) λ = 0.0 and (c) λ = 0.5.
+0.05
+0.25
+0.35
+0.55
+0.75
+0.00
+–0.05
+0.15
+–0.03
+X
+Y
+0
+1
+2
+3
+4
+5
+6
+0.2
+0.4
+0.6
+0.8
+1
+λ = −0.5
+(a)
+X
+0
+1
+2
+3
+4
+5
+6
+λ = 0.0
+0.70
+0.50
+0.30
+0.10
+0.00
+–0.05
+–0.10
+Y
+0.2
+0.4
+0.6
+0.8
+1
+(b)
+X
+0
+1
+2
+3
+4
+5
+λ = 0.5
+(c)
+0.00
+–0.10
+0.10
+0.30
+0.50
+0.70
+– 0.20
+Y
+0.2
+0.4
+0.6
+0.8
+1.0
+Fig. 5. Numerical results of streamlines at Pr = 0.7: (a) λ = 
+−0.5, (b) λ = 0.0 and (c) λ = 0.5.
+λ = −0.5
+0.55
+0.50
+0.44
+0.39
+0.33
+0.28
+0.11
+0.22
+0.17
+0.06
+0.01
+0.58
+X
+Y
+6.0
+4.0
+2.0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(a)
+λ = 0.0
+Y
+(b)
+0.02
+0.14
+0.21
+0.28
+0.35
+0.42
+0.49
+0.56
+0.62
+0.07
+0.67
+0.69
+X
+0.0
+5.0
+4.0
+3.0
+2.0
+1.0
+0.2
+0.4
+0.6
+0.8
+1.0
+λ = 0.5
+Y
+(c)
+0.79
+0.70
+0.53
+0.44
+0.35
+0.27
+0.18
+0.61
+0.85
+0.87
+X
+0.0
+2.0
+4.0
+0.2
+0.4
+0.6
+0.8
+1.0
+
+--- Page 7 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+13
+source parameters, there is a strong reversal of ﬂ ow, 
+while for low heat source parameters the ﬂ ow is weaker. 
+The reversal of temperature was found to be stronger at 
+high heat source parameter, λ and weaker for its lower 
+value. The boundary layer thickness increases with the 
+increasing values of λ.
+At X = 1, the surface temperature and local ambient 
+temperature are equal, and there is no overall buoy-
+ancy force to drive the ﬂ ow. However the ﬂ uid is still 
+moving upwards as it received its momentum from the 
+buoyancy forces existing nearer the leading edge. This 
+is why the surface shear stress has not reduced to zero 
+Fig. 3 also displays quite a variation in the surface 
+rate of heat transfer as λ, the source coefﬁ cient, varies. 
+This may be understood from the fact that negative 
+values of heat source parameter, λ correspond to the 
+removal of heat from the ﬂ ow, thereby thinning the ther-
+mal boundary layer and increasing the surface tempera-
+ture gradient. The opposite occurs when heat source 
+parameter, λ is positive.
+Figs. 4 and 5 represent the streamlines and isotherms 
+respectively for different values of heat source param-
+eter, λ (λ = 0.5, 0.0, −0.5) while Prandtl number, Pr = 
+0.7. The numerical simulations reveal that at high heat 
+Fig. 6. Numerical results of isolines of temperature at Pr = 
+7.0: (a) λ = −0.5, (b) λ = 0.0 and (c) λ = 0.5.
+0.01
+0.05
+0.15
+0.25
+0.45
+–0.02
+–0
+.02
+–0.01
+–0.01
+–0.00
+X
+Y
+0.0
+0.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(a)
+λ = −0.5
+X
+0.0
+0.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.06
+0.16
+0.26
+0.36
+0.46
+0.56
+–0.02
+–0.04
+–0.05
+Y
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(b)
+λ = 0.0
+X
+0.0
+0.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.010
+0.100
+0.200
+0.300
+0.400
+0.550
+0.650
+0.750
+–0.004
+–0.014
+–0.035
+–0.071
+Y
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(c)
+λ = 0.5
+Fig. 7. Numerical results of streamlines at Pr = 7.0: (a) λ = 
+−0.5, (b) λ = 0.0 and (c) λ = 0.5.
+X
+0.0
+0.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.10
+0.09
+0.07
+0.06
+0.04
+0.03
+0.01
+0.01
+Y
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(a)
+λ = −0.5
+X
+0.0
+0.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.11
+0.13
+0.09
+0.07
+0.05
+0.02
+Y
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(b)
+λ = 0.0
+X
+0.0
+0.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.227
+0.215
+0.189
+0.164
+0.126
+0.101
+0.063
+0.038
+Y
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(c)
+λ = 0.5
+
+--- Page 8 ---
+S.C. Saha et al. / Desalination and Water Treatment 44 (2012) 7–14
+14
+ at X = 1. When X > 1, buoyancy force acts downwards 
+and therefore, we would expect an overall downward 
+ﬂ uid motion. A detailed discussion of this aspect would 
+require a numerical analysis of the fully elliptic equa-
+tions of motion. At some point near X = 1, two bound-
+ary layers moving in opposite directions will collide and 
+erupt from the surface as a jet. The formation of that 
+jet is seen in Figs. 4 (a, b and c); where entertainment 
+(or inﬂ ow) of ﬂ uid, which is a normal characteristic of 
+boundary layer ﬂ ows, is seen relatively close to the lead-
+ing edge, but close to X = 1 there is net outﬂ ow.
+The defect in the temperature occurs because the 
+cooler ﬂ uid from the bottom overshoots upward to 
+a level where the ambient temperature is higher. Iso-
+therms and streamlines are also shown in Figs. 6 and 
+7 for the same heat source parameter, λ as of Figs. 4 
+and 5 but for Pr = 7.0. The similar ﬂ ow patterns can be 
+observed. However, the strong ﬂ ow reversal can be seen 
+for Pr = 7.0.
+4. Conclusions
+In the present study, we have investigated the prob-
+lem of the steady two-dimensional ﬂ ow of viscous 
+incompressible ﬂ uid along a vertical ﬂ at plate embed-
+ded in a stratiﬁ ed medium with uniform heat source. We 
+have solved the boundary layer equations in ﬁ nite dif-
+ference method together with the Keller-box technique. 
+Numerical results thus we obtained for the different 
+values of the Prandtl number (Pr = 0.7 and 7.0 for air 
+and water, respectively), while the values of the source 
+parameter, λ = −0.5, 0.0 and 0.5. The effect of the heat 
+source parameters on the Nusselt number and share 
+stress as well as streamlines and isotherms have been 
+shown graphically. From the present investigation, we 
+may conclude the followings:
+• Near the leading edge, the surface temperature is 
+higher than the local ambient temperature and this 
+generates an upward moving boundary layer.
+• As X increases the magnitude of the buoyancy force 
+decreases which serves to decelerate and thicken the 
+boundary layer, with a consequent reduction in the 
+surface shear stress and rate of heat transfer.
+• The negative values of heat source parameter, λ cor-
+responds to the removal of heat from the ﬂ ow, thereby 
+thinning the thermal boundary layer and increasing 
+the surface temperature gradient. The opposite occurs 
+when heat source parameter, λ is positive.
+• The reversal of temperature happened to be stronger 
+at high heat source parameter, and weaker for lower 
+value of λ.
+References
+ [1] K.T. Yang, Possible similarity solutions for laminar free con-
+vection on vertical plates and cylinders, J. Appl. Mech., 82 
+(1960) 230–236.
+ [2] R. Cheesewright, Natural convection from a plane, vertical 
+surface in non-isothermal surroundings, Int. J. Heat Mass 
+Transfer, 10 (1967) 1847–1859.
+ [3] T. Fujii, M. Takeuchi and I. Morioca, Laminar boundary layer 
+of free convection in a temperature stratiﬁ ed environment, 
+Proc. 5th Int. Heat Trans. Conf., Tokyo, 22 (1974) 44–48.
+ [4] J.D. Saha, Natural convection ﬂ ow along a vertical ﬂ at plate 
+with uniform surface heat ﬂ ux in a thermally stratiﬁ ed 
+medium, M.Sc thesis, University of Dhaka, Bangladesh, (2000).
+ [5] S.C. Saha and M.A. Hossain, Natural convection ﬂ ow from a 
+vertical ﬂ at plate in a stratiﬁ ed medium with effect of viscous 
+dissipation and double diffusion, Nonlinear Anal. Modell. 
+Control, 9 (2004) 89–102.
+ [6] M.A. Hossain, S.C. Saha and R.S.R. Gorla, Viscous dissipation 
+effects on natural convection from a vertical plate with uni-
+form surface heat ﬂ ux placed in a thermally stratiﬁ ed media, 
+Int. J. Fluid Mech. Res., 32 (2005) 269–280.
+ [7] S.C. Saha, C. Akhtar and M.A. Hossain, Natural convection 
+from plane porous surface in non-isothermal surrounding, 
+Nonlinear Anal. Modell. Control., 9 (2004) 151–170.
+ [8] G. Saha, T. Sultana and S. Saha, Effect of thermal radiation and 
+heat generation on MHD ﬂ ow past a uniformly heated vertical 
+plate, Desalin. Water Treat., 16 (2010) 57–65.
+ [9] M.M. Molla, S.C. Saha, M.A.I. Khan and M.A. Hossain, Radia-
+tion effects on natural convection laminar ﬂ ow from a hori-
+zontal circular cylinder, Desalin. Water Treat., 30 (2011) 89–97.
+[10] E.M. Sparrow and R.D. Cess, Temperature-dependent heat 
+sources or sinks in a stagnation point ﬂ ow, Appl. Sci. Res., 10 
+(1961) 185–197.
+[11] L. Topper, Heat transfer in cylinders with heat generation, Am. 
+Inst. Chem. Eng. J., 1 (1955) 463–466.
+[12] F.P. Foraboschi and I.D. Federico, Heat transfer in laminar ﬂ ow 
+of non-Newtonian heat generating ﬂ uids, Int. J. Heat Mass 
+Transfer, 7 (1964) 315–318.
+[13] D. Moalem, Steady state heat transfer within porous medium 
+with temperature dependent heat generation, Int. J. Heat Mass 
+Transfer, 19 (1976) 529–537.
+[14] H.B. Keller, Numerical methods in boundary layer theory, 
+Annu. Rev. Fluid Mech., 10 (1978) 417–433.
+[15] M.A. Hossain, Viscous and Joule heating on MHD free con-
+vection ﬂ ow with variable plate temperature, Int. J. Heat Mass 
+Transfer, 35 (1992) 3485–3487.
+[16] M.A. Hossain, N. Banu and A. Nakayama, Non-Darcy forced 
+convection boundary layer ﬂ ow over a wedge embedded in 
+a saturated porous medium, Numer. Heat Transfer, 26 (1994) 
+399–414.
+[17] M.A. Hossain, M.S. Munir and H.S. Takhar, Natural convec-
+tion ﬂ ow of a viscous ﬂ uid about a truncated cone with tem-
+perature dependent viscosity, Acta Mech., 140 (2000) 171–181.
+[18] B.J. Venkatachala and G. Nath, Non-similar laminar natural 
+convection in a thermally stratiﬁ ed ﬂ uid, Int. J. Heat Mass 
+Transfer, 24 (1981) 1848–1850.
