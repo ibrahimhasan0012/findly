@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "public/shopnot-inspired",
   "crons": [
     {
       "path": "/api/fetch-deals",
