@@ -2,7 +2,7 @@
  * scripts/fetch-deals.js — Findly Diversity Scraper
  *
  * Stores (all URLs verified via web search):
- *   Sumash Tech, Gadget & Gear, Othoba, Star Tech, Skyland, Universal Computer BD
+ *   Sumash Tech, Gadget & Gear, Star Tech, Skyland, Universal Computer BD
  *
  * 20 categories, gadget-first order, no synthetic data.
  */
@@ -163,25 +163,6 @@ const STORES = [
       { url: 'https://gadgetandgear.com/category/router',                   category: 'Router' },
       { url: 'https://gadgetandgear.com/category/computer-accessories',     category: 'Keyboard' },
       { url: 'https://gadgetandgear.com/category/mobile-phone-accessories', category: 'Protector' },
-    ]
-  },
-
-  // ── OTHOBA — confirmed working pages from last run ────────────────────────
-  {
-    name: 'Othoba',
-    base: 'https://www.othoba.com',
-    pPattern: 'query',
-    pages: [
-      { url: 'https://www.othoba.com/android-tv-box',              category: 'TV Box' },
-      { url: 'https://www.othoba.com/pocket-fan',                  category: 'Fan' },
-      { url: 'https://www.othoba.com/trimmer',                     category: 'Health' },
-      { url: 'https://www.othoba.com/blood-pressure-monitor',      category: 'Health' },
-      { url: 'https://www.othoba.com/bluetooth-speaker',           category: 'Speaker' },
-      { url: 'https://www.othoba.com/power-bank',                  category: 'Powerbank' },
-      { url: 'https://www.othoba.com/screen-protector',            category: 'Protector' },
-      { url: 'https://www.othoba.com/smart-watch',                 category: 'Smartwatch' },
-      { url: 'https://www.othoba.com/charger',                     category: 'Charger' },
-      { url: 'https://www.othoba.com/router',                      category: 'Router' },
     ]
   },
 

@@ -52,6 +52,7 @@ function localSearch(products, q, start, num) {
     const title = String(p?.title || '');
     const store = String(p?.store || '');
     const category = String(p?.category || '');
+    if (store.toLowerCase() === 'othoba') continue;
     const hay = `${title} ${store} ${category}`.toLowerCase();
 
     let tokenMatches = 0;
