@@ -1,58 +1,102 @@
 // ── State ─────────────────────────────────────────────────────────────────────
 const state = {
-  products: [],
-  query: '',
-  category: 'All',
-  minPrice: 0,
-  maxPrice: Infinity,
-  sort: 'default',
+  query      : '',
+  sort       : 'default',
+  minPrice   : 0,
+  maxPrice   : Infinity,
+  results    : [],
   filtersOpen: false,
-  modalProduct: null,
+  loading    : false,
 };
 
-// ── DOM refs ──────────────────────────────────────────────────────────────────
+// ── DOM ───────────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
 const dom = {
-  grid        : document.getElementById('product-grid'),
-  searchInput : document.getElementById('search-input'),
-  summary     : document.getElementById('result-summary'),
-  filterBtn   : document.querySelector('.filter-btn'),
-  filterPanel : document.getElementById('filter-panel'),
-  catSelect   : document.getElementById('filter-category'),
-  minInput    : document.getElementById('filter-min'),
-  maxInput    : document.getElementById('filter-max'),
-  sortSelect  : document.getElementById('filter-sort'),
-  clearBtn    : document.getElementById('filter-clear'),
-  modal       : document.getElementById('product-modal'),
-  modalImg    : document.getElementById('modal-img'),
-  modalStore  : document.getElementById('modal-store'),
-  modalTitle  : document.getElementById('modal-title'),
-  modalCat    : document.getElementById('modal-cat'),
-  modalPrice  : document.getElementById('modal-price'),
-  modalLink   : document.getElementById('modal-link'),
-  modalClose  : document.getElementById('modal-close'),
-  modalOverlay: document.getElementById('modal-overlay'),
+  home            : $('home'),
+  resultsContainer: $('results-container'),
+  searchHome      : $('search-input'),
+  searchResults   : $('search-input-results'),
+  grid            : $('product-grid'),
+  summary         : $('result-summary'),
+  filterBtn       : $('filter-btn'),
+  filterPanel     : $('filter-panel'),
+  minInput        : $('filter-min'),
+  maxInput        : $('filter-max'),
+  sortSelect      : $('filter-sort'),
+  clearBtn        : $('filter-clear'),
+  modal           : $('product-modal'),
+  modalOverlay    : $('modal-overlay'),
+  modalImg        : $('modal-img'),
+  modalStore      : $('modal-store'),
+  modalTitle      : $('modal-title'),
+  modalSnippet    : $('modal-snippet'),
+  modalPrice      : $('modal-price'),
+  modalLink       : $('modal-link'),
+  modalClose      : $('modal-close'),
+  darkToggle      : $('dark-toggle'),
+  tChips          : document.querySelectorAll('.t-chip'),
+  pagination      : $('pagination'),
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
-const norm = v => String(v || '').toLowerCase().trim();
-
-function formatPrice(n) {
-  return '৳ ' + new Intl.NumberFormat('en-BD', { maximumFractionDigits: 0 }).format(n);
-}
+const fmt = n => n > 0
+  ? '৳ ' + new Intl.NumberFormat('en-BD', { maximumFractionDigits: 0 }).format(n)
+  : null;
 
 function debounce(fn, ms) {
   let t;
-  return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
 }
 
-// ── Filtering ─────────────────────────────────────────────────────────────────
+// ── Dark mode ─────────────────────────────────────────────────────────────────
+function initDarkMode() {
+  const saved = localStorage.getItem('findly-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+  dom.darkToggle.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('findly-theme', next);
+  });
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+async function search(query) {
+  if (!query || query.trim().length < 2) return;
+  state.query   = query.trim();
+  state.loading = true;
+
+  // Switch to results view
+  dom.home.style.display             = 'none';
+  dom.resultsContainer.style.display = 'block';
+  dom.searchResults.value            = state.query;
+
+  // Show spinner
+  dom.grid.innerHTML    = `<div class="loading-state"><div class="spinner"></div>Searching BD stores...</div>`;
+  dom.summary.textContent = '';
+  dom.pagination.innerHTML = '';
+
+  try {
+    const res  = await fetch(`/api/search?q=${encodeURIComponent(state.query)}`);
+    const data = await res.json();
+
+    if (data.error) throw new Error(data.error);
+    state.results = data.items || [];
+    renderResults();
+
+  } catch (e) {
+    dom.grid.innerHTML = `<div class="empty-state">Search failed. Please try again.<br><small>${e.message}</small></div>`;
+    dom.summary.textContent = '';
+  }
+
+  state.loading = false;
+}
+
+// ── Filter + render ───────────────────────────────────────────────────────────
 function getFiltered() {
-  const q = norm(state.query);
-  return state.products.filter(p => {
-    if (q && !`${p.title} ${p.store} ${p.category}`.toLowerCase().includes(q)) return false;
-    if (state.category !== 'All' && p.category !== state.category) return false;
-    if (p.price < state.minPrice) return false;
-    if (state.maxPrice !== Infinity && p.price > state.maxPrice) return false;
+  return state.results.filter(p => {
+    if (state.minPrice > 0 && p.price < state.minPrice) return false;
+    if (state.maxPrice < Infinity && p.price > state.maxPrice) return false;
     return true;
   }).sort((a, b) => {
     if (state.sort === 'price-asc')  return a.price - b.price;
@@ -61,135 +105,126 @@ function getFiltered() {
   });
 }
 
-// ── Render grid ───────────────────────────────────────────────────────────────
-function render() {
-  const filtered = getFiltered();
-  dom.summary.textContent = `Showing ${filtered.length} of ${state.products.length} results`;
+function renderResults() {
+  const items = getFiltered();
+  dom.summary.textContent = `${items.length} result${items.length !== 1 ? 's' : ''} for "${state.query}"`;
 
-  if (!filtered.length) {
-    dom.grid.innerHTML = `<div class="empty-state">No results for "${state.query}"</div>`;
+  if (!items.length) {
+    dom.grid.innerHTML = `<div class="empty-state">No results found for "<strong>${state.query}</strong>".<br>Try a different search term.</div>`;
     return;
   }
 
-  dom.grid.innerHTML = filtered.map((p, i) => `
-    <div class="product-card" data-index="${i}" style="animation-delay:${Math.min(i * 30, 300)}ms">
+  dom.grid.innerHTML = items.map((p, i) => `
+    <div class="product-card" data-index="${i}" style="animation-delay:${Math.min(i * 25, 500)}ms">
       <div class="product-media">
-        <img src="${p.image}" loading="lazy" alt="${p.title}" onerror="this.src='https://placehold.co/300x300/f1f5f9/94a3b8?text=No+Image'">
+        <img src="${p.image}" loading="lazy" alt="${p.title}"
+          onerror="this.src='https://placehold.co/300x300/f1f5f9/94a3b8?text=${encodeURIComponent(p.store)}'">
       </div>
       <div class="product-body">
         <span class="product-store">${p.store}</span>
         <h3 class="product-title">${p.title}</h3>
-        <div class="product-pricing">
-          <span class="price-label">Price</span>
-          <p class="product-price">${formatPrice(p.price)}</p>
-        </div>
+        <p class="product-price">${fmt(p.price) || '<span class="no-price">See store for price</span>'}</p>
       </div>
     </div>
   `).join('');
 
-  // Attach click → modal (store filtered array on grid for lookup)
-  dom.grid._filtered = filtered;
   dom.grid.querySelectorAll('.product-card').forEach(card => {
-    card.addEventListener('click', () => openModal(filtered[+card.dataset.index]));
+    card.addEventListener('click', () => openModal(items[+card.dataset.index]));
   });
 }
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
 function openModal(p) {
-  state.modalProduct = p;
-  dom.modalImg.src   = p.image;
-  dom.modalImg.onerror = () => { dom.modalImg.src = 'https://placehold.co/400x400/f1f5f9/94a3b8?text=No+Image'; };
-  dom.modalStore.textContent = p.store;
-  dom.modalTitle.textContent = p.title;
-  dom.modalCat.textContent   = p.category;
-  dom.modalPrice.textContent = formatPrice(p.price);
-  dom.modalLink.href         = p.dealUrl;
+  dom.modalImg.src             = p.image || `https://placehold.co/300x300/f1f5f9/94a3b8?text=${encodeURIComponent(p.store)}`;
+  dom.modalImg.onerror         = () => { dom.modalImg.src = `https://placehold.co/300x300/f1f5f9/94a3b8?text=${encodeURIComponent(p.store)}`; };
+  dom.modalStore.textContent   = p.store;
+  dom.modalTitle.textContent   = p.title;
+  dom.modalSnippet.textContent = p.snippet || '';
+  dom.modalPrice.textContent   = fmt(p.price) || 'See store for price';
+  dom.modalLink.href            = p.dealUrl;
   dom.modal.classList.add('open');
+  dom.modalOverlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
 function closeModal() {
   dom.modal.classList.remove('open');
+  dom.modalOverlay.classList.remove('open');
   document.body.style.overflow = '';
-  state.modalProduct = null;
 }
 
-// ── Filter panel ──────────────────────────────────────────────────────────────
-function buildCategoryOptions() {
-  const cats = ['All', ...new Set(state.products.map(p => p.category))].sort();
-  dom.catSelect.innerHTML = cats.map(c =>
-    `<option value="${c}">${c}</option>`
-  ).join('');
-}
-
-function toggleFilters() {
-  state.filtersOpen = !state.filtersOpen;
-  dom.filterPanel.classList.toggle('open', state.filtersOpen);
-  dom.filterBtn.classList.toggle('active', state.filtersOpen);
+// ── Back to home ──────────────────────────────────────────────────────────────
+function goHome() {
+  dom.resultsContainer.style.display = 'none';
+  dom.home.style.display             = 'flex';
+  dom.searchHome.value               = '';
+  dom.searchHome.focus();
+  state.query   = '';
+  state.results = [];
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
-async function init() {
-  try {
-    const res = await fetch('data/products.json');
-    if (!res.ok) throw new Error('Failed to load products');
-    state.products = await res.json();
-    buildCategoryOptions();
-    render();
+function init() {
+  initDarkMode();
 
-    // Search
-    dom.searchInput.addEventListener('input', debounce(e => {
-      state.query = e.target.value;
-      render();
-    }, 150));
+  // Hide results container on load
+  dom.resultsContainer.style.display = 'none';
 
-    // Filter toggle
-    dom.filterBtn.addEventListener('click', toggleFilters);
+  // Logo click → go home
+  document.querySelector('.logo').style.cursor = 'pointer';
+  document.querySelector('.logo').addEventListener('click', goHome);
 
-    // Category
-    dom.catSelect.addEventListener('change', e => {
-      state.category = e.target.value;
-      render();
-    });
+  // Home search input
+  dom.searchHome.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && dom.searchHome.value.trim()) {
+      search(dom.searchHome.value.trim());
+    }
+  });
 
-    // Price range
-    dom.minInput.addEventListener('input', debounce(e => {
-      state.minPrice = parseFloat(e.target.value) || 0;
-      render();
-    }, 300));
-    dom.maxInput.addEventListener('input', debounce(e => {
-      state.maxPrice = parseFloat(e.target.value) || Infinity;
-      render();
-    }, 300));
+  // Results search input
+  dom.searchResults.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && dom.searchResults.value.trim()) {
+      search(dom.searchResults.value.trim());
+    }
+  });
 
-    // Sort
-    dom.sortSelect.addEventListener('change', e => {
-      state.sort = e.target.value;
-      render();
-    });
+  // Trending chips
+  dom.tChips.forEach(chip => {
+    chip.addEventListener('click', () => search(chip.dataset.q));
+  });
 
-    // Clear filters
-    dom.clearBtn.addEventListener('click', () => {
-      state.category = 'All';
-      state.minPrice = 0;
-      state.maxPrice = Infinity;
-      state.sort = 'default';
-      dom.catSelect.value  = 'All';
-      dom.minInput.value   = '';
-      dom.maxInput.value   = '';
-      dom.sortSelect.value = 'default';
-      render();
-    });
+  // Filters
+  dom.filterBtn.addEventListener('click', () => {
+    state.filtersOpen = !state.filtersOpen;
+    dom.filterPanel.classList.toggle('open', state.filtersOpen);
+    dom.filterBtn.classList.toggle('active', state.filtersOpen);
+  });
 
-    // Modal close
-    dom.modalClose.addEventListener('click', closeModal);
-    dom.modalOverlay.addEventListener('click', closeModal);
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  dom.minInput.addEventListener('input', debounce(e => {
+    state.minPrice = parseFloat(e.target.value) || 0;
+    renderResults();
+  }, 300));
 
-  } catch (err) {
-    dom.grid.innerHTML = `<div class="empty-state">Error loading products. Please try again.</div>`;
-    console.error(err);
-  }
+  dom.maxInput.addEventListener('input', debounce(e => {
+    state.maxPrice = parseFloat(e.target.value) || Infinity;
+    renderResults();
+  }, 300));
+
+  dom.sortSelect.addEventListener('change', e => {
+    state.sort = e.target.value;
+    renderResults();
+  });
+
+  dom.clearBtn.addEventListener('click', () => {
+    state.minPrice = 0; state.maxPrice = Infinity; state.sort = 'default';
+    dom.minInput.value = ''; dom.maxInput.value = ''; dom.sortSelect.value = 'default';
+    renderResults();
+  });
+
+  // Modal
+  dom.modalClose.addEventListener('click', closeModal);
+  dom.modalOverlay.addEventListener('click', closeModal);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 }
 
 init();
