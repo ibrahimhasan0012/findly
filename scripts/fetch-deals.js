@@ -77,10 +77,16 @@ function isFeaturePhone(title, price, cat) {
 
 function parsePrice(raw = '') {
   if (!raw) return null;
-  const m = raw.replace(/[^\d,.]/g, '').match(/[\d,.]+/);
-  if (!m) return null;
-  const n = parseFloat(m[0].replace(/,/g, ''));
-  return isNaN(n) || n <= 0 ? null : Math.round(n);
+  const matches = raw.match(/[\d][\d,.]*/g);
+  if (!matches || !matches.length) return null;
+
+  const nums = matches
+    .map(s => parseFloat(String(s).replace(/,/g, '')))
+    .filter(n => Number.isFinite(n) && n > 0 && n < 100_000_000)
+    .map(n => Math.round(n));
+
+  if (!nums.length) return null;
+  return Math.min(...nums);
 }
 
 function cleanUrl(href = '', base = '') {

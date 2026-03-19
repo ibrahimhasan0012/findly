@@ -7,6 +7,7 @@ const state = {
   results    : [],
   filtersOpen: false,
   loading    : false,
+  searchController: null,
 };
 
 // ── DOM ───────────────────────────────────────────────────────────────────────
@@ -39,9 +40,11 @@ const dom = {
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
-const fmt = n => n > 0
-  ? '৳ ' + new Intl.NumberFormat('en-BD', { maximumFractionDigits: 0 }).format(n)
-  : null;
+const fmt = n => {
+  const v = Number(n);
+  if (!Number.isFinite(v) || v <= 0 || v > 10_000_000) return null;
+  return '৳ ' + new Intl.NumberFormat('en-BD', { maximumFractionDigits: 0 }).format(v);
+};
 
 function debounce(fn, ms) {
   let t;
@@ -77,7 +80,12 @@ async function search(query) {
   dom.pagination.innerHTML = '';
 
   try {
-    const res  = await fetch(`/api/search?q=${encodeURIComponent(state.query)}`);
+    if (state.searchController) state.searchController.abort();
+    state.searchController = new AbortController();
+
+    const res  = await fetch(`/api/search?q=${encodeURIComponent(state.query)}`, {
+      signal: state.searchController.signal,
+    });
     const data = await res.json();
 
     if (data.error) throw new Error(data.error);
@@ -85,6 +93,7 @@ async function search(query) {
     renderResults();
 
   } catch (e) {
+    if (e?.name === 'AbortError') return;
     dom.grid.innerHTML = `<div class="empty-state">Search failed. Please try again.<br><small>${e.message}</small></div>`;
     dom.summary.textContent = '';
   }
@@ -187,6 +196,16 @@ function init() {
       search(dom.searchResults.value.trim());
     }
   });
+
+  const liveSearch = debounce(value => {
+    const q = String(value || '').trim();
+    if (q.length < 2) return;
+    if (q === state.query) return;
+    search(q);
+  }, 250);
+
+  dom.searchHome.addEventListener('input', e => liveSearch(e.target.value));
+  dom.searchResults.addEventListener('input', e => liveSearch(e.target.value));
 
   // Trending chips
   dom.tChips.forEach(chip => {
