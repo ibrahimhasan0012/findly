@@ -5,7 +5,8 @@
   "description": "Findly - BD tech deals discovery, a product of Giggly Gadgets",
   "scripts": {
     "preview:shopnot": "live-server public/shopnot-inspired --port=48297 --host=127.0.0.1 --no-browser",
-    "fetch-deals": "node scripts/fetch-deals.js"
+    "fetch-deals": "node scripts/fetch-deals.js",
+    "build": "node scripts/fetch-deals.js"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
